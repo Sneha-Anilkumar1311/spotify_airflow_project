@@ -1,0 +1,190 @@
+[2025-12-10T12:02:06.488+0530] {processor.py:186} INFO - Started process (PID=11082) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2025-12-10T12:02:06.490+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2025-12-10T12:02:06.493+0530] {logging_mixin.py:190} INFO - [2025-12-10T12:02:06.492+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2025-12-10T12:02:06.512+0530] {processor.py:925} INFO - DAG(s) 'example_xcom' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2025-12-10T12:02:06.784+0530] {logging_mixin.py:190} INFO - [2025-12-10T12:02:06.782+0530] {override.py:1900} INFO - Created Permission View: can read on DAG:example_xcom
+[2025-12-10T12:02:06.824+0530] {logging_mixin.py:190} INFO - [2025-12-10T12:02:06.824+0530] {override.py:1900} INFO - Created Permission View: can delete on DAG:example_xcom
+[2025-12-10T12:02:06.861+0530] {logging_mixin.py:190} INFO - [2025-12-10T12:02:06.860+0530] {override.py:1900} INFO - Created Permission View: can edit on DAG:example_xcom
+[2025-12-10T12:02:06.938+0530] {logging_mixin.py:190} INFO - [2025-12-10T12:02:06.937+0530] {override.py:1900} INFO - Created Permission View: can read on DAG Run:example_xcom
+[2025-12-10T12:02:06.981+0530] {logging_mixin.py:190} INFO - [2025-12-10T12:02:06.980+0530] {override.py:1900} INFO - Created Permission View: can delete on DAG Run:example_xcom
+[2025-12-10T12:02:07.016+0530] {logging_mixin.py:190} INFO - [2025-12-10T12:02:07.015+0530] {override.py:1900} INFO - Created Permission View: menu access on DAG Run:example_xcom
+[2025-12-10T12:02:07.059+0530] {logging_mixin.py:190} INFO - [2025-12-10T12:02:07.058+0530] {override.py:1900} INFO - Created Permission View: can create on DAG Run:example_xcom
+[2025-12-10T12:02:07.060+0530] {logging_mixin.py:190} INFO - [2025-12-10T12:02:07.059+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-10T12:02:07.089+0530] {logging_mixin.py:190} INFO - [2025-12-10T12:02:07.089+0530] {dag.py:3262} INFO - Creating ORM DAG for example_xcom
+[2025-12-10T12:02:07.107+0530] {logging_mixin.py:190} INFO - [2025-12-10T12:02:07.107+0530] {dag.py:4180} INFO - Setting next_dagrun for example_xcom to 2021-01-01 00:00:00+00:00, run_after=2021-01-01 00:00:00+00:00
+[2025-12-10T12:02:07.169+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py took 0.690 seconds
+[2025-12-10T12:03:09.670+0530] {processor.py:186} INFO - Started process (PID=11336) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2025-12-10T12:03:09.680+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2025-12-10T12:03:09.683+0530] {logging_mixin.py:190} INFO - [2025-12-10T12:03:09.682+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2025-12-10T12:03:09.693+0530] {processor.py:925} INFO - DAG(s) 'example_xcom' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2025-12-10T12:03:09.710+0530] {logging_mixin.py:190} INFO - [2025-12-10T12:03:09.710+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-10T12:03:09.728+0530] {logging_mixin.py:190} INFO - [2025-12-10T12:03:09.728+0530] {dag.py:4180} INFO - Setting next_dagrun for example_xcom to 2021-01-01 00:00:00+00:00, run_after=2021-01-01 00:00:00+00:00
+[2025-12-10T12:03:09.745+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py took 0.083 seconds
+[2025-12-10T12:04:04.960+0530] {processor.py:186} INFO - Started process (PID=11417) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2025-12-10T12:04:04.962+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2025-12-10T12:04:04.963+0530] {logging_mixin.py:190} INFO - [2025-12-10T12:04:04.963+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2025-12-10T12:04:04.973+0530] {processor.py:925} INFO - DAG(s) 'example_xcom' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2025-12-10T12:04:04.990+0530] {logging_mixin.py:190} INFO - [2025-12-10T12:04:04.990+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-10T12:04:05.008+0530] {logging_mixin.py:190} INFO - [2025-12-10T12:04:05.007+0530] {dag.py:4180} INFO - Setting next_dagrun for example_xcom to 2021-01-01 00:00:00+00:00, run_after=2021-01-01 00:00:00+00:00
+[2025-12-10T12:04:05.025+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py took 0.070 seconds
+[2025-12-10T12:04:58.975+0530] {processor.py:186} INFO - Started process (PID=11479) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2025-12-10T12:04:58.976+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2025-12-10T12:04:58.978+0530] {logging_mixin.py:190} INFO - [2025-12-10T12:04:58.978+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2025-12-10T12:04:58.987+0530] {processor.py:925} INFO - DAG(s) 'example_xcom' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2025-12-10T12:04:59.003+0530] {logging_mixin.py:190} INFO - [2025-12-10T12:04:59.003+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-10T12:04:59.020+0530] {logging_mixin.py:190} INFO - [2025-12-10T12:04:59.020+0530] {dag.py:4180} INFO - Setting next_dagrun for example_xcom to 2021-01-01 00:00:00+00:00, run_after=2021-01-01 00:00:00+00:00
+[2025-12-10T12:04:59.037+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py took 0.068 seconds
+[2025-12-10T12:05:52.929+0530] {processor.py:186} INFO - Started process (PID=11663) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2025-12-10T12:05:52.931+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2025-12-10T12:05:52.935+0530] {logging_mixin.py:190} INFO - [2025-12-10T12:05:52.934+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2025-12-10T12:05:52.952+0530] {processor.py:925} INFO - DAG(s) 'example_xcom' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2025-12-10T12:05:52.984+0530] {logging_mixin.py:190} INFO - [2025-12-10T12:05:52.984+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-10T12:05:53.023+0530] {logging_mixin.py:190} INFO - [2025-12-10T12:05:53.023+0530] {dag.py:4180} INFO - Setting next_dagrun for example_xcom to 2021-01-01 00:00:00+00:00, run_after=2021-01-01 00:00:00+00:00
+[2025-12-10T12:05:53.054+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py took 0.134 seconds
+[2025-12-10T12:06:44.227+0530] {processor.py:186} INFO - Started process (PID=11836) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2025-12-10T12:06:44.228+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2025-12-10T12:06:44.230+0530] {logging_mixin.py:190} INFO - [2025-12-10T12:06:44.230+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2025-12-10T12:06:44.238+0530] {processor.py:925} INFO - DAG(s) 'example_xcom' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2025-12-10T12:06:44.255+0530] {logging_mixin.py:190} INFO - [2025-12-10T12:06:44.254+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-10T12:06:44.273+0530] {logging_mixin.py:190} INFO - [2025-12-10T12:06:44.273+0530] {dag.py:4180} INFO - Setting next_dagrun for example_xcom to 2021-01-01 00:00:00+00:00, run_after=2021-01-01 00:00:00+00:00
+[2025-12-10T12:06:44.294+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py took 0.077 seconds
+[2025-12-10T12:07:41.377+0530] {processor.py:186} INFO - Started process (PID=11926) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2025-12-10T12:07:41.388+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2025-12-10T12:07:41.391+0530] {logging_mixin.py:190} INFO - [2025-12-10T12:07:41.390+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2025-12-10T12:07:41.536+0530] {processor.py:925} INFO - DAG(s) 'example_xcom' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2025-12-10T12:07:41.549+0530] {logging_mixin.py:190} INFO - [2025-12-10T12:07:41.549+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-10T12:07:41.569+0530] {logging_mixin.py:190} INFO - [2025-12-10T12:07:41.569+0530] {dag.py:4180} INFO - Setting next_dagrun for example_xcom to 2021-01-01 00:00:00+00:00, run_after=2021-01-01 00:00:00+00:00
+[2025-12-10T12:07:41.591+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py took 0.222 seconds
+[2025-12-10T12:08:37.352+0530] {processor.py:186} INFO - Started process (PID=11994) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2025-12-10T12:08:37.363+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2025-12-10T12:08:37.365+0530] {logging_mixin.py:190} INFO - [2025-12-10T12:08:37.365+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2025-12-10T12:08:37.376+0530] {processor.py:925} INFO - DAG(s) 'example_xcom' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2025-12-10T12:08:37.395+0530] {logging_mixin.py:190} INFO - [2025-12-10T12:08:37.395+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-10T12:08:37.417+0530] {logging_mixin.py:190} INFO - [2025-12-10T12:08:37.417+0530] {dag.py:4180} INFO - Setting next_dagrun for example_xcom to 2021-01-01 00:00:00+00:00, run_after=2021-01-01 00:00:00+00:00
+[2025-12-10T12:08:37.439+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py took 0.092 seconds
+[2025-12-10T12:09:32.130+0530] {processor.py:186} INFO - Started process (PID=12169) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2025-12-10T12:09:32.131+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2025-12-10T12:09:32.133+0530] {logging_mixin.py:190} INFO - [2025-12-10T12:09:32.132+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2025-12-10T12:09:32.141+0530] {processor.py:925} INFO - DAG(s) 'example_xcom' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2025-12-10T12:09:32.157+0530] {logging_mixin.py:190} INFO - [2025-12-10T12:09:32.156+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-10T12:09:32.175+0530] {logging_mixin.py:190} INFO - [2025-12-10T12:09:32.175+0530] {dag.py:4180} INFO - Setting next_dagrun for example_xcom to 2021-01-01 00:00:00+00:00, run_after=2021-01-01 00:00:00+00:00
+[2025-12-10T12:09:32.193+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py took 0.069 seconds
+[2025-12-10T12:10:25.623+0530] {processor.py:186} INFO - Started process (PID=12228) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2025-12-10T12:10:25.625+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2025-12-10T12:10:25.627+0530] {logging_mixin.py:190} INFO - [2025-12-10T12:10:25.626+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2025-12-10T12:10:25.635+0530] {processor.py:925} INFO - DAG(s) 'example_xcom' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2025-12-10T12:10:25.651+0530] {logging_mixin.py:190} INFO - [2025-12-10T12:10:25.651+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-10T12:10:25.669+0530] {logging_mixin.py:190} INFO - [2025-12-10T12:10:25.669+0530] {dag.py:4180} INFO - Setting next_dagrun for example_xcom to 2021-01-01 00:00:00+00:00, run_after=2021-01-01 00:00:00+00:00
+[2025-12-10T12:10:25.689+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py took 0.076 seconds
+[2025-12-10T12:11:20.961+0530] {processor.py:186} INFO - Started process (PID=12357) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2025-12-10T12:11:20.962+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2025-12-10T12:11:20.965+0530] {logging_mixin.py:190} INFO - [2025-12-10T12:11:20.964+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2025-12-10T12:11:20.974+0530] {processor.py:925} INFO - DAG(s) 'example_xcom' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2025-12-10T12:11:20.995+0530] {logging_mixin.py:190} INFO - [2025-12-10T12:11:20.995+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-10T12:11:21.020+0530] {logging_mixin.py:190} INFO - [2025-12-10T12:11:21.019+0530] {dag.py:4180} INFO - Setting next_dagrun for example_xcom to 2021-01-01 00:00:00+00:00, run_after=2021-01-01 00:00:00+00:00
+[2025-12-10T12:11:21.039+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py took 0.086 seconds
+[2025-12-10T12:12:10.502+0530] {processor.py:186} INFO - Started process (PID=12439) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2025-12-10T12:12:10.503+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2025-12-10T12:12:10.505+0530] {logging_mixin.py:190} INFO - [2025-12-10T12:12:10.505+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2025-12-10T12:12:10.514+0530] {processor.py:925} INFO - DAG(s) 'example_xcom' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2025-12-10T12:12:10.530+0530] {logging_mixin.py:190} INFO - [2025-12-10T12:12:10.529+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-10T12:12:10.547+0530] {logging_mixin.py:190} INFO - [2025-12-10T12:12:10.547+0530] {dag.py:4180} INFO - Setting next_dagrun for example_xcom to 2021-01-01 00:00:00+00:00, run_after=2021-01-01 00:00:00+00:00
+[2025-12-10T12:12:10.567+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py took 0.074 seconds
+[2025-12-10T12:13:00.643+0530] {processor.py:186} INFO - Started process (PID=12521) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2025-12-10T12:13:00.653+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2025-12-10T12:13:00.656+0530] {logging_mixin.py:190} INFO - [2025-12-10T12:13:00.656+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2025-12-10T12:13:00.667+0530] {processor.py:925} INFO - DAG(s) 'example_xcom' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2025-12-10T12:13:00.685+0530] {logging_mixin.py:190} INFO - [2025-12-10T12:13:00.685+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-10T12:13:00.704+0530] {logging_mixin.py:190} INFO - [2025-12-10T12:13:00.704+0530] {dag.py:4180} INFO - Setting next_dagrun for example_xcom to 2021-01-01 00:00:00+00:00, run_after=2021-01-01 00:00:00+00:00
+[2025-12-10T12:13:00.723+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py took 0.087 seconds
+[2025-12-10T12:13:51.549+0530] {processor.py:186} INFO - Started process (PID=12615) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2025-12-10T12:13:51.552+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2025-12-10T12:13:51.554+0530] {logging_mixin.py:190} INFO - [2025-12-10T12:13:51.554+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2025-12-10T12:13:51.565+0530] {processor.py:925} INFO - DAG(s) 'example_xcom' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2025-12-10T12:13:51.587+0530] {logging_mixin.py:190} INFO - [2025-12-10T12:13:51.587+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-10T12:13:51.609+0530] {logging_mixin.py:190} INFO - [2025-12-10T12:13:51.609+0530] {dag.py:4180} INFO - Setting next_dagrun for example_xcom to 2021-01-01 00:00:00+00:00, run_after=2021-01-01 00:00:00+00:00
+[2025-12-10T12:13:51.639+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py took 0.098 seconds
+[2025-12-10T12:14:43.775+0530] {processor.py:186} INFO - Started process (PID=12693) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2025-12-10T12:14:43.776+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2025-12-10T12:14:43.779+0530] {logging_mixin.py:190} INFO - [2025-12-10T12:14:43.778+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2025-12-10T12:14:43.790+0530] {processor.py:925} INFO - DAG(s) 'example_xcom' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2025-12-10T12:14:43.806+0530] {logging_mixin.py:190} INFO - [2025-12-10T12:14:43.805+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-10T12:14:43.825+0530] {logging_mixin.py:190} INFO - [2025-12-10T12:14:43.825+0530] {dag.py:4180} INFO - Setting next_dagrun for example_xcom to 2021-01-01 00:00:00+00:00, run_after=2021-01-01 00:00:00+00:00
+[2025-12-10T12:14:43.845+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py took 0.078 seconds
+[2025-12-10T12:15:34.885+0530] {processor.py:186} INFO - Started process (PID=12809) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2025-12-10T12:15:34.887+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2025-12-10T12:15:34.889+0530] {logging_mixin.py:190} INFO - [2025-12-10T12:15:34.888+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2025-12-10T12:15:34.900+0530] {processor.py:925} INFO - DAG(s) 'example_xcom' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2025-12-10T12:15:34.919+0530] {logging_mixin.py:190} INFO - [2025-12-10T12:15:34.919+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-10T12:15:34.944+0530] {logging_mixin.py:190} INFO - [2025-12-10T12:15:34.943+0530] {dag.py:4180} INFO - Setting next_dagrun for example_xcom to 2021-01-01 00:00:00+00:00, run_after=2021-01-01 00:00:00+00:00
+[2025-12-10T12:15:34.962+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py took 0.083 seconds
+[2025-12-10T12:16:25.360+0530] {processor.py:186} INFO - Started process (PID=12863) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2025-12-10T12:16:25.362+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2025-12-10T12:16:25.364+0530] {logging_mixin.py:190} INFO - [2025-12-10T12:16:25.364+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2025-12-10T12:16:25.373+0530] {processor.py:925} INFO - DAG(s) 'example_xcom' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2025-12-10T12:16:25.389+0530] {logging_mixin.py:190} INFO - [2025-12-10T12:16:25.389+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-10T12:16:25.407+0530] {logging_mixin.py:190} INFO - [2025-12-10T12:16:25.406+0530] {dag.py:4180} INFO - Setting next_dagrun for example_xcom to 2021-01-01 00:00:00+00:00, run_after=2021-01-01 00:00:00+00:00
+[2025-12-10T12:16:25.425+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py took 0.074 seconds
+[2025-12-10T12:17:17.032+0530] {processor.py:186} INFO - Started process (PID=12951) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2025-12-10T12:17:17.042+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2025-12-10T12:17:17.045+0530] {logging_mixin.py:190} INFO - [2025-12-10T12:17:17.045+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2025-12-10T12:17:17.055+0530] {processor.py:925} INFO - DAG(s) 'example_xcom' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2025-12-10T12:17:17.071+0530] {logging_mixin.py:190} INFO - [2025-12-10T12:17:17.071+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-10T12:17:17.088+0530] {logging_mixin.py:190} INFO - [2025-12-10T12:17:17.088+0530] {dag.py:4180} INFO - Setting next_dagrun for example_xcom to 2021-01-01 00:00:00+00:00, run_after=2021-01-01 00:00:00+00:00
+[2025-12-10T12:17:17.105+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py took 0.085 seconds
+[2025-12-10T12:18:11.183+0530] {processor.py:186} INFO - Started process (PID=13007) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2025-12-10T12:18:11.184+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2025-12-10T12:18:11.186+0530] {logging_mixin.py:190} INFO - [2025-12-10T12:18:11.185+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2025-12-10T12:18:11.195+0530] {processor.py:925} INFO - DAG(s) 'example_xcom' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2025-12-10T12:18:11.211+0530] {logging_mixin.py:190} INFO - [2025-12-10T12:18:11.211+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-10T12:18:11.229+0530] {logging_mixin.py:190} INFO - [2025-12-10T12:18:11.228+0530] {dag.py:4180} INFO - Setting next_dagrun for example_xcom to 2021-01-01 00:00:00+00:00, run_after=2021-01-01 00:00:00+00:00
+[2025-12-10T12:18:11.246+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py took 0.074 seconds
+[2025-12-10T12:19:05.188+0530] {processor.py:186} INFO - Started process (PID=13063) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2025-12-10T12:19:05.199+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2025-12-10T12:19:05.202+0530] {logging_mixin.py:190} INFO - [2025-12-10T12:19:05.201+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2025-12-10T12:19:05.212+0530] {processor.py:925} INFO - DAG(s) 'example_xcom' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2025-12-10T12:19:05.227+0530] {logging_mixin.py:190} INFO - [2025-12-10T12:19:05.227+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-10T12:19:05.245+0530] {logging_mixin.py:190} INFO - [2025-12-10T12:19:05.245+0530] {dag.py:4180} INFO - Setting next_dagrun for example_xcom to 2021-01-01 00:00:00+00:00, run_after=2021-01-01 00:00:00+00:00
+[2025-12-10T12:19:05.264+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py took 0.087 seconds
+[2025-12-10T12:19:57.015+0530] {processor.py:186} INFO - Started process (PID=13119) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2025-12-10T12:19:57.026+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2025-12-10T12:19:57.029+0530] {logging_mixin.py:190} INFO - [2025-12-10T12:19:57.028+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2025-12-10T12:19:57.039+0530] {processor.py:925} INFO - DAG(s) 'example_xcom' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2025-12-10T12:19:57.055+0530] {logging_mixin.py:190} INFO - [2025-12-10T12:19:57.055+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-10T12:19:57.074+0530] {logging_mixin.py:190} INFO - [2025-12-10T12:19:57.074+0530] {dag.py:4180} INFO - Setting next_dagrun for example_xcom to 2021-01-01 00:00:00+00:00, run_after=2021-01-01 00:00:00+00:00
+[2025-12-10T12:19:57.092+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py took 0.087 seconds
+[2025-12-10T12:20:48.015+0530] {processor.py:186} INFO - Started process (PID=13180) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2025-12-10T12:20:48.016+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2025-12-10T12:20:48.018+0530] {logging_mixin.py:190} INFO - [2025-12-10T12:20:48.018+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2025-12-10T12:20:48.027+0530] {processor.py:925} INFO - DAG(s) 'example_xcom' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2025-12-10T12:20:48.043+0530] {logging_mixin.py:190} INFO - [2025-12-10T12:20:48.043+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-10T12:20:48.062+0530] {logging_mixin.py:190} INFO - [2025-12-10T12:20:48.062+0530] {dag.py:4180} INFO - Setting next_dagrun for example_xcom to 2021-01-01 00:00:00+00:00, run_after=2021-01-01 00:00:00+00:00
+[2025-12-10T12:20:48.080+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py took 0.075 seconds
+[2025-12-10T12:21:40.536+0530] {processor.py:186} INFO - Started process (PID=13341) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2025-12-10T12:21:40.537+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2025-12-10T12:21:40.539+0530] {logging_mixin.py:190} INFO - [2025-12-10T12:21:40.539+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2025-12-10T12:21:40.548+0530] {processor.py:925} INFO - DAG(s) 'example_xcom' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2025-12-10T12:21:40.563+0530] {logging_mixin.py:190} INFO - [2025-12-10T12:21:40.563+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-10T12:21:40.581+0530] {logging_mixin.py:190} INFO - [2025-12-10T12:21:40.581+0530] {dag.py:4180} INFO - Setting next_dagrun for example_xcom to 2021-01-01 00:00:00+00:00, run_after=2021-01-01 00:00:00+00:00
+[2025-12-10T12:21:40.600+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py took 0.074 seconds
+[2025-12-10T12:22:32.821+0530] {processor.py:186} INFO - Started process (PID=13594) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2025-12-10T12:22:32.822+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2025-12-10T12:22:32.824+0530] {logging_mixin.py:190} INFO - [2025-12-10T12:22:32.824+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2025-12-10T12:22:32.833+0530] {processor.py:925} INFO - DAG(s) 'example_xcom' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2025-12-10T12:22:32.849+0530] {logging_mixin.py:190} INFO - [2025-12-10T12:22:32.849+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-10T12:22:32.866+0530] {logging_mixin.py:190} INFO - [2025-12-10T12:22:32.866+0530] {dag.py:4180} INFO - Setting next_dagrun for example_xcom to 2021-01-01 00:00:00+00:00, run_after=2021-01-01 00:00:00+00:00
+[2025-12-10T12:22:32.884+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py took 0.070 seconds
+[2025-12-10T12:23:25.810+0530] {processor.py:186} INFO - Started process (PID=13649) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2025-12-10T12:23:25.821+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2025-12-10T12:23:25.825+0530] {logging_mixin.py:190} INFO - [2025-12-10T12:23:25.824+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2025-12-10T12:23:25.835+0530] {processor.py:925} INFO - DAG(s) 'example_xcom' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2025-12-10T12:23:25.852+0530] {logging_mixin.py:190} INFO - [2025-12-10T12:23:25.852+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-10T12:23:25.875+0530] {logging_mixin.py:190} INFO - [2025-12-10T12:23:25.875+0530] {dag.py:4180} INFO - Setting next_dagrun for example_xcom to 2021-01-01 00:00:00+00:00, run_after=2021-01-01 00:00:00+00:00
+[2025-12-10T12:23:25.894+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py took 0.095 seconds
+[2025-12-10T12:24:17.919+0530] {processor.py:186} INFO - Started process (PID=13706) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2025-12-10T12:24:17.920+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2025-12-10T12:24:17.922+0530] {logging_mixin.py:190} INFO - [2025-12-10T12:24:17.921+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2025-12-10T12:24:17.930+0530] {processor.py:925} INFO - DAG(s) 'example_xcom' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2025-12-10T12:24:17.946+0530] {logging_mixin.py:190} INFO - [2025-12-10T12:24:17.946+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-10T12:24:17.963+0530] {logging_mixin.py:190} INFO - [2025-12-10T12:24:17.963+0530] {dag.py:4180} INFO - Setting next_dagrun for example_xcom to 2021-01-01 00:00:00+00:00, run_after=2021-01-01 00:00:00+00:00
+[2025-12-10T12:24:17.980+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py took 0.072 seconds

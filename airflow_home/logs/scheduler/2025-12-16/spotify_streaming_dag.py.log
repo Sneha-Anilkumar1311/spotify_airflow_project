@@ -1,0 +1,433 @@
+[2025-12-16T10:49:41.578+0530] {processor.py:186} INFO - Started process (PID=7020) to work on /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py
+[2025-12-16T10:49:41.578+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py for tasks to queue
+[2025-12-16T10:49:41.581+0530] {logging_mixin.py:190} INFO - [2025-12-16T10:49:41.580+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py
+[2025-12-16T10:49:41.590+0530] {logging_mixin.py:190} INFO - [2025-12-16T10:49:41.588+0530] {dagbag.py:387} ERROR - Failed to import: /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py
+Traceback (most recent call last):
+  File "/home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py", line 23, in <module>
+    run_spark = BashOperator(
+                ^^^^^^^^^^^^^
+  File "/home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 490, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/operators/bash.py", line 158, in __init__
+    super().__init__(**kwargs)
+  File "/home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 490, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 956, in __init__
+    task_group.add(self)
+  File "/home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/utils/task_group.py", line 250, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'run_spark_consumer' has already been added to the DAG
+[2025-12-16T10:49:41.591+0530] {processor.py:927} WARNING - No viable dags retrieved from /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py
+[2025-12-16T10:49:41.607+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py took 0.036 seconds
+[2025-12-16T10:54:51.616+0530] {processor.py:186} INFO - Started process (PID=7839) to work on /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py
+[2025-12-16T10:54:51.617+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py for tasks to queue
+[2025-12-16T10:54:51.620+0530] {logging_mixin.py:190} INFO - [2025-12-16T10:54:51.619+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py
+[2025-12-16T10:54:51.629+0530] {logging_mixin.py:190} INFO - [2025-12-16T10:54:51.626+0530] {dagbag.py:387} ERROR - Failed to import: /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py
+Traceback (most recent call last):
+  File "/home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py", line 23, in <module>
+    run_spark = BashOperator(
+                ^^^^^^^^^^^^^
+  File "/home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 490, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/operators/bash.py", line 158, in __init__
+    super().__init__(**kwargs)
+  File "/home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 490, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 956, in __init__
+    task_group.add(self)
+  File "/home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/utils/task_group.py", line 250, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'run_spark_consumer' has already been added to the DAG
+[2025-12-16T10:54:51.630+0530] {processor.py:927} WARNING - No viable dags retrieved from /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py
+[2025-12-16T10:54:51.648+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py took 0.037 seconds
+[2025-12-16T10:55:49.417+0530] {processor.py:186} INFO - Started process (PID=8024) to work on /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py
+[2025-12-16T10:55:49.418+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py for tasks to queue
+[2025-12-16T10:55:49.420+0530] {logging_mixin.py:190} INFO - [2025-12-16T10:55:49.420+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py
+[2025-12-16T10:55:49.429+0530] {logging_mixin.py:190} INFO - [2025-12-16T10:55:49.427+0530] {dagbag.py:387} ERROR - Failed to import: /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py
+Traceback (most recent call last):
+  File "/home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py", line 23, in <module>
+    run_spark = BashOperator(
+                ^^^^^^^^^^^^^
+  File "/home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 490, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/operators/bash.py", line 158, in __init__
+    super().__init__(**kwargs)
+  File "/home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 490, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 956, in __init__
+    task_group.add(self)
+  File "/home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/utils/task_group.py", line 250, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'run_spark_consumer' has already been added to the DAG
+[2025-12-16T10:55:49.430+0530] {processor.py:927} WARNING - No viable dags retrieved from /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py
+[2025-12-16T10:55:49.446+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py took 0.040 seconds
+[2025-12-16T10:56:46.687+0530] {processor.py:186} INFO - Started process (PID=8259) to work on /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py
+[2025-12-16T10:56:46.698+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py for tasks to queue
+[2025-12-16T10:56:46.700+0530] {logging_mixin.py:190} INFO - [2025-12-16T10:56:46.699+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py
+[2025-12-16T10:56:46.712+0530] {logging_mixin.py:190} INFO - [2025-12-16T10:56:46.709+0530] {dagbag.py:387} ERROR - Failed to import: /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py
+Traceback (most recent call last):
+  File "/home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py", line 23, in <module>
+    run_spark = BashOperator(
+                ^^^^^^^^^^^^^
+  File "/home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 490, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/operators/bash.py", line 158, in __init__
+    super().__init__(**kwargs)
+  File "/home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 490, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 956, in __init__
+    task_group.add(self)
+  File "/home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/utils/task_group.py", line 250, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'run_spark_consumer' has already been added to the DAG
+[2025-12-16T10:56:46.712+0530] {processor.py:927} WARNING - No viable dags retrieved from /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py
+[2025-12-16T10:56:46.729+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py took 0.052 seconds
+[2025-12-16T11:00:48.733+0530] {processor.py:186} INFO - Started process (PID=8569) to work on /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py
+[2025-12-16T11:00:48.734+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py for tasks to queue
+[2025-12-16T11:00:48.736+0530] {logging_mixin.py:190} INFO - [2025-12-16T11:00:48.736+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py
+[2025-12-16T11:00:48.744+0530] {logging_mixin.py:190} INFO - [2025-12-16T11:00:48.742+0530] {dagbag.py:387} ERROR - Failed to import: /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py
+Traceback (most recent call last):
+  File "/home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py", line 23, in <module>
+    run_spark = BashOperator(
+                ^^^^^^^^^^^^^
+  File "/home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 490, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/operators/bash.py", line 158, in __init__
+    super().__init__(**kwargs)
+  File "/home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 490, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 956, in __init__
+    task_group.add(self)
+  File "/home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/utils/task_group.py", line 250, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'run_spark_consumer' has already been added to the DAG
+[2025-12-16T11:00:48.745+0530] {processor.py:927} WARNING - No viable dags retrieved from /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py
+[2025-12-16T11:00:48.762+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py took 0.037 seconds
+[2025-12-16T11:02:48.129+0530] {processor.py:186} INFO - Started process (PID=8845) to work on /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py
+[2025-12-16T11:02:48.130+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py for tasks to queue
+[2025-12-16T11:02:48.132+0530] {logging_mixin.py:190} INFO - [2025-12-16T11:02:48.131+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py
+[2025-12-16T11:02:48.139+0530] {logging_mixin.py:190} INFO - [2025-12-16T11:02:48.137+0530] {dagbag.py:387} ERROR - Failed to import: /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py
+Traceback (most recent call last):
+  File "/home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py", line 23, in <module>
+    run_spark = BashOperator(
+                ^^^^^^^^^^^^^
+  File "/home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 490, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/operators/bash.py", line 158, in __init__
+    super().__init__(**kwargs)
+  File "/home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 490, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 956, in __init__
+    task_group.add(self)
+  File "/home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/utils/task_group.py", line 250, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'run_spark_consumer' has already been added to the DAG
+[2025-12-16T11:02:48.140+0530] {processor.py:927} WARNING - No viable dags retrieved from /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py
+[2025-12-16T11:02:48.154+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py took 0.031 seconds
+[2025-12-16T11:06:57.593+0530] {processor.py:186} INFO - Started process (PID=21437) to work on /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py
+[2025-12-16T11:06:57.596+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py for tasks to queue
+[2025-12-16T11:06:57.601+0530] {logging_mixin.py:190} INFO - [2025-12-16T11:06:57.600+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py
+[2025-12-16T11:06:57.616+0530] {logging_mixin.py:190} INFO - [2025-12-16T11:06:57.613+0530] {dagbag.py:387} ERROR - Failed to import: /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py
+Traceback (most recent call last):
+  File "/home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py", line 23, in <module>
+    run_spark = BashOperator(
+                ^^^^^^^^^^^^^
+  File "/home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 490, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/operators/bash.py", line 158, in __init__
+    super().__init__(**kwargs)
+  File "/home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 490, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 956, in __init__
+    task_group.add(self)
+  File "/home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/utils/task_group.py", line 250, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'run_spark_consumer' has already been added to the DAG
+[2025-12-16T11:06:57.618+0530] {processor.py:927} WARNING - No viable dags retrieved from /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py
+[2025-12-16T11:06:57.645+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py took 0.062 seconds
+[2025-12-16T11:07:54.501+0530] {processor.py:186} INFO - Started process (PID=21676) to work on /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py
+[2025-12-16T11:07:54.502+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py for tasks to queue
+[2025-12-16T11:07:54.504+0530] {logging_mixin.py:190} INFO - [2025-12-16T11:07:54.504+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py
+[2025-12-16T11:07:54.514+0530] {logging_mixin.py:190} INFO - [2025-12-16T11:07:54.512+0530] {dagbag.py:387} ERROR - Failed to import: /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py
+Traceback (most recent call last):
+  File "/home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py", line 23, in <module>
+    run_spark = BashOperator(
+                ^^^^^^^^^^^^^
+  File "/home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 490, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/operators/bash.py", line 158, in __init__
+    super().__init__(**kwargs)
+  File "/home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 490, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 956, in __init__
+    task_group.add(self)
+  File "/home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/utils/task_group.py", line 250, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'run_spark_consumer' has already been added to the DAG
+[2025-12-16T11:07:54.515+0530] {processor.py:927} WARNING - No viable dags retrieved from /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py
+[2025-12-16T11:07:54.533+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py took 0.037 seconds
+[2025-12-16T11:08:50.449+0530] {processor.py:186} INFO - Started process (PID=21851) to work on /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py
+[2025-12-16T11:08:50.450+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py for tasks to queue
+[2025-12-16T11:08:50.454+0530] {logging_mixin.py:190} INFO - [2025-12-16T11:08:50.453+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py
+[2025-12-16T11:08:50.470+0530] {processor.py:925} INFO - DAG(s) 'spotify_streaming_pipeline' retrieved from /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py
+[2025-12-16T11:08:50.636+0530] {logging_mixin.py:190} INFO - [2025-12-16T11:08:50.635+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-16T11:08:50.671+0530] {logging_mixin.py:190} INFO - [2025-12-16T11:08:50.671+0530] {dag.py:4180} INFO - Setting next_dagrun for spotify_streaming_pipeline to 2025-12-16 04:00:00+00:00, run_after=2025-12-16 05:00:00+00:00
+[2025-12-16T11:08:50.719+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py took 0.278 seconds
+[2025-12-16T11:09:22.450+0530] {processor.py:186} INFO - Started process (PID=21956) to work on /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py
+[2025-12-16T11:09:22.451+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py for tasks to queue
+[2025-12-16T11:09:22.453+0530] {logging_mixin.py:190} INFO - [2025-12-16T11:09:22.453+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py
+[2025-12-16T11:09:22.463+0530] {processor.py:925} INFO - DAG(s) 'spotify_streaming_pipeline' retrieved from /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py
+[2025-12-16T11:09:22.478+0530] {logging_mixin.py:190} INFO - [2025-12-16T11:09:22.478+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-16T11:09:22.499+0530] {logging_mixin.py:190} INFO - [2025-12-16T11:09:22.499+0530] {dag.py:4180} INFO - Setting next_dagrun for spotify_streaming_pipeline to 2025-12-16 05:00:00+00:00, run_after=2025-12-16 06:00:00+00:00
+[2025-12-16T11:09:22.518+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py took 0.078 seconds
+[2025-12-16T11:09:53.665+0530] {processor.py:186} INFO - Started process (PID=21989) to work on /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py
+[2025-12-16T11:09:53.666+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py for tasks to queue
+[2025-12-16T11:09:53.668+0530] {logging_mixin.py:190} INFO - [2025-12-16T11:09:53.668+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py
+[2025-12-16T11:09:53.677+0530] {processor.py:925} INFO - DAG(s) 'spotify_streaming_pipeline' retrieved from /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py
+[2025-12-16T11:09:53.693+0530] {logging_mixin.py:190} INFO - [2025-12-16T11:09:53.693+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-16T11:09:53.714+0530] {logging_mixin.py:190} INFO - [2025-12-16T11:09:53.714+0530] {dag.py:4180} INFO - Setting next_dagrun for spotify_streaming_pipeline to 2025-12-16 05:00:00+00:00, run_after=2025-12-16 06:00:00+00:00
+[2025-12-16T11:09:53.732+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py took 0.074 seconds
+[2025-12-16T11:10:49.065+0530] {processor.py:186} INFO - Started process (PID=22051) to work on /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py
+[2025-12-16T11:10:49.066+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py for tasks to queue
+[2025-12-16T11:10:49.068+0530] {logging_mixin.py:190} INFO - [2025-12-16T11:10:49.068+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py
+[2025-12-16T11:10:49.077+0530] {processor.py:925} INFO - DAG(s) 'spotify_streaming_pipeline' retrieved from /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py
+[2025-12-16T11:10:49.091+0530] {logging_mixin.py:190} INFO - [2025-12-16T11:10:49.091+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-16T11:10:49.112+0530] {logging_mixin.py:190} INFO - [2025-12-16T11:10:49.112+0530] {dag.py:4180} INFO - Setting next_dagrun for spotify_streaming_pipeline to 2025-12-16 05:00:00+00:00, run_after=2025-12-16 06:00:00+00:00
+[2025-12-16T11:10:49.130+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py took 0.076 seconds
+[2025-12-16T11:11:42.504+0530] {processor.py:186} INFO - Started process (PID=22109) to work on /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py
+[2025-12-16T11:11:42.505+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py for tasks to queue
+[2025-12-16T11:11:42.508+0530] {logging_mixin.py:190} INFO - [2025-12-16T11:11:42.507+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py
+[2025-12-16T11:11:42.517+0530] {processor.py:925} INFO - DAG(s) 'spotify_streaming_pipeline' retrieved from /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py
+[2025-12-16T11:11:42.534+0530] {logging_mixin.py:190} INFO - [2025-12-16T11:11:42.533+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-16T11:11:42.555+0530] {logging_mixin.py:190} INFO - [2025-12-16T11:11:42.555+0530] {dag.py:4180} INFO - Setting next_dagrun for spotify_streaming_pipeline to 2025-12-16 05:00:00+00:00, run_after=2025-12-16 06:00:00+00:00
+[2025-12-16T11:11:42.575+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py took 0.078 seconds
+[2025-12-16T11:12:46.372+0530] {processor.py:186} INFO - Started process (PID=22190) to work on /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py
+[2025-12-16T11:12:46.373+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py for tasks to queue
+[2025-12-16T11:12:46.375+0530] {logging_mixin.py:190} INFO - [2025-12-16T11:12:46.374+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py
+[2025-12-16T11:12:46.385+0530] {processor.py:925} INFO - DAG(s) 'spotify_streaming_pipeline' retrieved from /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py
+[2025-12-16T11:12:46.528+0530] {logging_mixin.py:190} INFO - [2025-12-16T11:12:46.528+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-16T11:12:46.547+0530] {logging_mixin.py:190} INFO - [2025-12-16T11:12:46.547+0530] {dag.py:4180} INFO - Setting next_dagrun for spotify_streaming_pipeline to 2025-12-16 05:00:00+00:00, run_after=2025-12-16 06:00:00+00:00
+[2025-12-16T11:12:46.565+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py took 0.203 seconds
+[2025-12-16T12:36:56.412+0530] {processor.py:186} INFO - Started process (PID=27492) to work on /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py
+[2025-12-16T12:36:56.413+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py for tasks to queue
+[2025-12-16T12:36:56.416+0530] {logging_mixin.py:190} INFO - [2025-12-16T12:36:56.415+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py
+[2025-12-16T12:36:56.431+0530] {processor.py:925} INFO - DAG(s) 'spotify_streaming_pipeline' retrieved from /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py
+[2025-12-16T12:36:56.460+0530] {logging_mixin.py:190} INFO - [2025-12-16T12:36:56.459+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-16T12:36:56.481+0530] {logging_mixin.py:190} INFO - [2025-12-16T12:36:56.481+0530] {dag.py:4180} INFO - Setting next_dagrun for spotify_streaming_pipeline to 2025-12-16 06:00:00+00:00, run_after=2025-12-16 07:00:00+00:00
+[2025-12-16T12:36:56.501+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py took 0.095 seconds
+[2025-12-16T12:37:54.932+0530] {processor.py:186} INFO - Started process (PID=28399) to work on /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py
+[2025-12-16T12:37:54.934+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py for tasks to queue
+[2025-12-16T12:37:54.936+0530] {logging_mixin.py:190} INFO - [2025-12-16T12:37:54.935+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py
+[2025-12-16T12:37:54.951+0530] {processor.py:925} INFO - DAG(s) 'spotify_streaming_pipeline' retrieved from /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py
+[2025-12-16T12:37:55.014+0530] {logging_mixin.py:190} INFO - [2025-12-16T12:37:55.013+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-16T12:37:55.061+0530] {logging_mixin.py:190} INFO - [2025-12-16T12:37:55.060+0530] {dag.py:4180} INFO - Setting next_dagrun for spotify_streaming_pipeline to 2025-12-16 07:00:00+00:00, run_after=2025-12-16 08:00:00+00:00
+[2025-12-16T12:37:55.101+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py took 0.181 seconds
+[2025-12-16T12:39:32.628+0530] {processor.py:186} INFO - Started process (PID=30224) to work on /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py
+[2025-12-16T12:39:32.629+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py for tasks to queue
+[2025-12-16T12:39:32.630+0530] {logging_mixin.py:190} INFO - [2025-12-16T12:39:32.630+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py
+[2025-12-16T12:39:32.637+0530] {processor.py:925} INFO - DAG(s) 'spotify_streaming_pipeline' retrieved from /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py
+[2025-12-16T12:39:32.661+0530] {logging_mixin.py:190} INFO - [2025-12-16T12:39:32.661+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-16T12:39:32.680+0530] {logging_mixin.py:190} INFO - [2025-12-16T12:39:32.680+0530] {dag.py:4180} INFO - Setting next_dagrun for spotify_streaming_pipeline to 2025-12-16 07:00:00+00:00, run_after=2025-12-16 08:00:00+00:00
+[2025-12-16T12:39:32.698+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py took 0.076 seconds
+[2025-12-16T12:40:31.995+0530] {processor.py:186} INFO - Started process (PID=30681) to work on /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py
+[2025-12-16T12:40:31.996+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py for tasks to queue
+[2025-12-16T12:40:31.997+0530] {logging_mixin.py:190} INFO - [2025-12-16T12:40:31.997+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py
+[2025-12-16T12:40:32.004+0530] {processor.py:925} INFO - DAG(s) 'spotify_streaming_pipeline' retrieved from /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py
+[2025-12-16T12:40:32.020+0530] {logging_mixin.py:190} INFO - [2025-12-16T12:40:32.020+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-16T12:40:32.039+0530] {logging_mixin.py:190} INFO - [2025-12-16T12:40:32.039+0530] {dag.py:4180} INFO - Setting next_dagrun for spotify_streaming_pipeline to 2025-12-16 07:00:00+00:00, run_after=2025-12-16 08:00:00+00:00
+[2025-12-16T12:40:32.064+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py took 0.077 seconds
+[2025-12-16T12:41:28.773+0530] {processor.py:186} INFO - Started process (PID=31086) to work on /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py
+[2025-12-16T12:41:28.774+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py for tasks to queue
+[2025-12-16T12:41:28.775+0530] {logging_mixin.py:190} INFO - [2025-12-16T12:41:28.775+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py
+[2025-12-16T12:41:28.781+0530] {processor.py:925} INFO - DAG(s) 'spotify_streaming_pipeline' retrieved from /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py
+[2025-12-16T12:41:28.798+0530] {logging_mixin.py:190} INFO - [2025-12-16T12:41:28.797+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-16T12:41:28.816+0530] {logging_mixin.py:190} INFO - [2025-12-16T12:41:28.816+0530] {dag.py:4180} INFO - Setting next_dagrun for spotify_streaming_pipeline to 2025-12-16 07:00:00+00:00, run_after=2025-12-16 08:00:00+00:00
+[2025-12-16T12:41:28.836+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py took 0.070 seconds
+[2025-12-16T12:42:28.759+0530] {processor.py:186} INFO - Started process (PID=31524) to work on /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py
+[2025-12-16T12:42:28.760+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py for tasks to queue
+[2025-12-16T12:42:28.761+0530] {logging_mixin.py:190} INFO - [2025-12-16T12:42:28.761+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py
+[2025-12-16T12:42:28.768+0530] {processor.py:925} INFO - DAG(s) 'spotify_streaming_pipeline' retrieved from /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py
+[2025-12-16T12:42:28.785+0530] {logging_mixin.py:190} INFO - [2025-12-16T12:42:28.784+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-16T12:42:28.932+0530] {logging_mixin.py:190} INFO - [2025-12-16T12:42:28.932+0530] {dag.py:4180} INFO - Setting next_dagrun for spotify_streaming_pipeline to 2025-12-16 07:00:00+00:00, run_after=2025-12-16 08:00:00+00:00
+[2025-12-16T12:42:28.948+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py took 0.196 seconds
+[2025-12-16T12:43:03.956+0530] {processor.py:186} INFO - Started process (PID=31814) to work on /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py
+[2025-12-16T12:43:03.958+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py for tasks to queue
+[2025-12-16T12:43:03.960+0530] {logging_mixin.py:190} INFO - [2025-12-16T12:43:03.959+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py
+[2025-12-16T12:43:03.973+0530] {processor.py:925} INFO - DAG(s) 'spotify_streaming_pipeline' retrieved from /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py
+[2025-12-16T12:43:04.222+0530] {logging_mixin.py:190} INFO - [2025-12-16T12:43:04.221+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-16T12:43:04.264+0530] {logging_mixin.py:190} INFO - [2025-12-16T12:43:04.263+0530] {dag.py:4180} INFO - Setting next_dagrun for spotify_streaming_pipeline to 2025-12-16 07:00:00+00:00, run_after=2025-12-16 08:00:00+00:00
+[2025-12-16T12:43:04.306+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py took 0.361 seconds
+[2025-12-16T12:45:08.300+0530] {processor.py:186} INFO - Started process (PID=33837) to work on /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py
+[2025-12-16T12:45:08.301+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py for tasks to queue
+[2025-12-16T12:45:08.302+0530] {logging_mixin.py:190} INFO - [2025-12-16T12:45:08.302+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py
+[2025-12-16T12:45:08.309+0530] {processor.py:925} INFO - DAG(s) 'spotify_streaming_pipeline' retrieved from /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py
+[2025-12-16T12:45:08.326+0530] {logging_mixin.py:190} INFO - [2025-12-16T12:45:08.326+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-16T12:45:08.346+0530] {logging_mixin.py:190} INFO - [2025-12-16T12:45:08.345+0530] {dag.py:4180} INFO - Setting next_dagrun for spotify_streaming_pipeline to 2025-12-16 07:00:00+00:00, run_after=2025-12-16 08:00:00+00:00
+[2025-12-16T12:45:08.366+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py took 0.074 seconds
+[2025-12-16T12:45:47.022+0530] {processor.py:186} INFO - Started process (PID=33985) to work on /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py
+[2025-12-16T12:45:47.023+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py for tasks to queue
+[2025-12-16T12:45:47.025+0530] {logging_mixin.py:190} INFO - [2025-12-16T12:45:47.024+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py
+[2025-12-16T12:45:47.031+0530] {processor.py:925} INFO - DAG(s) 'spotify_streaming_pipeline' retrieved from /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py
+[2025-12-16T12:45:47.048+0530] {logging_mixin.py:190} INFO - [2025-12-16T12:45:47.048+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-16T12:45:47.067+0530] {logging_mixin.py:190} INFO - [2025-12-16T12:45:47.067+0530] {dag.py:4180} INFO - Setting next_dagrun for spotify_streaming_pipeline to 2025-12-16 07:00:00+00:00, run_after=2025-12-16 08:00:00+00:00
+[2025-12-16T12:45:47.085+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py took 0.069 seconds
+[2025-12-16T12:46:42.873+0530] {processor.py:186} INFO - Started process (PID=34043) to work on /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py
+[2025-12-16T12:46:42.884+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py for tasks to queue
+[2025-12-16T12:46:42.886+0530] {logging_mixin.py:190} INFO - [2025-12-16T12:46:42.885+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py
+[2025-12-16T12:46:42.893+0530] {processor.py:925} INFO - DAG(s) 'spotify_streaming_pipeline' retrieved from /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py
+[2025-12-16T12:46:42.910+0530] {logging_mixin.py:190} INFO - [2025-12-16T12:46:42.910+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-16T12:46:42.929+0530] {logging_mixin.py:190} INFO - [2025-12-16T12:46:42.928+0530] {dag.py:4180} INFO - Setting next_dagrun for spotify_streaming_pipeline to 2025-12-16 07:00:00+00:00, run_after=2025-12-16 08:00:00+00:00
+[2025-12-16T12:46:42.944+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py took 0.078 seconds
+[2025-12-16T12:47:37.198+0530] {processor.py:186} INFO - Started process (PID=34119) to work on /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py
+[2025-12-16T12:47:37.199+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py for tasks to queue
+[2025-12-16T12:47:37.202+0530] {logging_mixin.py:190} INFO - [2025-12-16T12:47:37.201+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py
+[2025-12-16T12:47:37.214+0530] {processor.py:925} INFO - DAG(s) 'spotify_streaming_pipeline' retrieved from /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py
+[2025-12-16T12:47:37.243+0530] {logging_mixin.py:190} INFO - [2025-12-16T12:47:37.242+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-16T12:47:37.274+0530] {logging_mixin.py:190} INFO - [2025-12-16T12:47:37.273+0530] {dag.py:4180} INFO - Setting next_dagrun for spotify_streaming_pipeline to 2025-12-16 07:00:00+00:00, run_after=2025-12-16 08:00:00+00:00
+[2025-12-16T12:47:37.298+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py took 0.111 seconds
+[2025-12-16T12:48:32.765+0530] {processor.py:186} INFO - Started process (PID=34181) to work on /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py
+[2025-12-16T12:48:32.776+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py for tasks to queue
+[2025-12-16T12:48:32.778+0530] {logging_mixin.py:190} INFO - [2025-12-16T12:48:32.777+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py
+[2025-12-16T12:48:32.785+0530] {processor.py:925} INFO - DAG(s) 'spotify_streaming_pipeline' retrieved from /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py
+[2025-12-16T12:48:32.802+0530] {logging_mixin.py:190} INFO - [2025-12-16T12:48:32.801+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-16T12:48:32.820+0530] {logging_mixin.py:190} INFO - [2025-12-16T12:48:32.820+0530] {dag.py:4180} INFO - Setting next_dagrun for spotify_streaming_pipeline to 2025-12-16 07:00:00+00:00, run_after=2025-12-16 08:00:00+00:00
+[2025-12-16T12:48:32.837+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py took 0.082 seconds
+[2025-12-16T12:49:29.529+0530] {processor.py:186} INFO - Started process (PID=34244) to work on /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py
+[2025-12-16T12:49:29.530+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py for tasks to queue
+[2025-12-16T12:49:29.532+0530] {logging_mixin.py:190} INFO - [2025-12-16T12:49:29.531+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py
+[2025-12-16T12:49:29.538+0530] {processor.py:925} INFO - DAG(s) 'spotify_streaming_pipeline' retrieved from /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py
+[2025-12-16T12:49:29.554+0530] {logging_mixin.py:190} INFO - [2025-12-16T12:49:29.554+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-16T12:49:29.573+0530] {logging_mixin.py:190} INFO - [2025-12-16T12:49:29.573+0530] {dag.py:4180} INFO - Setting next_dagrun for spotify_streaming_pipeline to 2025-12-16 07:00:00+00:00, run_after=2025-12-16 08:00:00+00:00
+[2025-12-16T12:49:29.590+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py took 0.067 seconds
+[2025-12-16T12:50:23.658+0530] {processor.py:186} INFO - Started process (PID=34367) to work on /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py
+[2025-12-16T12:50:23.659+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py for tasks to queue
+[2025-12-16T12:50:23.661+0530] {logging_mixin.py:190} INFO - [2025-12-16T12:50:23.660+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py
+[2025-12-16T12:50:23.667+0530] {processor.py:925} INFO - DAG(s) 'spotify_streaming_pipeline' retrieved from /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py
+[2025-12-16T12:50:23.682+0530] {logging_mixin.py:190} INFO - [2025-12-16T12:50:23.682+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-16T12:50:23.701+0530] {logging_mixin.py:190} INFO - [2025-12-16T12:50:23.701+0530] {dag.py:4180} INFO - Setting next_dagrun for spotify_streaming_pipeline to 2025-12-16 07:00:00+00:00, run_after=2025-12-16 08:00:00+00:00
+[2025-12-16T12:50:23.724+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py took 0.072 seconds
+[2025-12-16T12:51:23.288+0530] {processor.py:186} INFO - Started process (PID=34502) to work on /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py
+[2025-12-16T12:51:23.299+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py for tasks to queue
+[2025-12-16T12:51:23.300+0530] {logging_mixin.py:190} INFO - [2025-12-16T12:51:23.300+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py
+[2025-12-16T12:51:23.308+0530] {processor.py:925} INFO - DAG(s) 'spotify_streaming_pipeline' retrieved from /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py
+[2025-12-16T12:51:23.329+0530] {logging_mixin.py:190} INFO - [2025-12-16T12:51:23.329+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-16T12:51:23.352+0530] {logging_mixin.py:190} INFO - [2025-12-16T12:51:23.352+0530] {dag.py:4180} INFO - Setting next_dagrun for spotify_streaming_pipeline to 2025-12-16 07:00:00+00:00, run_after=2025-12-16 08:00:00+00:00
+[2025-12-16T12:51:23.372+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py took 0.090 seconds
+[2025-12-16T12:52:15.232+0530] {processor.py:186} INFO - Started process (PID=35175) to work on /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py
+[2025-12-16T12:52:15.233+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py for tasks to queue
+[2025-12-16T12:52:15.234+0530] {logging_mixin.py:190} INFO - [2025-12-16T12:52:15.234+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py
+[2025-12-16T12:52:15.241+0530] {processor.py:925} INFO - DAG(s) 'spotify_streaming_pipeline' retrieved from /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py
+[2025-12-16T12:52:15.257+0530] {logging_mixin.py:190} INFO - [2025-12-16T12:52:15.257+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-16T12:52:15.276+0530] {logging_mixin.py:190} INFO - [2025-12-16T12:52:15.275+0530] {dag.py:4180} INFO - Setting next_dagrun for spotify_streaming_pipeline to 2025-12-16 07:00:00+00:00, run_after=2025-12-16 08:00:00+00:00
+[2025-12-16T12:52:15.298+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py took 0.078 seconds
+[2025-12-16T12:53:08.027+0530] {processor.py:186} INFO - Started process (PID=35563) to work on /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py
+[2025-12-16T12:53:08.028+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py for tasks to queue
+[2025-12-16T12:53:08.029+0530] {logging_mixin.py:190} INFO - [2025-12-16T12:53:08.029+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py
+[2025-12-16T12:53:08.036+0530] {processor.py:925} INFO - DAG(s) 'spotify_streaming_pipeline' retrieved from /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py
+[2025-12-16T12:53:08.053+0530] {logging_mixin.py:190} INFO - [2025-12-16T12:53:08.053+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-16T12:53:08.072+0530] {logging_mixin.py:190} INFO - [2025-12-16T12:53:08.072+0530] {dag.py:4180} INFO - Setting next_dagrun for spotify_streaming_pipeline to 2025-12-16 07:00:00+00:00, run_after=2025-12-16 08:00:00+00:00
+[2025-12-16T12:53:08.092+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py took 0.073 seconds
+[2025-12-16T12:54:01.690+0530] {processor.py:186} INFO - Started process (PID=35953) to work on /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py
+[2025-12-16T12:54:01.691+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py for tasks to queue
+[2025-12-16T12:54:01.692+0530] {logging_mixin.py:190} INFO - [2025-12-16T12:54:01.692+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py
+[2025-12-16T12:54:01.699+0530] {processor.py:925} INFO - DAG(s) 'spotify_streaming_pipeline' retrieved from /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py
+[2025-12-16T12:54:01.716+0530] {logging_mixin.py:190} INFO - [2025-12-16T12:54:01.715+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-16T12:54:01.735+0530] {logging_mixin.py:190} INFO - [2025-12-16T12:54:01.735+0530] {dag.py:4180} INFO - Setting next_dagrun for spotify_streaming_pipeline to 2025-12-16 07:00:00+00:00, run_after=2025-12-16 08:00:00+00:00
+[2025-12-16T12:54:01.755+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py took 0.072 seconds
+[2025-12-16T12:54:57.520+0530] {processor.py:186} INFO - Started process (PID=36340) to work on /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py
+[2025-12-16T12:54:57.522+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py for tasks to queue
+[2025-12-16T12:54:57.523+0530] {logging_mixin.py:190} INFO - [2025-12-16T12:54:57.522+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py
+[2025-12-16T12:54:57.529+0530] {processor.py:925} INFO - DAG(s) 'spotify_streaming_pipeline' retrieved from /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py
+[2025-12-16T12:54:57.546+0530] {logging_mixin.py:190} INFO - [2025-12-16T12:54:57.546+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-16T12:54:57.564+0530] {logging_mixin.py:190} INFO - [2025-12-16T12:54:57.564+0530] {dag.py:4180} INFO - Setting next_dagrun for spotify_streaming_pipeline to 2025-12-16 07:00:00+00:00, run_after=2025-12-16 08:00:00+00:00
+[2025-12-16T12:54:57.582+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py took 0.068 seconds
+[2025-12-16T12:55:52.422+0530] {processor.py:186} INFO - Started process (PID=36733) to work on /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py
+[2025-12-16T12:55:52.423+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py for tasks to queue
+[2025-12-16T12:55:52.425+0530] {logging_mixin.py:190} INFO - [2025-12-16T12:55:52.425+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py
+[2025-12-16T12:55:52.432+0530] {processor.py:925} INFO - DAG(s) 'spotify_streaming_pipeline' retrieved from /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py
+[2025-12-16T12:55:52.448+0530] {logging_mixin.py:190} INFO - [2025-12-16T12:55:52.448+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-16T12:55:52.467+0530] {logging_mixin.py:190} INFO - [2025-12-16T12:55:52.467+0530] {dag.py:4180} INFO - Setting next_dagrun for spotify_streaming_pipeline to 2025-12-16 07:00:00+00:00, run_after=2025-12-16 08:00:00+00:00
+[2025-12-16T12:55:52.485+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py took 0.074 seconds
+[2025-12-16T12:56:49.792+0530] {processor.py:186} INFO - Started process (PID=37137) to work on /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py
+[2025-12-16T12:56:49.793+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py for tasks to queue
+[2025-12-16T12:56:49.795+0530] {logging_mixin.py:190} INFO - [2025-12-16T12:56:49.795+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py
+[2025-12-16T12:56:49.803+0530] {processor.py:925} INFO - DAG(s) 'spotify_streaming_pipeline' retrieved from /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py
+[2025-12-16T12:56:49.825+0530] {logging_mixin.py:190} INFO - [2025-12-16T12:56:49.824+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-16T12:56:49.849+0530] {logging_mixin.py:190} INFO - [2025-12-16T12:56:49.848+0530] {dag.py:4180} INFO - Setting next_dagrun for spotify_streaming_pipeline to 2025-12-16 07:00:00+00:00, run_after=2025-12-16 08:00:00+00:00
+[2025-12-16T12:56:49.866+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py took 0.081 seconds
+[2025-12-16T12:57:34.616+0530] {processor.py:186} INFO - Started process (PID=37679) to work on /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py
+[2025-12-16T12:57:34.618+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py for tasks to queue
+[2025-12-16T12:57:34.620+0530] {logging_mixin.py:190} INFO - [2025-12-16T12:57:34.619+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py
+[2025-12-16T12:57:34.628+0530] {processor.py:925} INFO - DAG(s) 'spotify_streaming_pipeline' retrieved from /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py
+[2025-12-16T12:57:34.648+0530] {logging_mixin.py:190} INFO - [2025-12-16T12:57:34.648+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-16T12:57:34.668+0530] {logging_mixin.py:190} INFO - [2025-12-16T12:57:34.667+0530] {dag.py:4180} INFO - Setting next_dagrun for spotify_streaming_pipeline to 2025-12-16 07:00:00+00:00, run_after=2025-12-16 08:00:00+00:00
+[2025-12-16T12:57:34.684+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py took 0.076 seconds
+[2025-12-16T12:58:14.961+0530] {processor.py:186} INFO - Started process (PID=37865) to work on /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py
+[2025-12-16T12:58:14.962+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py for tasks to queue
+[2025-12-16T12:58:14.963+0530] {logging_mixin.py:190} INFO - [2025-12-16T12:58:14.963+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py
+[2025-12-16T12:58:14.969+0530] {processor.py:925} INFO - DAG(s) 'spotify_streaming_pipeline' retrieved from /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py
+[2025-12-16T12:58:14.984+0530] {logging_mixin.py:190} INFO - [2025-12-16T12:58:14.984+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-16T12:58:15.002+0530] {logging_mixin.py:190} INFO - [2025-12-16T12:58:15.002+0530] {dag.py:4180} INFO - Setting next_dagrun for spotify_streaming_pipeline to 2025-12-16 07:00:00+00:00, run_after=2025-12-16 08:00:00+00:00
+[2025-12-16T12:58:15.022+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py took 0.067 seconds
+[2025-12-16T12:59:09.343+0530] {processor.py:186} INFO - Started process (PID=37990) to work on /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py
+[2025-12-16T12:59:09.346+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py for tasks to queue
+[2025-12-16T12:59:09.349+0530] {logging_mixin.py:190} INFO - [2025-12-16T12:59:09.348+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py
+[2025-12-16T12:59:09.368+0530] {processor.py:925} INFO - DAG(s) 'spotify_streaming_pipeline' retrieved from /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py
+[2025-12-16T12:59:09.403+0530] {logging_mixin.py:190} INFO - [2025-12-16T12:59:09.403+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-16T12:59:09.449+0530] {logging_mixin.py:190} INFO - [2025-12-16T12:59:09.449+0530] {dag.py:4180} INFO - Setting next_dagrun for spotify_streaming_pipeline to 2025-12-16 07:00:00+00:00, run_after=2025-12-16 08:00:00+00:00
+[2025-12-16T12:59:09.482+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py took 0.154 seconds
+[2025-12-16T13:00:09.012+0530] {processor.py:186} INFO - Started process (PID=38208) to work on /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py
+[2025-12-16T13:00:09.023+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py for tasks to queue
+[2025-12-16T13:00:09.025+0530] {logging_mixin.py:190} INFO - [2025-12-16T13:00:09.024+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py
+[2025-12-16T13:00:09.033+0530] {processor.py:925} INFO - DAG(s) 'spotify_streaming_pipeline' retrieved from /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py
+[2025-12-16T13:00:09.051+0530] {logging_mixin.py:190} INFO - [2025-12-16T13:00:09.051+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-16T13:00:09.073+0530] {logging_mixin.py:190} INFO - [2025-12-16T13:00:09.072+0530] {dag.py:4180} INFO - Setting next_dagrun for spotify_streaming_pipeline to 2025-12-16 07:00:00+00:00, run_after=2025-12-16 08:00:00+00:00
+[2025-12-16T13:00:09.091+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/airflow_home/dags/spotify_streaming_dag.py took 0.086 seconds

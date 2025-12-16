@@ -1,0 +1,155 @@
+[2025-12-10T12:02:40.656+0530] {processor.py:186} INFO - Started process (PID=11246) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-12-10T12:02:40.657+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2025-12-10T12:02:40.659+0530] {logging_mixin.py:190} INFO - [2025-12-10T12:02:40.659+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-12-10T12:02:40.670+0530] {processor.py:925} INFO - DAG(s) 'example_dag_decorator' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-12-10T12:02:40.761+0530] {logging_mixin.py:190} INFO - [2025-12-10T12:02:40.760+0530] {override.py:1900} INFO - Created Permission View: can read on DAG:example_dag_decorator
+[2025-12-10T12:02:40.770+0530] {logging_mixin.py:190} INFO - [2025-12-10T12:02:40.770+0530] {override.py:1900} INFO - Created Permission View: can delete on DAG:example_dag_decorator
+[2025-12-10T12:02:40.776+0530] {logging_mixin.py:190} INFO - [2025-12-10T12:02:40.775+0530] {override.py:1900} INFO - Created Permission View: can edit on DAG:example_dag_decorator
+[2025-12-10T12:02:40.785+0530] {logging_mixin.py:190} INFO - [2025-12-10T12:02:40.784+0530] {override.py:1900} INFO - Created Permission View: can read on DAG Run:example_dag_decorator
+[2025-12-10T12:02:40.790+0530] {logging_mixin.py:190} INFO - [2025-12-10T12:02:40.790+0530] {override.py:1900} INFO - Created Permission View: can delete on DAG Run:example_dag_decorator
+[2025-12-10T12:02:40.796+0530] {logging_mixin.py:190} INFO - [2025-12-10T12:02:40.795+0530] {override.py:1900} INFO - Created Permission View: menu access on DAG Run:example_dag_decorator
+[2025-12-10T12:02:40.802+0530] {logging_mixin.py:190} INFO - [2025-12-10T12:02:40.801+0530] {override.py:1900} INFO - Created Permission View: can create on DAG Run:example_dag_decorator
+[2025-12-10T12:02:40.802+0530] {logging_mixin.py:190} INFO - [2025-12-10T12:02:40.802+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-10T12:02:40.812+0530] {logging_mixin.py:190} INFO - [2025-12-10T12:02:40.812+0530] {dag.py:3262} INFO - Creating ORM DAG for example_dag_decorator
+[2025-12-10T12:02:40.813+0530] {logging_mixin.py:190} INFO - [2025-12-10T12:02:40.813+0530] {dag.py:4180} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2025-12-10T12:02:40.828+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_dag_decorator.py took 0.181 seconds
+[2025-12-10T12:03:39.280+0530] {processor.py:186} INFO - Started process (PID=11367) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-12-10T12:03:39.281+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2025-12-10T12:03:39.283+0530] {logging_mixin.py:190} INFO - [2025-12-10T12:03:39.283+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-12-10T12:03:39.293+0530] {processor.py:925} INFO - DAG(s) 'example_dag_decorator' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-12-10T12:03:39.383+0530] {logging_mixin.py:190} INFO - [2025-12-10T12:03:39.383+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-10T12:03:39.393+0530] {logging_mixin.py:190} INFO - [2025-12-10T12:03:39.392+0530] {dag.py:4180} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2025-12-10T12:03:39.409+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_dag_decorator.py took 0.136 seconds
+[2025-12-10T12:04:35.032+0530] {processor.py:186} INFO - Started process (PID=11454) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-12-10T12:04:35.033+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2025-12-10T12:04:35.035+0530] {logging_mixin.py:190} INFO - [2025-12-10T12:04:35.035+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-12-10T12:04:35.046+0530] {processor.py:925} INFO - DAG(s) 'example_dag_decorator' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-12-10T12:04:35.066+0530] {logging_mixin.py:190} INFO - [2025-12-10T12:04:35.065+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-10T12:04:35.077+0530] {logging_mixin.py:190} INFO - [2025-12-10T12:04:35.077+0530] {dag.py:4180} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2025-12-10T12:04:35.107+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_dag_decorator.py took 0.087 seconds
+[2025-12-10T12:05:31.619+0530] {processor.py:186} INFO - Started process (PID=11638) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-12-10T12:05:31.620+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2025-12-10T12:05:31.623+0530] {logging_mixin.py:190} INFO - [2025-12-10T12:05:31.622+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-12-10T12:05:31.633+0530] {processor.py:925} INFO - DAG(s) 'example_dag_decorator' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-12-10T12:05:31.731+0530] {logging_mixin.py:190} INFO - [2025-12-10T12:05:31.731+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-10T12:05:31.741+0530] {logging_mixin.py:190} INFO - [2025-12-10T12:05:31.741+0530] {dag.py:4180} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2025-12-10T12:05:31.759+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_dag_decorator.py took 0.151 seconds
+[2025-12-10T12:06:24.696+0530] {processor.py:186} INFO - Started process (PID=11812) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-12-10T12:06:24.708+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2025-12-10T12:06:24.713+0530] {logging_mixin.py:190} INFO - [2025-12-10T12:06:24.712+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-12-10T12:06:24.730+0530] {processor.py:925} INFO - DAG(s) 'example_dag_decorator' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-12-10T12:06:24.938+0530] {logging_mixin.py:190} INFO - [2025-12-10T12:06:24.938+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-10T12:06:24.946+0530] {logging_mixin.py:190} INFO - [2025-12-10T12:06:24.946+0530] {dag.py:4180} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2025-12-10T12:06:24.962+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_dag_decorator.py took 0.273 seconds
+[2025-12-10T12:07:47.354+0530] {processor.py:186} INFO - Started process (PID=11932) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-12-10T12:07:47.356+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2025-12-10T12:07:47.358+0530] {logging_mixin.py:190} INFO - [2025-12-10T12:07:47.358+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-12-10T12:07:47.499+0530] {processor.py:925} INFO - DAG(s) 'example_dag_decorator' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-12-10T12:07:47.599+0530] {logging_mixin.py:190} INFO - [2025-12-10T12:07:47.599+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-10T12:07:47.610+0530] {logging_mixin.py:190} INFO - [2025-12-10T12:07:47.610+0530] {dag.py:4180} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2025-12-10T12:07:47.629+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_dag_decorator.py took 0.281 seconds
+[2025-12-10T12:08:44.110+0530] {processor.py:186} INFO - Started process (PID=12081) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-12-10T12:08:44.111+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2025-12-10T12:08:44.114+0530] {logging_mixin.py:190} INFO - [2025-12-10T12:08:44.114+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-12-10T12:08:44.132+0530] {processor.py:925} INFO - DAG(s) 'example_dag_decorator' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-12-10T12:08:44.268+0530] {logging_mixin.py:190} INFO - [2025-12-10T12:08:44.268+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-10T12:08:44.280+0530] {logging_mixin.py:190} INFO - [2025-12-10T12:08:44.280+0530] {dag.py:4180} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2025-12-10T12:08:44.306+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_dag_decorator.py took 0.205 seconds
+[2025-12-10T12:09:38.384+0530] {processor.py:186} INFO - Started process (PID=12175) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-12-10T12:09:38.385+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2025-12-10T12:09:38.387+0530] {logging_mixin.py:190} INFO - [2025-12-10T12:09:38.386+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-12-10T12:09:38.398+0530] {processor.py:925} INFO - DAG(s) 'example_dag_decorator' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-12-10T12:09:38.488+0530] {logging_mixin.py:190} INFO - [2025-12-10T12:09:38.488+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-10T12:09:38.499+0530] {logging_mixin.py:190} INFO - [2025-12-10T12:09:38.499+0530] {dag.py:4180} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2025-12-10T12:09:38.516+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_dag_decorator.py took 0.142 seconds
+[2025-12-10T12:10:32.036+0530] {processor.py:186} INFO - Started process (PID=12235) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-12-10T12:10:32.037+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2025-12-10T12:10:32.039+0530] {logging_mixin.py:190} INFO - [2025-12-10T12:10:32.039+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-12-10T12:10:32.051+0530] {processor.py:925} INFO - DAG(s) 'example_dag_decorator' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-12-10T12:10:32.146+0530] {logging_mixin.py:190} INFO - [2025-12-10T12:10:32.146+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-10T12:10:32.156+0530] {logging_mixin.py:190} INFO - [2025-12-10T12:10:32.155+0530] {dag.py:4180} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2025-12-10T12:10:32.173+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_dag_decorator.py took 0.143 seconds
+[2025-12-10T12:11:27.320+0530] {processor.py:186} INFO - Started process (PID=12363) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-12-10T12:11:27.321+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2025-12-10T12:11:27.323+0530] {logging_mixin.py:190} INFO - [2025-12-10T12:11:27.322+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-12-10T12:11:27.335+0530] {processor.py:925} INFO - DAG(s) 'example_dag_decorator' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-12-10T12:11:27.428+0530] {logging_mixin.py:190} INFO - [2025-12-10T12:11:27.428+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-10T12:11:27.437+0530] {logging_mixin.py:190} INFO - [2025-12-10T12:11:27.437+0530] {dag.py:4180} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2025-12-10T12:11:27.455+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_dag_decorator.py took 0.144 seconds
+[2025-12-10T12:12:41.947+0530] {processor.py:186} INFO - Started process (PID=12472) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-12-10T12:12:41.948+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2025-12-10T12:12:41.950+0530] {logging_mixin.py:190} INFO - [2025-12-10T12:12:41.950+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-12-10T12:12:41.962+0530] {processor.py:925} INFO - DAG(s) 'example_dag_decorator' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-12-10T12:12:42.053+0530] {logging_mixin.py:190} INFO - [2025-12-10T12:12:42.052+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-10T12:12:42.063+0530] {logging_mixin.py:190} INFO - [2025-12-10T12:12:42.063+0530] {dag.py:4180} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2025-12-10T12:12:42.080+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_dag_decorator.py took 0.141 seconds
+[2025-12-10T12:13:34.609+0530] {processor.py:186} INFO - Started process (PID=12589) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-12-10T12:13:34.610+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2025-12-10T12:13:34.612+0530] {logging_mixin.py:190} INFO - [2025-12-10T12:13:34.612+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-12-10T12:13:34.624+0530] {processor.py:925} INFO - DAG(s) 'example_dag_decorator' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-12-10T12:13:34.718+0530] {logging_mixin.py:190} INFO - [2025-12-10T12:13:34.718+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-10T12:13:34.729+0530] {logging_mixin.py:190} INFO - [2025-12-10T12:13:34.729+0530] {dag.py:4180} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2025-12-10T12:13:34.747+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_dag_decorator.py took 0.145 seconds
+[2025-12-10T12:14:50.605+0530] {processor.py:186} INFO - Started process (PID=12700) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-12-10T12:14:50.606+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2025-12-10T12:14:50.609+0530] {logging_mixin.py:190} INFO - [2025-12-10T12:14:50.608+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-12-10T12:14:50.621+0530] {processor.py:925} INFO - DAG(s) 'example_dag_decorator' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-12-10T12:14:50.714+0530] {logging_mixin.py:190} INFO - [2025-12-10T12:14:50.713+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-10T12:14:50.723+0530] {logging_mixin.py:190} INFO - [2025-12-10T12:14:50.723+0530] {dag.py:4180} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2025-12-10T12:14:50.740+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_dag_decorator.py took 0.142 seconds
+[2025-12-10T12:16:07.104+0530] {processor.py:186} INFO - Started process (PID=12843) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-12-10T12:16:07.105+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2025-12-10T12:16:07.108+0530] {logging_mixin.py:190} INFO - [2025-12-10T12:16:07.107+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-12-10T12:16:07.119+0530] {processor.py:925} INFO - DAG(s) 'example_dag_decorator' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-12-10T12:16:07.210+0530] {logging_mixin.py:190} INFO - [2025-12-10T12:16:07.209+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-10T12:16:07.219+0530] {logging_mixin.py:190} INFO - [2025-12-10T12:16:07.219+0530] {dag.py:4180} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2025-12-10T12:16:07.236+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_dag_decorator.py took 0.138 seconds
+[2025-12-10T12:17:24.634+0530] {processor.py:186} INFO - Started process (PID=12958) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-12-10T12:17:24.635+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2025-12-10T12:17:24.637+0530] {logging_mixin.py:190} INFO - [2025-12-10T12:17:24.637+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-12-10T12:17:24.649+0530] {processor.py:925} INFO - DAG(s) 'example_dag_decorator' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-12-10T12:17:24.741+0530] {logging_mixin.py:190} INFO - [2025-12-10T12:17:24.740+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-10T12:17:24.750+0530] {logging_mixin.py:190} INFO - [2025-12-10T12:17:24.750+0530] {dag.py:4180} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2025-12-10T12:17:24.767+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_dag_decorator.py took 0.143 seconds
+[2025-12-10T12:18:18.475+0530] {processor.py:186} INFO - Started process (PID=13014) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-12-10T12:18:18.476+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2025-12-10T12:18:18.478+0530] {logging_mixin.py:190} INFO - [2025-12-10T12:18:18.477+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-12-10T12:18:18.489+0530] {processor.py:925} INFO - DAG(s) 'example_dag_decorator' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-12-10T12:18:18.580+0530] {logging_mixin.py:190} INFO - [2025-12-10T12:18:18.580+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-10T12:18:18.589+0530] {logging_mixin.py:190} INFO - [2025-12-10T12:18:18.589+0530] {dag.py:4180} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2025-12-10T12:18:18.606+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_dag_decorator.py took 0.137 seconds
+[2025-12-10T12:19:12.059+0530] {processor.py:186} INFO - Started process (PID=13071) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-12-10T12:19:12.060+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2025-12-10T12:19:12.063+0530] {logging_mixin.py:190} INFO - [2025-12-10T12:19:12.062+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-12-10T12:19:12.074+0530] {processor.py:925} INFO - DAG(s) 'example_dag_decorator' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-12-10T12:19:12.165+0530] {logging_mixin.py:190} INFO - [2025-12-10T12:19:12.165+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-10T12:19:12.174+0530] {logging_mixin.py:190} INFO - [2025-12-10T12:19:12.174+0530] {dag.py:4180} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2025-12-10T12:19:12.193+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_dag_decorator.py took 0.145 seconds
+[2025-12-10T12:20:28.534+0530] {processor.py:186} INFO - Started process (PID=13160) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-12-10T12:20:28.535+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2025-12-10T12:20:28.537+0530] {logging_mixin.py:190} INFO - [2025-12-10T12:20:28.536+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-12-10T12:20:28.548+0530] {processor.py:925} INFO - DAG(s) 'example_dag_decorator' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-12-10T12:20:28.639+0530] {logging_mixin.py:190} INFO - [2025-12-10T12:20:28.638+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-10T12:20:28.648+0530] {logging_mixin.py:190} INFO - [2025-12-10T12:20:28.648+0530] {dag.py:4180} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2025-12-10T12:20:28.666+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_dag_decorator.py took 0.143 seconds
+[2025-12-10T12:21:48.507+0530] {processor.py:186} INFO - Started process (PID=13349) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-12-10T12:21:48.508+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2025-12-10T12:21:48.510+0530] {logging_mixin.py:190} INFO - [2025-12-10T12:21:48.509+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-12-10T12:21:48.521+0530] {processor.py:925} INFO - DAG(s) 'example_dag_decorator' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-12-10T12:21:48.612+0530] {logging_mixin.py:190} INFO - [2025-12-10T12:21:48.612+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-10T12:21:48.621+0530] {logging_mixin.py:190} INFO - [2025-12-10T12:21:48.621+0530] {dag.py:4180} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2025-12-10T12:21:48.637+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_dag_decorator.py took 0.142 seconds
+[2025-12-10T12:23:06.423+0530] {processor.py:186} INFO - Started process (PID=13628) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-12-10T12:23:06.424+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2025-12-10T12:23:06.427+0530] {logging_mixin.py:190} INFO - [2025-12-10T12:23:06.426+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-12-10T12:23:06.439+0530] {processor.py:925} INFO - DAG(s) 'example_dag_decorator' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-12-10T12:23:06.552+0530] {logging_mixin.py:190} INFO - [2025-12-10T12:23:06.551+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-10T12:23:06.563+0530] {logging_mixin.py:190} INFO - [2025-12-10T12:23:06.562+0530] {dag.py:4180} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2025-12-10T12:23:06.585+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_dag_decorator.py took 0.168 seconds
+[2025-12-10T12:24:24.443+0530] {processor.py:186} INFO - Started process (PID=13713) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-12-10T12:24:24.454+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2025-12-10T12:24:24.457+0530] {logging_mixin.py:190} INFO - [2025-12-10T12:24:24.456+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-12-10T12:24:24.469+0530] {processor.py:925} INFO - DAG(s) 'example_dag_decorator' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-12-10T12:24:24.562+0530] {logging_mixin.py:190} INFO - [2025-12-10T12:24:24.562+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-10T12:24:24.571+0530] {logging_mixin.py:190} INFO - [2025-12-10T12:24:24.571+0530] {dag.py:4180} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2025-12-10T12:24:24.588+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_dag_decorator.py took 0.152 seconds
