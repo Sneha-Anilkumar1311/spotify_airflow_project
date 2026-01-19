@@ -1,0 +1,33 @@
+[2026-01-07T11:55:33.391+0530] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2026-01-07T11:55:33.400+0530] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: spotify_streaming_pipeline.run_spotify_producer scheduled__2026-01-07T05:00:00+00:00 [queued]>
+[2026-01-07T11:55:33.405+0530] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: spotify_streaming_pipeline.run_spotify_producer scheduled__2026-01-07T05:00:00+00:00 [queued]>
+[2026-01-07T11:55:33.405+0530] {taskinstance.py:2865} INFO - Starting attempt 2 of 2
+[2026-01-07T11:55:33.417+0530] {taskinstance.py:2888} INFO - Executing <Task(BashOperator): run_spotify_producer> on 2026-01-07 05:00:00+00:00
+[2026-01-07T11:55:33.423+0530] {standard_task_runner.py:72} INFO - Started process 11773 to run task
+[2026-01-07T11:55:33.429+0530] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'spotify_streaming_pipeline', 'run_spotify_producer', 'scheduled__2026-01-07T05:00:00+00:00', '--job-id', '129', '--raw', '--subdir', 'DAGS_FOLDER/spotify_streaming_dag.py', '--cfg-path', '/tmp/tmppq8jxwms']
+[2026-01-07T11:55:33.430+0530] {standard_task_runner.py:105} INFO - Job 129: Subtask run_spotify_producer
+[2026-01-07T11:55:33.469+0530] {task_command.py:467} INFO - Running <TaskInstance: spotify_streaming_pipeline.run_spotify_producer scheduled__2026-01-07T05:00:00+00:00 [running]> on host sneha-HP-Laptop-15s-eq1xxx
+[2026-01-07T11:55:33.525+0530] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='sneha' AIRFLOW_CTX_DAG_ID='spotify_streaming_pipeline' AIRFLOW_CTX_TASK_ID='run_spotify_producer' AIRFLOW_CTX_EXECUTION_DATE='2026-01-07T05:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2026-01-07T05:00:00+00:00'
+[2026-01-07T11:55:33.526+0530] {logging_mixin.py:190} INFO - Task instance is in running state
+[2026-01-07T11:55:33.526+0530] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2026-01-07T11:55:33.527+0530] {logging_mixin.py:190} INFO - Current task name:run_spotify_producer state:running start_date:2026-01-07 06:25:33.400598+00:00
+[2026-01-07T11:55:33.527+0530] {logging_mixin.py:190} INFO - Dag name:spotify_streaming_pipeline and current dag run status:running
+[2026-01-07T11:55:33.527+0530] {taskinstance.py:731} INFO - ::endgroup::
+[2026-01-07T11:55:33.528+0530] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2026-01-07T11:55:33.528+0530] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'python /home/sneha/spotify_airflow_project/scripts/producer_airflow.py']
+[2026-01-07T11:55:33.545+0530] {subprocess.py:86} INFO - Output:
+[2026-01-07T11:55:40.773+0530] {subprocess.py:93} INFO - Sending: {'track_name': 'NIZHAL', 'artist': 'Job Kurian', 'album': 'NIZHAL', 'played_at': '2026-01-06T09:29:22.867Z'}
+[2026-01-07T11:55:40.774+0530] {subprocess.py:93} INFO - Sending: {'track_name': 'Etho Ramazhayo', 'artist': 'Srinath Vijay', 'album': 'Dexter - Malayalam (Original Motion Picture Soundtrack)', 'played_at': '2026-01-06T09:23:40.095Z'}
+[2026-01-07T11:55:40.774+0530] {subprocess.py:93} INFO - Sending: {'track_name': 'Ee Ulakin (From "King of Kotha")', 'artist': 'Shaan Rahman', 'album': 'Ee Ulakin (From "King of Kotha")', 'played_at': '2026-01-06T09:18:35.644Z'}
+[2026-01-07T11:55:40.775+0530] {subprocess.py:93} INFO - Sending: {'track_name': 'Nee Ennil (From "United Kingdom Of Kerala")', 'artist': 'Rajesh Murugesan', 'album': 'Nee Ennil (From "United Kingdom Of Kerala")', 'played_at': '2026-01-06T09:13:05.655Z'}
+[2026-01-07T11:55:40.775+0530] {subprocess.py:93} INFO - Sending: {'track_name': 'Innente Muttathu (From "Oru Wayanadan Pranayakadha")', 'artist': 'Vijay Yesudas', 'album': 'Innente Muttathu (From "Oru Wayanadan Pranayakadha") - Single', 'played_at': '2026-01-06T09:09:08.913Z'}
+[2026-01-07T11:55:40.845+0530] {subprocess.py:97} INFO - Command exited with return code 0
+[2026-01-07T11:55:40.868+0530] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2026-01-07T11:55:40.869+0530] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=spotify_streaming_pipeline, task_id=run_spotify_producer, run_id=scheduled__2026-01-07T05:00:00+00:00, execution_date=20260107T050000, start_date=20260107T062533, end_date=20260107T062540
+[2026-01-07T11:55:40.884+0530] {logging_mixin.py:190} INFO - Task instance in success state
+[2026-01-07T11:55:40.885+0530] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2026-01-07T11:55:40.886+0530] {logging_mixin.py:190} INFO - Dag name:spotify_streaming_pipeline queued_at:2026-01-07 06:16:50.521827+00:00
+[2026-01-07T11:55:40.886+0530] {logging_mixin.py:190} INFO - Task hostname:sneha-HP-Laptop-15s-eq1xxx operator:BashOperator
+[2026-01-07T11:55:40.916+0530] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2026-01-07T11:55:40.944+0530] {taskinstance.py:3900} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2026-01-07T11:55:40.947+0530] {local_task_job_runner.py:245} INFO - ::endgroup::

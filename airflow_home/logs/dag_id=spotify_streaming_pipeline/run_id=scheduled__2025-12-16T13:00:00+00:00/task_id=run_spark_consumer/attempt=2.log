@@ -1,0 +1,139 @@
+[2025-12-16T19:35:48.181+0530] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-12-16T19:35:48.205+0530] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: spotify_streaming_pipeline.run_spark_consumer scheduled__2025-12-16T13:00:00+00:00 [queued]>
+[2025-12-16T19:35:48.221+0530] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: spotify_streaming_pipeline.run_spark_consumer scheduled__2025-12-16T13:00:00+00:00 [queued]>
+[2025-12-16T19:35:48.222+0530] {taskinstance.py:2865} INFO - Starting attempt 2 of 2
+[2025-12-16T19:35:48.247+0530] {taskinstance.py:2888} INFO - Executing <Task(BashOperator): run_spark_consumer> on 2025-12-16 13:00:00+00:00
+[2025-12-16T19:35:48.261+0530] {standard_task_runner.py:72} INFO - Started process 30855 to run task
+[2025-12-16T19:35:48.274+0530] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'spotify_streaming_pipeline', 'run_spark_consumer', 'scheduled__2025-12-16T13:00:00+00:00', '--job-id', '73', '--raw', '--subdir', 'DAGS_FOLDER/spotify_streaming_dag.py', '--cfg-path', '/tmp/tmpyjh4d303']
+[2025-12-16T19:35:48.278+0530] {standard_task_runner.py:105} INFO - Job 73: Subtask run_spark_consumer
+[2025-12-16T19:35:48.362+0530] {task_command.py:467} INFO - Running <TaskInstance: spotify_streaming_pipeline.run_spark_consumer scheduled__2025-12-16T13:00:00+00:00 [running]> on host sneha-HP-Laptop-15s-eq1xxx
+[2025-12-16T19:35:48.497+0530] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='sneha' AIRFLOW_CTX_DAG_ID='spotify_streaming_pipeline' AIRFLOW_CTX_TASK_ID='run_spark_consumer' AIRFLOW_CTX_EXECUTION_DATE='2025-12-16T13:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-12-16T13:00:00+00:00'
+[2025-12-16T19:35:48.499+0530] {logging_mixin.py:190} INFO - Task instance is in running state
+[2025-12-16T19:35:48.500+0530] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2025-12-16T19:35:48.500+0530] {logging_mixin.py:190} INFO - Current task name:run_spark_consumer state:running start_date:2025-12-16 14:05:48.206328+00:00
+[2025-12-16T19:35:48.500+0530] {logging_mixin.py:190} INFO - Dag name:spotify_streaming_pipeline and current dag run status:running
+[2025-12-16T19:35:48.501+0530] {taskinstance.py:731} INFO - ::endgroup::
+[2025-12-16T19:35:48.502+0530] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2025-12-16T19:35:48.503+0530] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', '\n        spark-submit         /home/sneha/spotify_airflow_project/scripts/spark_consumer_airflow.py\n        ']
+[2025-12-16T19:35:48.534+0530] {subprocess.py:86} INFO - Output:
+[2025-12-16T19:35:53.304+0530] {subprocess.py:93} INFO - 25/12/16 19:35:53 WARN Utils: Your hostname, sneha-HP-Laptop-15s-eq1xxx resolves to a loopback address: 127.0.1.1; using 192.168.29.11 instead (on interface wlo1)
+[2025-12-16T19:35:53.309+0530] {subprocess.py:93} INFO - 25/12/16 19:35:53 WARN Utils: Set SPARK_LOCAL_IP if you need to bind to another address
+[2025-12-16T19:36:00.229+0530] {subprocess.py:93} INFO - 25/12/16 19:36:00 INFO SparkContext: Running Spark version 3.4.4
+[2025-12-16T19:36:00.480+0530] {subprocess.py:93} INFO - 25/12/16 19:36:00 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+[2025-12-16T19:36:00.722+0530] {subprocess.py:93} INFO - 25/12/16 19:36:00 INFO ResourceUtils: ==============================================================
+[2025-12-16T19:36:00.723+0530] {subprocess.py:93} INFO - 25/12/16 19:36:00 INFO ResourceUtils: No custom resources configured for spark.driver.
+[2025-12-16T19:36:00.725+0530] {subprocess.py:93} INFO - 25/12/16 19:36:00 INFO ResourceUtils: ==============================================================
+[2025-12-16T19:36:00.726+0530] {subprocess.py:93} INFO - 25/12/16 19:36:00 INFO SparkContext: Submitted application: spotify_streaming_airflow
+[2025-12-16T19:36:00.788+0530] {subprocess.py:93} INFO - 25/12/16 19:36:00 INFO ResourceProfile: Default ResourceProfile created, executor resources: Map(cores -> name: cores, amount: 1, script: , vendor: , memory -> name: memory, amount: 1024, script: , vendor: , offHeap -> name: offHeap, amount: 0, script: , vendor: ), task resources: Map(cpus -> name: cpus, amount: 1.0)
+[2025-12-16T19:36:00.815+0530] {subprocess.py:93} INFO - 25/12/16 19:36:00 INFO ResourceProfile: Limiting resource is cpu
+[2025-12-16T19:36:00.817+0530] {subprocess.py:93} INFO - 25/12/16 19:36:00 INFO ResourceProfileManager: Added ResourceProfile id: 0
+[2025-12-16T19:36:00.975+0530] {subprocess.py:93} INFO - 25/12/16 19:36:00 INFO SecurityManager: Changing view acls to: sneha
+[2025-12-16T19:36:00.975+0530] {subprocess.py:93} INFO - 25/12/16 19:36:00 INFO SecurityManager: Changing modify acls to: sneha
+[2025-12-16T19:36:00.978+0530] {subprocess.py:93} INFO - 25/12/16 19:36:00 INFO SecurityManager: Changing view acls groups to:
+[2025-12-16T19:36:00.978+0530] {subprocess.py:93} INFO - 25/12/16 19:36:00 INFO SecurityManager: Changing modify acls groups to:
+[2025-12-16T19:36:00.979+0530] {subprocess.py:93} INFO - 25/12/16 19:36:00 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users with view permissions: sneha; groups with view permissions: EMPTY; users with modify permissions: sneha; groups with modify permissions: EMPTY
+[2025-12-16T19:36:01.494+0530] {subprocess.py:93} INFO - 25/12/16 19:36:01 INFO Utils: Successfully started service 'sparkDriver' on port 45813.
+[2025-12-16T19:36:01.592+0530] {subprocess.py:93} INFO - 25/12/16 19:36:01 INFO SparkEnv: Registering MapOutputTracker
+[2025-12-16T19:36:01.758+0530] {subprocess.py:93} INFO - 25/12/16 19:36:01 INFO SparkEnv: Registering BlockManagerMaster
+[2025-12-16T19:36:01.807+0530] {subprocess.py:93} INFO - 25/12/16 19:36:01 INFO BlockManagerMasterEndpoint: Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+[2025-12-16T19:36:01.810+0530] {subprocess.py:93} INFO - 25/12/16 19:36:01 INFO BlockManagerMasterEndpoint: BlockManagerMasterEndpoint up
+[2025-12-16T19:36:01.821+0530] {subprocess.py:93} INFO - 25/12/16 19:36:01 INFO SparkEnv: Registering BlockManagerMasterHeartbeat
+[2025-12-16T19:36:01.885+0530] {subprocess.py:93} INFO - 25/12/16 19:36:01 INFO DiskBlockManager: Created local directory at /tmp/blockmgr-1e723e63-6e7c-43f9-addb-b39cfd0747bb
+[2025-12-16T19:36:02.032+0530] {subprocess.py:93} INFO - 25/12/16 19:36:02 INFO MemoryStore: MemoryStore started with capacity 366.3 MiB
+[2025-12-16T19:36:02.084+0530] {subprocess.py:93} INFO - 25/12/16 19:36:02 INFO SparkEnv: Registering OutputCommitCoordinator
+[2025-12-16T19:36:02.556+0530] {subprocess.py:93} INFO - 25/12/16 19:36:02 INFO JettyUtils: Start Jetty 0.0.0.0:4040 for SparkUI
+[2025-12-16T19:36:02.666+0530] {subprocess.py:93} INFO - 25/12/16 19:36:02 WARN Utils: Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+[2025-12-16T19:36:02.680+0530] {subprocess.py:93} INFO - 25/12/16 19:36:02 INFO Utils: Successfully started service 'SparkUI' on port 4041.
+[2025-12-16T19:36:02.952+0530] {subprocess.py:93} INFO - 25/12/16 19:36:02 INFO Executor: Starting executor ID driver on host 192.168.29.11
+[2025-12-16T19:36:02.968+0530] {subprocess.py:93} INFO - 25/12/16 19:36:02 INFO Executor: Starting executor with user classpath (userClassPathFirst = false): ''
+[2025-12-16T19:36:03.013+0530] {subprocess.py:93} INFO - 25/12/16 19:36:03 INFO Utils: Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 33569.
+[2025-12-16T19:36:03.013+0530] {subprocess.py:93} INFO - 25/12/16 19:36:03 INFO NettyBlockTransferService: Server created on 192.168.29.11:33569
+[2025-12-16T19:36:03.016+0530] {subprocess.py:93} INFO - 25/12/16 19:36:03 INFO BlockManager: Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+[2025-12-16T19:36:03.024+0530] {subprocess.py:93} INFO - 25/12/16 19:36:03 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, 192.168.29.11, 33569, None)
+[2025-12-16T19:36:03.030+0530] {subprocess.py:93} INFO - 25/12/16 19:36:03 INFO BlockManagerMasterEndpoint: Registering block manager 192.168.29.11:33569 with 366.3 MiB RAM, BlockManagerId(driver, 192.168.29.11, 33569, None)
+[2025-12-16T19:36:03.035+0530] {subprocess.py:93} INFO - 25/12/16 19:36:03 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, 192.168.29.11, 33569, None)
+[2025-12-16T19:36:03.037+0530] {subprocess.py:93} INFO - 25/12/16 19:36:03 INFO BlockManager: Initialized BlockManager: BlockManagerId(driver, 192.168.29.11, 33569, None)
+[2025-12-16T19:36:07.031+0530] {subprocess.py:93} INFO - Traceback (most recent call last):
+[2025-12-16T19:36:07.032+0530] {subprocess.py:93} INFO -   File "/home/sneha/spotify_airflow_project/scripts/spark_consumer_airflow.py", line 30, in <module>
+[2025-12-16T19:36:07.032+0530] {subprocess.py:93} INFO -     .load()
+[2025-12-16T19:36:07.032+0530] {subprocess.py:93} INFO -      ^^^^^^
+[2025-12-16T19:36:07.033+0530] {subprocess.py:93} INFO -   File "/home/sneha/spark/spark-3.4.4-bin-hadoop3/python/lib/pyspark.zip/pyspark/sql/streaming/readwriter.py", line 277, in load
+[2025-12-16T19:36:07.033+0530] {subprocess.py:93} INFO -   File "/home/sneha/spark/spark-3.4.4-bin-hadoop3/python/lib/py4j-0.10.9.7-src.zip/py4j/java_gateway.py", line 1322, in __call__
+[2025-12-16T19:36:07.033+0530] {subprocess.py:93} INFO -   File "/home/sneha/spark/spark-3.4.4-bin-hadoop3/python/lib/pyspark.zip/pyspark/errors/exceptions/captured.py", line 175, in deco
+[2025-12-16T19:36:07.059+0530] {subprocess.py:93} INFO - pyspark.errors.exceptions.captured.AnalysisException: Failed to find data source: kafka. Please deploy the application as per the deployment section of Structured Streaming + Kafka Integration Guide.
+[2025-12-16T19:36:07.369+0530] {subprocess.py:97} INFO - Command exited with return code 1
+[2025-12-16T19:36:07.388+0530] {taskinstance.py:3310} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 767, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 733, in _execute_callable
+    return ExecutionCallableRunner(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 406, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/operators/bash.py", line 249, in execute
+    raise AirflowException(
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code 1.
+[2025-12-16T19:36:07.397+0530] {logging_mixin.py:190} INFO - Task instance in failure state
+[2025-12-16T19:36:07.397+0530] {logging_mixin.py:190} INFO - Task start:2025-12-16 14:05:48.206328+00:00 end:2025-12-16 14:06:07.395418+00:00 duration:19.18909
+[2025-12-16T19:36:07.398+0530] {logging_mixin.py:190} INFO - Task:<Task(BashOperator): run_spark_consumer> dag:<DAG: spotify_streaming_pipeline> dagrun:<DagRun spotify_streaming_pipeline @ 2025-12-16 13:00:00+00:00: scheduled__2025-12-16T13:00:00+00:00, state:running, queued_at: 2025-12-16 14:00:01.863387+00:00. externally triggered: False>
+[2025-12-16T19:36:07.398+0530] {logging_mixin.py:190} INFO - Failure caused by Bash command failed. The command returned a non-zero exit code 1.
+[2025-12-16T19:36:07.399+0530] {taskinstance.py:1225} INFO - Marking task as FAILED. dag_id=spotify_streaming_pipeline, task_id=run_spark_consumer, run_id=scheduled__2025-12-16T13:00:00+00:00, execution_date=20251216T130000, start_date=20251216T140548, end_date=20251216T140607
+[2025-12-16T19:36:07.424+0530] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-12-16T19:36:07.425+0530] {standard_task_runner.py:124} ERROR - Failed to execute job 73 for task run_spark_consumer (Bash command failed. The command returned a non-zero exit code 1.; 30855)
+Traceback (most recent call last):
+  File "/home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py", line 117, in _start_by_fork
+    ret = args.func(args, dag=self.dag)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/cli/cli_config.py", line 49, in command
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/utils/cli.py", line 115, in wrapper
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 483, in task_run
+    task_return_code = _run_task_by_selected_method(args, _dag, ti)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 256, in _run_task_by_selected_method
+    return _run_raw_task(args, ti)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 341, in _run_raw_task
+    return ti._run_raw_task(
+           ^^^^^^^^^^^^^^^^^
+  File "/home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/utils/session.py", line 97, in wrapper
+    return func(*args, session=session, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3004, in _run_raw_task
+    return _run_raw_task(
+           ^^^^^^^^^^^^^^
+  File "/home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 273, in _run_raw_task
+    TaskInstance._execute_task_with_callbacks(
+  File "/home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3158, in _execute_task_with_callbacks
+    result = self._execute_task(context, task_orig)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3182, in _execute_task
+    return _execute_task(self, context, task_orig)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 767, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 733, in _execute_callable
+    return ExecutionCallableRunner(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 406, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/operators/bash.py", line 249, in execute
+    raise AirflowException(
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code 1.
+[2025-12-16T19:36:07.463+0530] {local_task_job_runner.py:266} INFO - Task exited with return code 1
+[2025-12-16T19:36:07.482+0530] {taskinstance.py:3900} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-12-16T19:36:07.484+0530] {local_task_job_runner.py:245} INFO - ::endgroup::

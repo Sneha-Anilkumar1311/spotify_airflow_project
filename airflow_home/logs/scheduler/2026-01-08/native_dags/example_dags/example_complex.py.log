@@ -1,0 +1,455 @@
+[2026-01-08T11:19:31.686+0530] {processor.py:186} INFO - Started process (PID=12295) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-01-08T11:19:31.687+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2026-01-08T11:19:31.689+0530] {logging_mixin.py:190} INFO - [2026-01-08T11:19:31.689+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-01-08T11:19:31.710+0530] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-01-08T11:19:31.760+0530] {logging_mixin.py:190} INFO - [2026-01-08T11:19:31.760+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-08T11:19:31.782+0530] {logging_mixin.py:190} INFO - [2026-01-08T11:19:31.782+0530] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2026-01-08T11:19:31.820+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.145 seconds
+[2026-01-08T11:20:35.965+0530] {processor.py:186} INFO - Started process (PID=12392) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-01-08T11:20:35.967+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2026-01-08T11:20:35.969+0530] {logging_mixin.py:190} INFO - [2026-01-08T11:20:35.968+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-01-08T11:20:35.981+0530] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-01-08T11:20:36.019+0530] {logging_mixin.py:190} INFO - [2026-01-08T11:20:36.019+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-08T11:20:36.036+0530] {logging_mixin.py:190} INFO - [2026-01-08T11:20:36.036+0530] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2026-01-08T11:20:36.063+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.109 seconds
+[2026-01-08T11:24:06.242+0530] {processor.py:186} INFO - Started process (PID=17813) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-01-08T11:24:06.243+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2026-01-08T11:24:06.245+0530] {logging_mixin.py:190} INFO - [2026-01-08T11:24:06.244+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-01-08T11:24:06.258+0530] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-01-08T11:24:06.300+0530] {logging_mixin.py:190} INFO - [2026-01-08T11:24:06.299+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-08T11:24:06.316+0530] {logging_mixin.py:190} INFO - [2026-01-08T11:24:06.316+0530] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2026-01-08T11:24:06.345+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.115 seconds
+[2026-01-08T11:25:11.326+0530] {processor.py:186} INFO - Started process (PID=17911) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-01-08T11:25:11.331+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2026-01-08T11:25:11.334+0530] {logging_mixin.py:190} INFO - [2026-01-08T11:25:11.333+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-01-08T11:25:11.348+0530] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-01-08T11:25:11.391+0530] {logging_mixin.py:190} INFO - [2026-01-08T11:25:11.391+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-08T11:25:11.410+0530] {logging_mixin.py:190} INFO - [2026-01-08T11:25:11.409+0530] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2026-01-08T11:25:11.443+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.127 seconds
+[2026-01-08T11:26:14.526+0530] {processor.py:186} INFO - Started process (PID=17975) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-01-08T11:26:14.528+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2026-01-08T11:26:14.530+0530] {logging_mixin.py:190} INFO - [2026-01-08T11:26:14.529+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-01-08T11:26:14.550+0530] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-01-08T11:26:14.609+0530] {logging_mixin.py:190} INFO - [2026-01-08T11:26:14.608+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-08T11:26:14.634+0530] {logging_mixin.py:190} INFO - [2026-01-08T11:26:14.634+0530] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2026-01-08T11:26:14.670+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.157 seconds
+[2026-01-08T11:27:23.384+0530] {processor.py:186} INFO - Started process (PID=18041) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-01-08T11:27:23.386+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2026-01-08T11:27:23.388+0530] {logging_mixin.py:190} INFO - [2026-01-08T11:27:23.387+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-01-08T11:27:23.403+0530] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-01-08T11:27:23.443+0530] {logging_mixin.py:190} INFO - [2026-01-08T11:27:23.443+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-08T11:27:23.460+0530] {logging_mixin.py:190} INFO - [2026-01-08T11:27:23.460+0530] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2026-01-08T11:27:23.489+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.117 seconds
+[2026-01-08T11:28:22.555+0530] {processor.py:186} INFO - Started process (PID=18129) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-01-08T11:28:22.556+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2026-01-08T11:28:22.558+0530] {logging_mixin.py:190} INFO - [2026-01-08T11:28:22.558+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-01-08T11:28:22.573+0530] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-01-08T11:28:22.612+0530] {logging_mixin.py:190} INFO - [2026-01-08T11:28:22.612+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-08T11:28:22.631+0530] {logging_mixin.py:190} INFO - [2026-01-08T11:28:22.631+0530] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2026-01-08T11:28:22.660+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.116 seconds
+[2026-01-08T11:29:23.743+0530] {processor.py:186} INFO - Started process (PID=18189) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-01-08T11:29:23.754+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2026-01-08T11:29:23.757+0530] {logging_mixin.py:190} INFO - [2026-01-08T11:29:23.756+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-01-08T11:29:23.771+0530] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-01-08T11:29:23.810+0530] {logging_mixin.py:190} INFO - [2026-01-08T11:29:23.809+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-08T11:29:23.826+0530] {logging_mixin.py:190} INFO - [2026-01-08T11:29:23.826+0530] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2026-01-08T11:29:23.855+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.125 seconds
+[2026-01-08T11:32:33.800+0530] {processor.py:186} INFO - Started process (PID=22861) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-01-08T11:32:33.801+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2026-01-08T11:32:33.803+0530] {logging_mixin.py:190} INFO - [2026-01-08T11:32:33.802+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-01-08T11:32:33.816+0530] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-01-08T11:32:33.855+0530] {logging_mixin.py:190} INFO - [2026-01-08T11:32:33.854+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-08T11:32:33.873+0530] {logging_mixin.py:190} INFO - [2026-01-08T11:32:33.873+0530] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2026-01-08T11:32:33.902+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.113 seconds
+[2026-01-08T11:33:37.489+0530] {processor.py:186} INFO - Started process (PID=22950) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-01-08T11:33:37.491+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2026-01-08T11:33:37.493+0530] {logging_mixin.py:190} INFO - [2026-01-08T11:33:37.492+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-01-08T11:33:37.507+0530] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-01-08T11:33:37.549+0530] {logging_mixin.py:190} INFO - [2026-01-08T11:33:37.548+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-08T11:33:37.567+0530] {logging_mixin.py:190} INFO - [2026-01-08T11:33:37.567+0530] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2026-01-08T11:33:37.595+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.118 seconds
+[2026-01-08T11:34:33.994+0530] {processor.py:186} INFO - Started process (PID=23012) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-01-08T11:34:33.995+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2026-01-08T11:34:33.997+0530] {logging_mixin.py:190} INFO - [2026-01-08T11:34:33.996+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-01-08T11:34:34.012+0530] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-01-08T11:34:34.052+0530] {logging_mixin.py:190} INFO - [2026-01-08T11:34:34.052+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-08T11:34:34.069+0530] {logging_mixin.py:190} INFO - [2026-01-08T11:34:34.069+0530] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2026-01-08T11:34:34.096+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.112 seconds
+[2026-01-08T11:35:34.008+0530] {processor.py:186} INFO - Started process (PID=23078) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-01-08T11:35:34.010+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2026-01-08T11:35:34.012+0530] {logging_mixin.py:190} INFO - [2026-01-08T11:35:34.011+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-01-08T11:35:34.025+0530] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-01-08T11:35:34.066+0530] {logging_mixin.py:190} INFO - [2026-01-08T11:35:34.065+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-08T11:35:34.082+0530] {logging_mixin.py:190} INFO - [2026-01-08T11:35:34.082+0530] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2026-01-08T11:35:34.111+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.115 seconds
+[2026-01-08T11:36:33.142+0530] {processor.py:186} INFO - Started process (PID=23138) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-01-08T11:36:33.144+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2026-01-08T11:36:33.145+0530] {logging_mixin.py:190} INFO - [2026-01-08T11:36:33.145+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-01-08T11:36:33.158+0530] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-01-08T11:36:33.197+0530] {logging_mixin.py:190} INFO - [2026-01-08T11:36:33.197+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-08T11:36:33.215+0530] {logging_mixin.py:190} INFO - [2026-01-08T11:36:33.215+0530] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2026-01-08T11:36:33.246+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.115 seconds
+[2026-01-08T11:37:35.715+0530] {processor.py:186} INFO - Started process (PID=23199) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-01-08T11:37:35.717+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2026-01-08T11:37:35.719+0530] {logging_mixin.py:190} INFO - [2026-01-08T11:37:35.718+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-01-08T11:37:35.741+0530] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-01-08T11:37:35.784+0530] {logging_mixin.py:190} INFO - [2026-01-08T11:37:35.783+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-08T11:37:35.801+0530] {logging_mixin.py:190} INFO - [2026-01-08T11:37:35.801+0530] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2026-01-08T11:37:35.830+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.127 seconds
+[2026-01-08T11:38:42.236+0530] {processor.py:186} INFO - Started process (PID=23292) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-01-08T11:38:42.237+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2026-01-08T11:38:42.239+0530] {logging_mixin.py:190} INFO - [2026-01-08T11:38:42.239+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-01-08T11:38:42.254+0530] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-01-08T11:38:42.297+0530] {logging_mixin.py:190} INFO - [2026-01-08T11:38:42.296+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-08T11:38:42.315+0530] {logging_mixin.py:190} INFO - [2026-01-08T11:38:42.315+0530] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2026-01-08T11:38:42.344+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.120 seconds
+[2026-01-08T11:39:46.036+0530] {processor.py:186} INFO - Started process (PID=23355) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-01-08T11:39:46.038+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2026-01-08T11:39:46.039+0530] {logging_mixin.py:190} INFO - [2026-01-08T11:39:46.039+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-01-08T11:39:46.054+0530] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-01-08T11:39:46.096+0530] {logging_mixin.py:190} INFO - [2026-01-08T11:39:46.096+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-08T11:39:46.114+0530] {logging_mixin.py:190} INFO - [2026-01-08T11:39:46.114+0530] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2026-01-08T11:39:46.143+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.118 seconds
+[2026-01-08T11:40:51.025+0530] {processor.py:186} INFO - Started process (PID=23438) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-01-08T11:40:51.026+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2026-01-08T11:40:51.028+0530] {logging_mixin.py:190} INFO - [2026-01-08T11:40:51.027+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-01-08T11:40:51.041+0530] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-01-08T11:40:51.080+0530] {logging_mixin.py:190} INFO - [2026-01-08T11:40:51.079+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-08T11:40:51.096+0530] {logging_mixin.py:190} INFO - [2026-01-08T11:40:51.096+0530] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2026-01-08T11:40:51.125+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.110 seconds
+[2026-01-08T11:41:51.249+0530] {processor.py:186} INFO - Started process (PID=23575) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-01-08T11:41:51.251+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2026-01-08T11:41:51.253+0530] {logging_mixin.py:190} INFO - [2026-01-08T11:41:51.252+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-01-08T11:41:51.266+0530] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-01-08T11:41:51.305+0530] {logging_mixin.py:190} INFO - [2026-01-08T11:41:51.304+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-08T11:41:51.323+0530] {logging_mixin.py:190} INFO - [2026-01-08T11:41:51.323+0530] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2026-01-08T11:41:51.350+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.112 seconds
+[2026-01-08T11:43:01.276+0530] {processor.py:186} INFO - Started process (PID=23642) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-01-08T11:43:01.287+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2026-01-08T11:43:01.289+0530] {logging_mixin.py:190} INFO - [2026-01-08T11:43:01.288+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-01-08T11:43:01.303+0530] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-01-08T11:43:01.350+0530] {logging_mixin.py:190} INFO - [2026-01-08T11:43:01.350+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-08T11:43:01.368+0530] {logging_mixin.py:190} INFO - [2026-01-08T11:43:01.368+0530] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2026-01-08T11:43:01.397+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.131 seconds
+[2026-01-08T11:44:04.128+0530] {processor.py:186} INFO - Started process (PID=23732) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-01-08T11:44:04.130+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2026-01-08T11:44:04.131+0530] {logging_mixin.py:190} INFO - [2026-01-08T11:44:04.131+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-01-08T11:44:04.145+0530] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-01-08T11:44:04.183+0530] {logging_mixin.py:190} INFO - [2026-01-08T11:44:04.183+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-08T11:44:04.199+0530] {logging_mixin.py:190} INFO - [2026-01-08T11:44:04.199+0530] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2026-01-08T11:44:04.226+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.110 seconds
+[2026-01-08T11:45:11.857+0530] {processor.py:186} INFO - Started process (PID=24048) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-01-08T11:45:11.858+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2026-01-08T11:45:11.860+0530] {logging_mixin.py:190} INFO - [2026-01-08T11:45:11.860+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-01-08T11:45:11.875+0530] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-01-08T11:45:11.916+0530] {logging_mixin.py:190} INFO - [2026-01-08T11:45:11.916+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-08T11:45:11.934+0530] {logging_mixin.py:190} INFO - [2026-01-08T11:45:11.933+0530] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2026-01-08T11:45:11.961+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.117 seconds
+[2026-01-08T11:46:13.351+0530] {processor.py:186} INFO - Started process (PID=24109) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-01-08T11:46:13.352+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2026-01-08T11:46:13.354+0530] {logging_mixin.py:190} INFO - [2026-01-08T11:46:13.354+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-01-08T11:46:13.368+0530] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-01-08T11:46:13.408+0530] {logging_mixin.py:190} INFO - [2026-01-08T11:46:13.408+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-08T11:46:13.424+0530] {logging_mixin.py:190} INFO - [2026-01-08T11:46:13.424+0530] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2026-01-08T11:46:13.453+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.113 seconds
+[2026-01-08T11:47:19.667+0530] {processor.py:186} INFO - Started process (PID=24172) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-01-08T11:47:19.669+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2026-01-08T11:47:19.671+0530] {logging_mixin.py:190} INFO - [2026-01-08T11:47:19.670+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-01-08T11:47:19.686+0530] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-01-08T11:47:19.727+0530] {logging_mixin.py:190} INFO - [2026-01-08T11:47:19.726+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-08T11:47:19.748+0530] {logging_mixin.py:190} INFO - [2026-01-08T11:47:19.748+0530] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2026-01-08T11:47:19.777+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.121 seconds
+[2026-01-08T11:48:23.912+0530] {processor.py:186} INFO - Started process (PID=24263) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-01-08T11:48:23.923+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2026-01-08T11:48:23.925+0530] {logging_mixin.py:190} INFO - [2026-01-08T11:48:23.924+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-01-08T11:48:23.938+0530] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-01-08T11:48:23.977+0530] {logging_mixin.py:190} INFO - [2026-01-08T11:48:23.976+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-08T11:48:23.993+0530] {logging_mixin.py:190} INFO - [2026-01-08T11:48:23.993+0530] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2026-01-08T11:48:24.026+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.126 seconds
+[2026-01-08T11:49:26.454+0530] {processor.py:186} INFO - Started process (PID=24325) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-01-08T11:49:26.456+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2026-01-08T11:49:26.458+0530] {logging_mixin.py:190} INFO - [2026-01-08T11:49:26.458+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-01-08T11:49:26.473+0530] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-01-08T11:49:26.518+0530] {logging_mixin.py:190} INFO - [2026-01-08T11:49:26.517+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-08T11:49:26.536+0530] {logging_mixin.py:190} INFO - [2026-01-08T11:49:26.536+0530] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2026-01-08T11:49:26.565+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.123 seconds
+[2026-01-08T11:50:32.838+0530] {processor.py:186} INFO - Started process (PID=24398) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-01-08T11:50:32.840+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2026-01-08T11:50:32.842+0530] {logging_mixin.py:190} INFO - [2026-01-08T11:50:32.841+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-01-08T11:50:32.856+0530] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-01-08T11:50:32.898+0530] {logging_mixin.py:190} INFO - [2026-01-08T11:50:32.897+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-08T11:50:32.915+0530] {logging_mixin.py:190} INFO - [2026-01-08T11:50:32.915+0530] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2026-01-08T11:50:32.944+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.117 seconds
+[2026-01-08T11:51:36.890+0530] {processor.py:186} INFO - Started process (PID=24463) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-01-08T11:51:36.902+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2026-01-08T11:51:36.903+0530] {logging_mixin.py:190} INFO - [2026-01-08T11:51:36.903+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-01-08T11:51:36.916+0530] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-01-08T11:51:36.956+0530] {logging_mixin.py:190} INFO - [2026-01-08T11:51:36.955+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-08T11:51:36.972+0530] {logging_mixin.py:190} INFO - [2026-01-08T11:51:36.972+0530] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2026-01-08T11:51:37.003+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.124 seconds
+[2026-01-08T11:52:38.123+0530] {processor.py:186} INFO - Started process (PID=24536) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-01-08T11:52:38.125+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2026-01-08T11:52:38.127+0530] {logging_mixin.py:190} INFO - [2026-01-08T11:52:38.126+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-01-08T11:52:38.140+0530] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-01-08T11:52:38.179+0530] {logging_mixin.py:190} INFO - [2026-01-08T11:52:38.179+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-08T11:52:38.196+0530] {logging_mixin.py:190} INFO - [2026-01-08T11:52:38.195+0530] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2026-01-08T11:52:38.223+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.111 seconds
+[2026-01-08T11:53:40.499+0530] {processor.py:186} INFO - Started process (PID=24627) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-01-08T11:53:40.500+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2026-01-08T11:53:40.502+0530] {logging_mixin.py:190} INFO - [2026-01-08T11:53:40.501+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-01-08T11:53:40.515+0530] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-01-08T11:53:40.555+0530] {logging_mixin.py:190} INFO - [2026-01-08T11:53:40.554+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-08T11:53:40.571+0530] {logging_mixin.py:190} INFO - [2026-01-08T11:53:40.571+0530] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2026-01-08T11:53:40.598+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.111 seconds
+[2026-01-08T11:54:43.013+0530] {processor.py:186} INFO - Started process (PID=24691) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-01-08T11:54:43.014+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2026-01-08T11:54:43.016+0530] {logging_mixin.py:190} INFO - [2026-01-08T11:54:43.016+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-01-08T11:54:43.029+0530] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-01-08T11:54:43.069+0530] {logging_mixin.py:190} INFO - [2026-01-08T11:54:43.068+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-08T11:54:43.088+0530] {logging_mixin.py:190} INFO - [2026-01-08T11:54:43.087+0530] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2026-01-08T11:54:43.116+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.112 seconds
+[2026-01-08T11:55:46.130+0530] {processor.py:186} INFO - Started process (PID=24759) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-01-08T11:55:46.131+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2026-01-08T11:55:46.133+0530] {logging_mixin.py:190} INFO - [2026-01-08T11:55:46.133+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-01-08T11:55:46.148+0530] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-01-08T11:55:46.188+0530] {logging_mixin.py:190} INFO - [2026-01-08T11:55:46.187+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-08T11:55:46.206+0530] {logging_mixin.py:190} INFO - [2026-01-08T11:55:46.205+0530] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2026-01-08T11:55:46.234+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.116 seconds
+[2026-01-08T11:56:48.273+0530] {processor.py:186} INFO - Started process (PID=24821) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-01-08T11:56:48.274+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2026-01-08T11:56:48.276+0530] {logging_mixin.py:190} INFO - [2026-01-08T11:56:48.275+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-01-08T11:56:48.289+0530] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-01-08T11:56:48.331+0530] {logging_mixin.py:190} INFO - [2026-01-08T11:56:48.330+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-08T11:56:48.349+0530] {logging_mixin.py:190} INFO - [2026-01-08T11:56:48.349+0530] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2026-01-08T11:56:48.378+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.116 seconds
+[2026-01-08T11:57:49.202+0530] {processor.py:186} INFO - Started process (PID=24883) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-01-08T11:57:49.203+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2026-01-08T11:57:49.205+0530] {logging_mixin.py:190} INFO - [2026-01-08T11:57:49.204+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-01-08T11:57:49.219+0530] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-01-08T11:57:49.263+0530] {logging_mixin.py:190} INFO - [2026-01-08T11:57:49.262+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-08T11:57:49.286+0530] {logging_mixin.py:190} INFO - [2026-01-08T11:57:49.285+0530] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2026-01-08T11:57:49.316+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.125 seconds
+[2026-01-08T11:58:48.237+0530] {processor.py:186} INFO - Started process (PID=24970) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-01-08T11:58:48.248+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2026-01-08T11:58:48.250+0530] {logging_mixin.py:190} INFO - [2026-01-08T11:58:48.249+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-01-08T11:58:48.265+0530] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-01-08T11:58:48.308+0530] {logging_mixin.py:190} INFO - [2026-01-08T11:58:48.307+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-08T11:58:48.326+0530] {logging_mixin.py:190} INFO - [2026-01-08T11:58:48.325+0530] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2026-01-08T11:58:48.355+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.130 seconds
+[2026-01-08T11:59:48.411+0530] {processor.py:186} INFO - Started process (PID=25031) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-01-08T11:59:48.413+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2026-01-08T11:59:48.415+0530] {logging_mixin.py:190} INFO - [2026-01-08T11:59:48.414+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-01-08T11:59:48.429+0530] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-01-08T11:59:48.468+0530] {logging_mixin.py:190} INFO - [2026-01-08T11:59:48.468+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-08T11:59:48.486+0530] {logging_mixin.py:190} INFO - [2026-01-08T11:59:48.486+0530] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2026-01-08T11:59:48.515+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.115 seconds
+[2026-01-08T12:00:50.503+0530] {processor.py:186} INFO - Started process (PID=25093) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-01-08T12:00:50.516+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2026-01-08T12:00:50.517+0530] {logging_mixin.py:190} INFO - [2026-01-08T12:00:50.517+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-01-08T12:00:50.531+0530] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-01-08T12:00:50.571+0530] {logging_mixin.py:190} INFO - [2026-01-08T12:00:50.571+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-08T12:00:50.589+0530] {logging_mixin.py:190} INFO - [2026-01-08T12:00:50.589+0530] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2026-01-08T12:00:50.618+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.126 seconds
+[2026-01-08T12:01:52.685+0530] {processor.py:186} INFO - Started process (PID=25154) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-01-08T12:01:52.687+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2026-01-08T12:01:52.688+0530] {logging_mixin.py:190} INFO - [2026-01-08T12:01:52.688+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-01-08T12:01:52.702+0530] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-01-08T12:01:52.743+0530] {logging_mixin.py:190} INFO - [2026-01-08T12:01:52.743+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-08T12:01:52.761+0530] {logging_mixin.py:190} INFO - [2026-01-08T12:01:52.760+0530] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2026-01-08T12:01:52.790+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.116 seconds
+[2026-01-08T12:02:58.950+0530] {processor.py:186} INFO - Started process (PID=25220) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-01-08T12:02:58.951+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2026-01-08T12:02:58.953+0530] {logging_mixin.py:190} INFO - [2026-01-08T12:02:58.952+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-01-08T12:02:58.967+0530] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-01-08T12:02:59.009+0530] {logging_mixin.py:190} INFO - [2026-01-08T12:02:59.009+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-08T12:02:59.027+0530] {logging_mixin.py:190} INFO - [2026-01-08T12:02:59.026+0530] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2026-01-08T12:02:59.054+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.116 seconds
+[2026-01-08T12:04:02.954+0530] {processor.py:186} INFO - Started process (PID=25311) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-01-08T12:04:02.965+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2026-01-08T12:04:02.967+0530] {logging_mixin.py:190} INFO - [2026-01-08T12:04:02.966+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-01-08T12:04:02.980+0530] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-01-08T12:04:03.018+0530] {logging_mixin.py:190} INFO - [2026-01-08T12:04:03.017+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-08T12:04:03.034+0530] {logging_mixin.py:190} INFO - [2026-01-08T12:04:03.034+0530] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2026-01-08T12:04:03.062+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.121 seconds
+[2026-01-08T12:05:08.110+0530] {processor.py:186} INFO - Started process (PID=25388) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-01-08T12:05:08.112+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2026-01-08T12:05:08.114+0530] {logging_mixin.py:190} INFO - [2026-01-08T12:05:08.113+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-01-08T12:05:08.127+0530] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-01-08T12:05:08.165+0530] {logging_mixin.py:190} INFO - [2026-01-08T12:05:08.165+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-08T12:05:08.182+0530] {logging_mixin.py:190} INFO - [2026-01-08T12:05:08.182+0530] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2026-01-08T12:05:08.209+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.111 seconds
+[2026-01-08T12:06:10.367+0530] {processor.py:186} INFO - Started process (PID=25450) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-01-08T12:06:10.369+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2026-01-08T12:06:10.371+0530] {logging_mixin.py:190} INFO - [2026-01-08T12:06:10.370+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-01-08T12:06:10.385+0530] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-01-08T12:06:10.429+0530] {logging_mixin.py:190} INFO - [2026-01-08T12:06:10.428+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-08T12:06:10.448+0530] {logging_mixin.py:190} INFO - [2026-01-08T12:06:10.448+0530] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2026-01-08T12:06:10.477+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.120 seconds
+[2026-01-08T12:07:09.351+0530] {processor.py:186} INFO - Started process (PID=25512) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-01-08T12:07:09.353+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2026-01-08T12:07:09.355+0530] {logging_mixin.py:190} INFO - [2026-01-08T12:07:09.354+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-01-08T12:07:09.368+0530] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-01-08T12:07:09.408+0530] {logging_mixin.py:190} INFO - [2026-01-08T12:07:09.408+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-08T12:07:09.425+0530] {logging_mixin.py:190} INFO - [2026-01-08T12:07:09.424+0530] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2026-01-08T12:07:09.453+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.110 seconds
+[2026-01-08T12:08:10.851+0530] {processor.py:186} INFO - Started process (PID=25572) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-01-08T12:08:10.852+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2026-01-08T12:08:10.854+0530] {logging_mixin.py:190} INFO - [2026-01-08T12:08:10.853+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-01-08T12:08:10.868+0530] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-01-08T12:08:10.912+0530] {logging_mixin.py:190} INFO - [2026-01-08T12:08:10.912+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-08T12:08:10.930+0530] {logging_mixin.py:190} INFO - [2026-01-08T12:08:10.929+0530] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2026-01-08T12:08:10.958+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.119 seconds
+[2026-01-08T12:09:19.209+0530] {processor.py:186} INFO - Started process (PID=25665) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-01-08T12:09:19.211+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2026-01-08T12:09:19.213+0530] {logging_mixin.py:190} INFO - [2026-01-08T12:09:19.212+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-01-08T12:09:19.227+0530] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-01-08T12:09:19.266+0530] {logging_mixin.py:190} INFO - [2026-01-08T12:09:19.265+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-08T12:09:19.284+0530] {logging_mixin.py:190} INFO - [2026-01-08T12:09:19.283+0530] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2026-01-08T12:09:19.311+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.113 seconds
+[2026-01-08T12:10:17.025+0530] {processor.py:186} INFO - Started process (PID=25729) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-01-08T12:10:17.027+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2026-01-08T12:10:17.029+0530] {logging_mixin.py:190} INFO - [2026-01-08T12:10:17.028+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-01-08T12:10:17.042+0530] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-01-08T12:10:17.081+0530] {logging_mixin.py:190} INFO - [2026-01-08T12:10:17.081+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-08T12:10:17.098+0530] {logging_mixin.py:190} INFO - [2026-01-08T12:10:17.098+0530] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2026-01-08T12:10:17.126+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.112 seconds
+[2026-01-08T12:11:15.894+0530] {processor.py:186} INFO - Started process (PID=25789) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-01-08T12:11:15.906+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2026-01-08T12:11:15.907+0530] {logging_mixin.py:190} INFO - [2026-01-08T12:11:15.907+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-01-08T12:11:15.921+0530] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-01-08T12:11:15.962+0530] {logging_mixin.py:190} INFO - [2026-01-08T12:11:15.962+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-08T12:11:15.980+0530] {logging_mixin.py:190} INFO - [2026-01-08T12:11:15.979+0530] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2026-01-08T12:11:16.009+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.126 seconds
+[2026-01-08T12:12:16.998+0530] {processor.py:186} INFO - Started process (PID=25849) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-01-08T12:12:17.009+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2026-01-08T12:12:17.011+0530] {logging_mixin.py:190} INFO - [2026-01-08T12:12:17.011+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-01-08T12:12:17.025+0530] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-01-08T12:12:17.067+0530] {logging_mixin.py:190} INFO - [2026-01-08T12:12:17.066+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-08T12:12:17.084+0530] {logging_mixin.py:190} INFO - [2026-01-08T12:12:17.084+0530] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2026-01-08T12:12:17.113+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.126 seconds
+[2026-01-08T12:24:49.032+0530] {processor.py:186} INFO - Started process (PID=26261) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-01-08T12:24:49.034+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2026-01-08T12:24:49.036+0530] {logging_mixin.py:190} INFO - [2026-01-08T12:24:49.035+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-01-08T12:24:49.049+0530] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-01-08T12:24:49.089+0530] {logging_mixin.py:190} INFO - [2026-01-08T12:24:49.089+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-08T12:24:49.107+0530] {logging_mixin.py:190} INFO - [2026-01-08T12:24:49.106+0530] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2026-01-08T12:24:49.135+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.115 seconds
+[2026-01-08T12:25:52.726+0530] {processor.py:186} INFO - Started process (PID=26328) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-01-08T12:25:52.728+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2026-01-08T12:25:52.730+0530] {logging_mixin.py:190} INFO - [2026-01-08T12:25:52.729+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-01-08T12:25:52.745+0530] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-01-08T12:25:52.785+0530] {logging_mixin.py:190} INFO - [2026-01-08T12:25:52.784+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-08T12:25:52.801+0530] {logging_mixin.py:190} INFO - [2026-01-08T12:25:52.801+0530] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2026-01-08T12:25:52.829+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.116 seconds
+[2026-01-08T12:26:56.925+0530] {processor.py:186} INFO - Started process (PID=26391) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-01-08T12:26:56.926+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2026-01-08T12:26:56.929+0530] {logging_mixin.py:190} INFO - [2026-01-08T12:26:56.928+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-01-08T12:26:56.943+0530] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-01-08T12:26:56.983+0530] {logging_mixin.py:190} INFO - [2026-01-08T12:26:56.983+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-08T12:26:57.001+0530] {logging_mixin.py:190} INFO - [2026-01-08T12:26:57.000+0530] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2026-01-08T12:26:57.030+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.116 seconds
+[2026-01-08T12:27:59.131+0530] {processor.py:186} INFO - Started process (PID=26453) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-01-08T12:27:59.133+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2026-01-08T12:27:59.135+0530] {logging_mixin.py:190} INFO - [2026-01-08T12:27:59.134+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-01-08T12:27:59.149+0530] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-01-08T12:27:59.195+0530] {logging_mixin.py:190} INFO - [2026-01-08T12:27:59.194+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-08T12:27:59.215+0530] {logging_mixin.py:190} INFO - [2026-01-08T12:27:59.214+0530] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2026-01-08T12:27:59.243+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.124 seconds
+[2026-01-08T12:29:02.399+0530] {processor.py:186} INFO - Started process (PID=26517) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-01-08T12:29:02.401+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2026-01-08T12:29:02.403+0530] {logging_mixin.py:190} INFO - [2026-01-08T12:29:02.402+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-01-08T12:29:02.416+0530] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-01-08T12:29:02.455+0530] {logging_mixin.py:190} INFO - [2026-01-08T12:29:02.454+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-08T12:29:02.473+0530] {logging_mixin.py:190} INFO - [2026-01-08T12:29:02.472+0530] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2026-01-08T12:29:02.501+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.112 seconds
+[2026-01-08T12:32:31.759+0530] {processor.py:186} INFO - Started process (PID=31227) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-01-08T12:32:31.761+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2026-01-08T12:32:31.763+0530] {logging_mixin.py:190} INFO - [2026-01-08T12:32:31.762+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-01-08T12:32:31.777+0530] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-01-08T12:32:31.819+0530] {logging_mixin.py:190} INFO - [2026-01-08T12:32:31.819+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-08T12:32:31.837+0530] {logging_mixin.py:190} INFO - [2026-01-08T12:32:31.837+0530] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2026-01-08T12:32:31.865+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.118 seconds
+[2026-01-08T12:33:34.463+0530] {processor.py:186} INFO - Started process (PID=31289) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-01-08T12:33:34.465+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2026-01-08T12:33:34.467+0530] {logging_mixin.py:190} INFO - [2026-01-08T12:33:34.466+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-01-08T12:33:34.481+0530] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-01-08T12:33:34.522+0530] {logging_mixin.py:190} INFO - [2026-01-08T12:33:34.522+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-08T12:33:34.540+0530] {logging_mixin.py:190} INFO - [2026-01-08T12:33:34.539+0530] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2026-01-08T12:33:34.568+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.117 seconds
+[2026-01-08T12:34:37.450+0530] {processor.py:186} INFO - Started process (PID=31351) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-01-08T12:34:37.461+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2026-01-08T12:34:37.463+0530] {logging_mixin.py:190} INFO - [2026-01-08T12:34:37.462+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-01-08T12:34:37.477+0530] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-01-08T12:34:37.516+0530] {logging_mixin.py:190} INFO - [2026-01-08T12:34:37.515+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-08T12:34:37.532+0530] {logging_mixin.py:190} INFO - [2026-01-08T12:34:37.532+0530] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2026-01-08T12:34:37.561+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.122 seconds
+[2026-01-08T12:35:35.967+0530] {processor.py:186} INFO - Started process (PID=31444) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-01-08T12:35:35.978+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2026-01-08T12:35:35.980+0530] {logging_mixin.py:190} INFO - [2026-01-08T12:35:35.979+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-01-08T12:35:35.993+0530] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-01-08T12:35:36.035+0530] {logging_mixin.py:190} INFO - [2026-01-08T12:35:36.035+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-08T12:35:36.053+0530] {logging_mixin.py:190} INFO - [2026-01-08T12:35:36.052+0530] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2026-01-08T12:35:36.080+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.124 seconds
+[2026-01-08T12:36:38.959+0530] {processor.py:186} INFO - Started process (PID=31506) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-01-08T12:36:38.961+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2026-01-08T12:36:38.963+0530] {logging_mixin.py:190} INFO - [2026-01-08T12:36:38.962+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-01-08T12:36:38.978+0530] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-01-08T12:36:39.020+0530] {logging_mixin.py:190} INFO - [2026-01-08T12:36:39.020+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-08T12:36:39.038+0530] {logging_mixin.py:190} INFO - [2026-01-08T12:36:39.038+0530] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2026-01-08T12:36:39.066+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.120 seconds
+[2026-01-08T12:37:40.471+0530] {processor.py:186} INFO - Started process (PID=31566) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-01-08T12:37:40.473+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2026-01-08T12:37:40.475+0530] {logging_mixin.py:190} INFO - [2026-01-08T12:37:40.475+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-01-08T12:37:40.488+0530] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-01-08T12:37:40.527+0530] {logging_mixin.py:190} INFO - [2026-01-08T12:37:40.527+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-08T12:37:40.544+0530] {logging_mixin.py:190} INFO - [2026-01-08T12:37:40.543+0530] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2026-01-08T12:37:40.571+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.112 seconds
+[2026-01-08T12:38:46.076+0530] {processor.py:186} INFO - Started process (PID=31629) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-01-08T12:38:46.077+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2026-01-08T12:38:46.079+0530] {logging_mixin.py:190} INFO - [2026-01-08T12:38:46.079+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-01-08T12:38:46.092+0530] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-01-08T12:38:46.133+0530] {logging_mixin.py:190} INFO - [2026-01-08T12:38:46.133+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-08T12:38:46.151+0530] {logging_mixin.py:190} INFO - [2026-01-08T12:38:46.151+0530] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2026-01-08T12:38:46.179+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.115 seconds
+[2026-01-08T12:39:51.667+0530] {processor.py:186} INFO - Started process (PID=31722) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-01-08T12:39:51.668+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2026-01-08T12:39:51.670+0530] {logging_mixin.py:190} INFO - [2026-01-08T12:39:51.669+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-01-08T12:39:51.683+0530] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-01-08T12:39:51.722+0530] {logging_mixin.py:190} INFO - [2026-01-08T12:39:51.722+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-08T12:39:51.738+0530] {logging_mixin.py:190} INFO - [2026-01-08T12:39:51.738+0530] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2026-01-08T12:39:51.767+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.112 seconds
+[2026-01-08T12:40:58.556+0530] {processor.py:186} INFO - Started process (PID=31786) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-01-08T12:40:58.557+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2026-01-08T12:40:58.559+0530] {logging_mixin.py:190} INFO - [2026-01-08T12:40:58.558+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-01-08T12:40:58.571+0530] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-01-08T12:40:58.610+0530] {logging_mixin.py:190} INFO - [2026-01-08T12:40:58.609+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-08T12:40:58.626+0530] {logging_mixin.py:190} INFO - [2026-01-08T12:40:58.625+0530] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2026-01-08T12:40:58.653+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.110 seconds
+[2026-01-08T12:42:04.951+0530] {processor.py:186} INFO - Started process (PID=31851) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-01-08T12:42:04.953+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2026-01-08T12:42:04.955+0530] {logging_mixin.py:190} INFO - [2026-01-08T12:42:04.954+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-01-08T12:42:04.969+0530] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-01-08T12:42:05.008+0530] {logging_mixin.py:190} INFO - [2026-01-08T12:42:05.008+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-08T12:42:05.232+0530] {logging_mixin.py:190} INFO - [2026-01-08T12:42:05.232+0530] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2026-01-08T12:42:05.257+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.318 seconds
+[2026-01-08T12:43:16.184+0530] {processor.py:186} INFO - Started process (PID=31919) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-01-08T12:43:16.186+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2026-01-08T12:43:16.187+0530] {logging_mixin.py:190} INFO - [2026-01-08T12:43:16.187+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-01-08T12:43:16.202+0530] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-01-08T12:43:16.242+0530] {logging_mixin.py:190} INFO - [2026-01-08T12:43:16.241+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-08T12:43:16.258+0530] {logging_mixin.py:190} INFO - [2026-01-08T12:43:16.258+0530] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2026-01-08T12:43:16.286+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.111 seconds
+[2026-01-08T12:44:36.542+0530] {processor.py:186} INFO - Started process (PID=31988) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-01-08T12:44:36.544+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2026-01-08T12:44:36.546+0530] {logging_mixin.py:190} INFO - [2026-01-08T12:44:36.545+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-01-08T12:44:36.560+0530] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-01-08T12:44:36.601+0530] {logging_mixin.py:190} INFO - [2026-01-08T12:44:36.601+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-08T12:44:36.619+0530] {logging_mixin.py:190} INFO - [2026-01-08T12:44:36.619+0530] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2026-01-08T12:44:36.647+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.117 seconds
+[2026-01-08T12:45:45.576+0530] {processor.py:186} INFO - Started process (PID=32086) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-01-08T12:45:45.578+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2026-01-08T12:45:45.579+0530] {logging_mixin.py:190} INFO - [2026-01-08T12:45:45.579+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-01-08T12:45:45.593+0530] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2026-01-08T12:45:45.632+0530] {logging_mixin.py:190} INFO - [2026-01-08T12:45:45.632+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-01-08T12:45:45.648+0530] {logging_mixin.py:190} INFO - [2026-01-08T12:45:45.648+0530] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2026-01-08T12:45:45.676+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.110 seconds

@@ -208,3 +208,640 @@
 [2025-12-16T12:59:24.829+0530] {logging_mixin.py:190} INFO - [2025-12-16T12:59:24.829+0530] {dag.py:3239} INFO - Sync 1 DAGs
 [2025-12-16T12:59:24.842+0530] {logging_mixin.py:190} INFO - [2025-12-16T12:59:24.841+0530] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
 [2025-12-16T12:59:24.861+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.081 seconds
+[2025-12-16T13:00:24.156+0530] {processor.py:186} INFO - Started process (PID=38257) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T13:00:24.158+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-12-16T13:00:24.160+0530] {logging_mixin.py:190} INFO - [2025-12-16T13:00:24.159+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T13:00:24.176+0530] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T13:00:24.209+0530] {logging_mixin.py:190} INFO - [2025-12-16T13:00:24.209+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-16T13:00:24.225+0530] {logging_mixin.py:190} INFO - [2025-12-16T13:00:24.225+0530] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-12-16T13:00:24.248+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.102 seconds
+[2025-12-16T13:01:21.903+0530] {processor.py:186} INFO - Started process (PID=38611) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T13:01:21.904+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-12-16T13:01:21.906+0530] {logging_mixin.py:190} INFO - [2025-12-16T13:01:21.905+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T13:01:21.916+0530] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T13:01:21.941+0530] {logging_mixin.py:190} INFO - [2025-12-16T13:01:21.941+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-16T13:01:21.955+0530] {logging_mixin.py:190} INFO - [2025-12-16T13:01:21.955+0530] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-12-16T13:01:21.975+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.080 seconds
+[2025-12-16T13:02:16.531+0530] {processor.py:186} INFO - Started process (PID=38820) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T13:02:16.533+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-12-16T13:02:16.535+0530] {logging_mixin.py:190} INFO - [2025-12-16T13:02:16.534+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T13:02:16.548+0530] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T13:02:16.576+0530] {logging_mixin.py:190} INFO - [2025-12-16T13:02:16.576+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-16T13:02:16.591+0530] {logging_mixin.py:190} INFO - [2025-12-16T13:02:16.591+0530] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-12-16T13:02:16.612+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.088 seconds
+[2025-12-16T13:03:10.690+0530] {processor.py:186} INFO - Started process (PID=39146) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T13:03:10.691+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-12-16T13:03:10.693+0530] {logging_mixin.py:190} INFO - [2025-12-16T13:03:10.692+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T13:03:10.705+0530] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T13:03:10.731+0530] {logging_mixin.py:190} INFO - [2025-12-16T13:03:10.731+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-16T13:03:10.746+0530] {logging_mixin.py:190} INFO - [2025-12-16T13:03:10.745+0530] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-12-16T13:03:10.767+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.085 seconds
+[2025-12-16T13:04:08.511+0530] {processor.py:186} INFO - Started process (PID=39513) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T13:04:08.512+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-12-16T13:04:08.514+0530] {logging_mixin.py:190} INFO - [2025-12-16T13:04:08.513+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T13:04:08.527+0530] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T13:04:08.555+0530] {logging_mixin.py:190} INFO - [2025-12-16T13:04:08.554+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-16T13:04:08.569+0530] {logging_mixin.py:190} INFO - [2025-12-16T13:04:08.569+0530] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-12-16T13:04:08.593+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.090 seconds
+[2025-12-16T13:05:07.885+0530] {processor.py:186} INFO - Started process (PID=39612) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T13:05:07.887+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-12-16T13:05:07.890+0530] {logging_mixin.py:190} INFO - [2025-12-16T13:05:07.889+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T13:05:07.911+0530] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T13:05:07.968+0530] {logging_mixin.py:190} INFO - [2025-12-16T13:05:07.967+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-16T13:05:08.004+0530] {logging_mixin.py:190} INFO - [2025-12-16T13:05:08.004+0530] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-12-16T13:05:08.046+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.173 seconds
+[2025-12-16T13:06:07.989+0530] {processor.py:186} INFO - Started process (PID=39674) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T13:06:07.990+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-12-16T13:06:07.992+0530] {logging_mixin.py:190} INFO - [2025-12-16T13:06:07.991+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T13:06:08.001+0530] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T13:06:08.024+0530] {logging_mixin.py:190} INFO - [2025-12-16T13:06:08.024+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-16T13:06:08.037+0530] {logging_mixin.py:190} INFO - [2025-12-16T13:06:08.037+0530] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-12-16T13:06:08.055+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.077 seconds
+[2025-12-16T13:07:04.715+0530] {processor.py:186} INFO - Started process (PID=39733) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T13:07:04.716+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-12-16T13:07:04.717+0530] {logging_mixin.py:190} INFO - [2025-12-16T13:07:04.717+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T13:07:04.727+0530] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T13:07:04.748+0530] {logging_mixin.py:190} INFO - [2025-12-16T13:07:04.748+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-16T13:07:04.759+0530] {logging_mixin.py:190} INFO - [2025-12-16T13:07:04.759+0530] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-12-16T13:07:04.777+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.073 seconds
+[2025-12-16T13:07:56.992+0530] {processor.py:186} INFO - Started process (PID=39810) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T13:07:56.993+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-12-16T13:07:56.994+0530] {logging_mixin.py:190} INFO - [2025-12-16T13:07:56.994+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T13:07:57.004+0530] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T13:07:57.025+0530] {logging_mixin.py:190} INFO - [2025-12-16T13:07:57.025+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-16T13:07:57.036+0530] {logging_mixin.py:190} INFO - [2025-12-16T13:07:57.036+0530] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-12-16T13:07:57.057+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.077 seconds
+[2025-12-16T13:08:53.205+0530] {processor.py:186} INFO - Started process (PID=39870) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T13:08:53.206+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-12-16T13:08:53.207+0530] {logging_mixin.py:190} INFO - [2025-12-16T13:08:53.207+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T13:08:53.217+0530] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T13:08:53.238+0530] {logging_mixin.py:190} INFO - [2025-12-16T13:08:53.238+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-16T13:08:53.249+0530] {logging_mixin.py:190} INFO - [2025-12-16T13:08:53.249+0530] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-12-16T13:08:53.267+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.074 seconds
+[2025-12-16T13:09:47.471+0530] {processor.py:186} INFO - Started process (PID=39928) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T13:09:47.472+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-12-16T13:09:47.473+0530] {logging_mixin.py:190} INFO - [2025-12-16T13:09:47.473+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T13:09:47.483+0530] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T13:09:47.504+0530] {logging_mixin.py:190} INFO - [2025-12-16T13:09:47.504+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-16T13:09:47.515+0530] {logging_mixin.py:190} INFO - [2025-12-16T13:09:47.515+0530] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-12-16T13:09:47.533+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.074 seconds
+[2025-12-16T13:10:42.258+0530] {processor.py:186} INFO - Started process (PID=40139) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T13:10:42.259+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-12-16T13:10:42.261+0530] {logging_mixin.py:190} INFO - [2025-12-16T13:10:42.260+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T13:10:42.273+0530] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T13:10:42.303+0530] {logging_mixin.py:190} INFO - [2025-12-16T13:10:42.302+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-16T13:10:42.320+0530] {logging_mixin.py:190} INFO - [2025-12-16T13:10:42.319+0530] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-12-16T13:10:42.340+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.095 seconds
+[2025-12-16T13:11:36.135+0530] {processor.py:186} INFO - Started process (PID=40441) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T13:11:36.136+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-12-16T13:11:36.138+0530] {logging_mixin.py:190} INFO - [2025-12-16T13:11:36.137+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T13:11:36.148+0530] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T13:11:36.171+0530] {logging_mixin.py:190} INFO - [2025-12-16T13:11:36.171+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-16T13:11:36.184+0530] {logging_mixin.py:190} INFO - [2025-12-16T13:11:36.183+0530] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-12-16T13:11:36.202+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.078 seconds
+[2025-12-16T13:12:31.115+0530] {processor.py:186} INFO - Started process (PID=40780) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T13:12:31.116+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-12-16T13:12:31.117+0530] {logging_mixin.py:190} INFO - [2025-12-16T13:12:31.117+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T13:12:31.127+0530] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T13:12:31.150+0530] {logging_mixin.py:190} INFO - [2025-12-16T13:12:31.150+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-16T13:12:31.163+0530] {logging_mixin.py:190} INFO - [2025-12-16T13:12:31.163+0530] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-12-16T13:12:31.181+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.078 seconds
+[2025-12-16T13:13:27.247+0530] {processor.py:186} INFO - Started process (PID=41104) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T13:13:27.248+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-12-16T13:13:27.250+0530] {logging_mixin.py:190} INFO - [2025-12-16T13:13:27.249+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T13:13:27.259+0530] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T13:13:27.281+0530] {logging_mixin.py:190} INFO - [2025-12-16T13:13:27.280+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-16T13:13:27.292+0530] {logging_mixin.py:190} INFO - [2025-12-16T13:13:27.292+0530] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-12-16T13:13:27.313+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.076 seconds
+[2025-12-16T13:14:24.244+0530] {processor.py:186} INFO - Started process (PID=41427) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T13:14:24.245+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-12-16T13:14:24.247+0530] {logging_mixin.py:190} INFO - [2025-12-16T13:14:24.246+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T13:14:24.256+0530] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T13:14:24.280+0530] {logging_mixin.py:190} INFO - [2025-12-16T13:14:24.279+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-16T13:14:24.292+0530] {logging_mixin.py:190} INFO - [2025-12-16T13:14:24.292+0530] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-12-16T13:14:24.313+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.080 seconds
+[2025-12-16T13:15:18.368+0530] {processor.py:186} INFO - Started process (PID=41729) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T13:15:18.369+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-12-16T13:15:18.371+0530] {logging_mixin.py:190} INFO - [2025-12-16T13:15:18.370+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T13:15:18.380+0530] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T13:15:18.402+0530] {logging_mixin.py:190} INFO - [2025-12-16T13:15:18.402+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-16T13:15:18.414+0530] {logging_mixin.py:190} INFO - [2025-12-16T13:15:18.413+0530] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-12-16T13:15:18.431+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.074 seconds
+[2025-12-16T13:16:14.305+0530] {processor.py:186} INFO - Started process (PID=42058) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T13:16:14.306+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-12-16T13:16:14.308+0530] {logging_mixin.py:190} INFO - [2025-12-16T13:16:14.307+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T13:16:14.322+0530] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T13:16:14.355+0530] {logging_mixin.py:190} INFO - [2025-12-16T13:16:14.354+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-16T13:16:14.373+0530] {logging_mixin.py:190} INFO - [2025-12-16T13:16:14.372+0530] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-12-16T13:16:14.398+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.101 seconds
+[2025-12-16T13:17:08.467+0530] {processor.py:186} INFO - Started process (PID=42469) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T13:17:08.468+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-12-16T13:17:08.470+0530] {logging_mixin.py:190} INFO - [2025-12-16T13:17:08.469+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T13:17:08.483+0530] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T13:17:08.508+0530] {logging_mixin.py:190} INFO - [2025-12-16T13:17:08.507+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-16T13:17:08.520+0530] {logging_mixin.py:190} INFO - [2025-12-16T13:17:08.520+0530] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-12-16T13:17:08.542+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.083 seconds
+[2025-12-16T13:18:02.821+0530] {processor.py:186} INFO - Started process (PID=42873) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T13:18:02.822+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-12-16T13:18:02.824+0530] {logging_mixin.py:190} INFO - [2025-12-16T13:18:02.824+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T13:18:02.840+0530] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T13:18:02.874+0530] {logging_mixin.py:190} INFO - [2025-12-16T13:18:02.874+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-16T13:18:02.892+0530] {logging_mixin.py:190} INFO - [2025-12-16T13:18:02.892+0530] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-12-16T13:18:02.918+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.109 seconds
+[2025-12-16T13:19:00.264+0530] {processor.py:186} INFO - Started process (PID=42980) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T13:19:00.266+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-12-16T13:19:00.267+0530] {logging_mixin.py:190} INFO - [2025-12-16T13:19:00.266+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T13:19:00.276+0530] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T13:19:00.298+0530] {logging_mixin.py:190} INFO - [2025-12-16T13:19:00.297+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-16T13:19:00.310+0530] {logging_mixin.py:190} INFO - [2025-12-16T13:19:00.310+0530] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-12-16T13:19:00.329+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.077 seconds
+[2025-12-16T13:20:28.797+0530] {processor.py:186} INFO - Started process (PID=43865) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T13:20:28.798+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-12-16T13:20:28.799+0530] {logging_mixin.py:190} INFO - [2025-12-16T13:20:28.799+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T13:20:28.810+0530] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T13:20:28.835+0530] {logging_mixin.py:190} INFO - [2025-12-16T13:20:28.835+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-16T13:20:28.848+0530] {logging_mixin.py:190} INFO - [2025-12-16T13:20:28.848+0530] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-12-16T13:20:28.867+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.079 seconds
+[2025-12-16T13:21:22.214+0530] {processor.py:186} INFO - Started process (PID=44236) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T13:21:22.215+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-12-16T13:21:22.217+0530] {logging_mixin.py:190} INFO - [2025-12-16T13:21:22.216+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T13:21:22.227+0530] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T13:21:22.252+0530] {logging_mixin.py:190} INFO - [2025-12-16T13:21:22.252+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-16T13:21:22.266+0530] {logging_mixin.py:190} INFO - [2025-12-16T13:21:22.265+0530] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-12-16T13:21:22.285+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.079 seconds
+[2025-12-16T13:22:18.282+0530] {processor.py:186} INFO - Started process (PID=44641) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T13:22:18.283+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-12-16T13:22:18.285+0530] {logging_mixin.py:190} INFO - [2025-12-16T13:22:18.284+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T13:22:18.297+0530] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T13:22:18.321+0530] {logging_mixin.py:190} INFO - [2025-12-16T13:22:18.321+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-16T13:22:18.334+0530] {logging_mixin.py:190} INFO - [2025-12-16T13:22:18.334+0530] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-12-16T13:22:18.354+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.079 seconds
+[2025-12-16T13:23:14.579+0530] {processor.py:186} INFO - Started process (PID=45062) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T13:23:14.580+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-12-16T13:23:14.581+0530] {logging_mixin.py:190} INFO - [2025-12-16T13:23:14.581+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T13:23:14.592+0530] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T13:23:14.617+0530] {logging_mixin.py:190} INFO - [2025-12-16T13:23:14.616+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-16T13:23:14.629+0530] {logging_mixin.py:190} INFO - [2025-12-16T13:23:14.629+0530] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-12-16T13:23:14.651+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.080 seconds
+[2025-12-16T13:24:11.553+0530] {processor.py:186} INFO - Started process (PID=45453) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T13:24:11.554+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-12-16T13:24:11.557+0530] {logging_mixin.py:190} INFO - [2025-12-16T13:24:11.557+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T13:24:11.571+0530] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T13:24:11.597+0530] {logging_mixin.py:190} INFO - [2025-12-16T13:24:11.597+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-16T13:24:11.610+0530] {logging_mixin.py:190} INFO - [2025-12-16T13:24:11.610+0530] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-12-16T13:24:11.629+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.084 seconds
+[2025-12-16T13:25:24.646+0530] {processor.py:186} INFO - Started process (PID=46183) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T13:25:24.648+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-12-16T13:25:24.649+0530] {logging_mixin.py:190} INFO - [2025-12-16T13:25:24.649+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T13:25:24.662+0530] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T13:25:24.687+0530] {logging_mixin.py:190} INFO - [2025-12-16T13:25:24.687+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-16T13:25:24.700+0530] {logging_mixin.py:190} INFO - [2025-12-16T13:25:24.700+0530] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-12-16T13:25:24.719+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.084 seconds
+[2025-12-16T13:26:33.097+0530] {processor.py:186} INFO - Started process (PID=46341) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T13:26:33.098+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-12-16T13:26:33.100+0530] {logging_mixin.py:190} INFO - [2025-12-16T13:26:33.100+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T13:26:33.113+0530] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T13:26:33.137+0530] {logging_mixin.py:190} INFO - [2025-12-16T13:26:33.137+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-16T13:26:33.150+0530] {logging_mixin.py:190} INFO - [2025-12-16T13:26:33.150+0530] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-12-16T13:26:33.170+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.082 seconds
+[2025-12-16T13:27:28.738+0530] {processor.py:186} INFO - Started process (PID=46473) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T13:27:28.740+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-12-16T13:27:28.741+0530] {logging_mixin.py:190} INFO - [2025-12-16T13:27:28.741+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T13:27:28.754+0530] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T13:27:28.781+0530] {logging_mixin.py:190} INFO - [2025-12-16T13:27:28.780+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-16T13:27:28.796+0530] {logging_mixin.py:190} INFO - [2025-12-16T13:27:28.796+0530] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-12-16T13:27:28.824+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.101 seconds
+[2025-12-16T13:28:23.646+0530] {processor.py:186} INFO - Started process (PID=47037) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T13:28:23.647+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-12-16T13:28:23.648+0530] {logging_mixin.py:190} INFO - [2025-12-16T13:28:23.648+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T13:28:23.658+0530] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T13:28:23.682+0530] {logging_mixin.py:190} INFO - [2025-12-16T13:28:23.681+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-16T13:28:23.695+0530] {logging_mixin.py:190} INFO - [2025-12-16T13:28:23.694+0530] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-12-16T13:28:23.712+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.077 seconds
+[2025-12-16T13:29:20.924+0530] {processor.py:186} INFO - Started process (PID=47194) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T13:29:20.925+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-12-16T13:29:20.926+0530] {logging_mixin.py:190} INFO - [2025-12-16T13:29:20.926+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T13:29:20.937+0530] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T13:29:20.962+0530] {logging_mixin.py:190} INFO - [2025-12-16T13:29:20.961+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-16T13:29:20.975+0530] {logging_mixin.py:190} INFO - [2025-12-16T13:29:20.974+0530] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-12-16T13:29:20.994+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.081 seconds
+[2025-12-16T13:30:37.882+0530] {processor.py:186} INFO - Started process (PID=48126) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T13:30:37.883+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-12-16T13:30:37.885+0530] {logging_mixin.py:190} INFO - [2025-12-16T13:30:37.884+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T13:30:37.894+0530] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T13:30:37.915+0530] {logging_mixin.py:190} INFO - [2025-12-16T13:30:37.915+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-16T13:30:37.927+0530] {logging_mixin.py:190} INFO - [2025-12-16T13:30:37.926+0530] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-12-16T13:30:37.948+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.072 seconds
+[2025-12-16T13:31:37.772+0530] {processor.py:186} INFO - Started process (PID=48746) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T13:31:37.773+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-12-16T13:31:37.774+0530] {logging_mixin.py:190} INFO - [2025-12-16T13:31:37.774+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T13:31:37.784+0530] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T13:31:37.805+0530] {logging_mixin.py:190} INFO - [2025-12-16T13:31:37.805+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-16T13:31:37.817+0530] {logging_mixin.py:190} INFO - [2025-12-16T13:31:37.816+0530] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-12-16T13:31:37.833+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.072 seconds
+[2025-12-16T13:32:34.961+0530] {processor.py:186} INFO - Started process (PID=49331) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T13:32:34.963+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-12-16T13:32:34.964+0530] {logging_mixin.py:190} INFO - [2025-12-16T13:32:34.964+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T13:32:34.980+0530] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T13:32:35.022+0530] {logging_mixin.py:190} INFO - [2025-12-16T13:32:35.021+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-16T13:32:35.040+0530] {logging_mixin.py:190} INFO - [2025-12-16T13:32:35.039+0530] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-12-16T13:32:35.065+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.113 seconds
+[2025-12-16T13:33:38.040+0530] {processor.py:186} INFO - Started process (PID=49732) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T13:33:38.042+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-12-16T13:33:38.043+0530] {logging_mixin.py:190} INFO - [2025-12-16T13:33:38.043+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T13:33:38.056+0530] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T13:33:38.082+0530] {logging_mixin.py:190} INFO - [2025-12-16T13:33:38.082+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-16T13:33:38.096+0530] {logging_mixin.py:190} INFO - [2025-12-16T13:33:38.096+0530] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-12-16T13:33:38.117+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.087 seconds
+[2025-12-16T13:34:39.170+0530] {processor.py:186} INFO - Started process (PID=50102) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T13:34:39.176+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-12-16T13:34:39.177+0530] {logging_mixin.py:190} INFO - [2025-12-16T13:34:39.177+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T13:34:39.187+0530] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T13:34:39.208+0530] {logging_mixin.py:190} INFO - [2025-12-16T13:34:39.208+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-16T13:34:39.219+0530] {logging_mixin.py:190} INFO - [2025-12-16T13:34:39.219+0530] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-12-16T13:34:39.260+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.098 seconds
+[2025-12-16T13:36:03.887+0530] {processor.py:186} INFO - Started process (PID=50497) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T13:36:03.888+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-12-16T13:36:03.889+0530] {logging_mixin.py:190} INFO - [2025-12-16T13:36:03.889+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T13:36:03.899+0530] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T13:36:03.922+0530] {logging_mixin.py:190} INFO - [2025-12-16T13:36:03.921+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-16T13:36:03.934+0530] {logging_mixin.py:190} INFO - [2025-12-16T13:36:03.934+0530] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-12-16T13:36:03.952+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.076 seconds
+[2025-12-16T13:37:00.884+0530] {processor.py:186} INFO - Started process (PID=50557) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T13:37:00.885+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-12-16T13:37:00.887+0530] {logging_mixin.py:190} INFO - [2025-12-16T13:37:00.886+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T13:37:00.899+0530] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T13:37:00.926+0530] {logging_mixin.py:190} INFO - [2025-12-16T13:37:00.926+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-16T13:37:00.940+0530] {logging_mixin.py:190} INFO - [2025-12-16T13:37:00.939+0530] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-12-16T13:37:00.963+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.087 seconds
+[2025-12-16T13:37:57.909+0530] {processor.py:186} INFO - Started process (PID=50971) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T13:37:57.910+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-12-16T13:37:57.911+0530] {logging_mixin.py:190} INFO - [2025-12-16T13:37:57.911+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T13:37:57.921+0530] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T13:37:57.945+0530] {logging_mixin.py:190} INFO - [2025-12-16T13:37:57.944+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-16T13:37:57.960+0530] {logging_mixin.py:190} INFO - [2025-12-16T13:37:57.960+0530] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-12-16T13:37:57.979+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.080 seconds
+[2025-12-16T13:38:55.503+0530] {processor.py:186} INFO - Started process (PID=51037) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T13:38:55.504+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-12-16T13:38:55.505+0530] {logging_mixin.py:190} INFO - [2025-12-16T13:38:55.505+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T13:38:55.515+0530] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T13:38:55.537+0530] {logging_mixin.py:190} INFO - [2025-12-16T13:38:55.537+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-16T13:38:55.549+0530] {logging_mixin.py:190} INFO - [2025-12-16T13:38:55.549+0530] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-12-16T13:38:55.571+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.079 seconds
+[2025-12-16T13:39:51.926+0530] {processor.py:186} INFO - Started process (PID=51098) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T13:39:51.936+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-12-16T13:39:51.939+0530] {logging_mixin.py:190} INFO - [2025-12-16T13:39:51.938+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T13:39:51.951+0530] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T13:39:51.975+0530] {logging_mixin.py:190} INFO - [2025-12-16T13:39:51.974+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-16T13:39:51.987+0530] {logging_mixin.py:190} INFO - [2025-12-16T13:39:51.987+0530] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-12-16T13:39:52.005+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.091 seconds
+[2025-12-16T13:40:44.058+0530] {processor.py:186} INFO - Started process (PID=51155) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T13:40:44.059+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-12-16T13:40:44.060+0530] {logging_mixin.py:190} INFO - [2025-12-16T13:40:44.060+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T13:40:44.070+0530] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T13:40:44.093+0530] {logging_mixin.py:190} INFO - [2025-12-16T13:40:44.093+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-16T13:40:44.106+0530] {logging_mixin.py:190} INFO - [2025-12-16T13:40:44.105+0530] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-12-16T13:40:44.126+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.081 seconds
+[2025-12-16T13:41:37.983+0530] {processor.py:186} INFO - Started process (PID=51239) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T13:41:37.984+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-12-16T13:41:37.987+0530] {logging_mixin.py:190} INFO - [2025-12-16T13:41:37.986+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T13:41:38.000+0530] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T13:41:38.030+0530] {logging_mixin.py:190} INFO - [2025-12-16T13:41:38.030+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-16T13:41:38.046+0530] {logging_mixin.py:190} INFO - [2025-12-16T13:41:38.045+0530] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-12-16T13:41:38.066+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.091 seconds
+[2025-12-16T13:43:11.422+0530] {processor.py:186} INFO - Started process (PID=52216) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T13:43:11.423+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-12-16T13:43:11.425+0530] {logging_mixin.py:190} INFO - [2025-12-16T13:43:11.425+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T13:43:11.436+0530] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T13:43:11.465+0530] {logging_mixin.py:190} INFO - [2025-12-16T13:43:11.464+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-16T13:43:11.478+0530] {logging_mixin.py:190} INFO - [2025-12-16T13:43:11.477+0530] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-12-16T13:43:11.497+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.082 seconds
+[2025-12-16T13:44:08.899+0530] {processor.py:186} INFO - Started process (PID=52607) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T13:44:08.900+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-12-16T13:44:08.901+0530] {logging_mixin.py:190} INFO - [2025-12-16T13:44:08.901+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T13:44:08.913+0530] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T13:44:08.938+0530] {logging_mixin.py:190} INFO - [2025-12-16T13:44:08.937+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-16T13:44:08.951+0530] {logging_mixin.py:190} INFO - [2025-12-16T13:44:08.951+0530] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-12-16T13:44:08.972+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.082 seconds
+[2025-12-16T13:45:07.301+0530] {processor.py:186} INFO - Started process (PID=53030) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T13:45:07.302+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-12-16T13:45:07.304+0530] {logging_mixin.py:190} INFO - [2025-12-16T13:45:07.303+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T13:45:07.315+0530] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T13:45:07.340+0530] {logging_mixin.py:190} INFO - [2025-12-16T13:45:07.340+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-16T13:45:07.353+0530] {logging_mixin.py:190} INFO - [2025-12-16T13:45:07.353+0530] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-12-16T13:45:07.374+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.081 seconds
+[2025-12-16T13:46:05.510+0530] {processor.py:186} INFO - Started process (PID=53439) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T13:46:05.511+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-12-16T13:46:05.513+0530] {logging_mixin.py:190} INFO - [2025-12-16T13:46:05.512+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T13:46:05.535+0530] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T13:46:05.559+0530] {logging_mixin.py:190} INFO - [2025-12-16T13:46:05.558+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-16T13:46:05.572+0530] {logging_mixin.py:190} INFO - [2025-12-16T13:46:05.572+0530] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-12-16T13:46:05.593+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.090 seconds
+[2025-12-16T13:47:02.895+0530] {processor.py:186} INFO - Started process (PID=53844) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T13:47:02.896+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-12-16T13:47:02.897+0530] {logging_mixin.py:190} INFO - [2025-12-16T13:47:02.897+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T13:47:02.908+0530] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T13:47:02.933+0530] {logging_mixin.py:190} INFO - [2025-12-16T13:47:02.932+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-16T13:47:02.946+0530] {logging_mixin.py:190} INFO - [2025-12-16T13:47:02.946+0530] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-12-16T13:47:02.967+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.081 seconds
+[2025-12-16T13:48:26.255+0530] {processor.py:186} INFO - Started process (PID=54479) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T13:48:26.266+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-12-16T13:48:26.268+0530] {logging_mixin.py:190} INFO - [2025-12-16T13:48:26.267+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T13:48:26.278+0530] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T13:48:26.300+0530] {logging_mixin.py:190} INFO - [2025-12-16T13:48:26.299+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-16T13:48:26.311+0530] {logging_mixin.py:190} INFO - [2025-12-16T13:48:26.311+0530] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-12-16T13:48:26.331+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.088 seconds
+[2025-12-16T13:49:23.514+0530] {processor.py:186} INFO - Started process (PID=54794) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T13:49:23.515+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-12-16T13:49:23.516+0530] {logging_mixin.py:190} INFO - [2025-12-16T13:49:23.516+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T13:49:23.528+0530] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T13:49:23.554+0530] {logging_mixin.py:190} INFO - [2025-12-16T13:49:23.554+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-16T13:49:23.568+0530] {logging_mixin.py:190} INFO - [2025-12-16T13:49:23.568+0530] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-12-16T13:49:23.589+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.084 seconds
+[2025-12-16T13:50:19.165+0530] {processor.py:186} INFO - Started process (PID=55030) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T13:50:19.166+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-12-16T13:50:19.167+0530] {logging_mixin.py:190} INFO - [2025-12-16T13:50:19.167+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T13:50:19.177+0530] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T13:50:19.199+0530] {logging_mixin.py:190} INFO - [2025-12-16T13:50:19.199+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-16T13:50:19.211+0530] {logging_mixin.py:190} INFO - [2025-12-16T13:50:19.210+0530] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-12-16T13:50:19.230+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.077 seconds
+[2025-12-16T13:51:11.524+0530] {processor.py:186} INFO - Started process (PID=55086) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T13:51:11.535+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-12-16T13:51:11.537+0530] {logging_mixin.py:190} INFO - [2025-12-16T13:51:11.537+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T13:51:11.549+0530] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T13:51:11.573+0530] {logging_mixin.py:190} INFO - [2025-12-16T13:51:11.573+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-16T13:51:11.585+0530] {logging_mixin.py:190} INFO - [2025-12-16T13:51:11.585+0530] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-12-16T13:51:11.603+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.088 seconds
+[2025-12-16T13:52:04.860+0530] {processor.py:186} INFO - Started process (PID=55142) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T13:52:04.861+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-12-16T13:52:04.863+0530] {logging_mixin.py:190} INFO - [2025-12-16T13:52:04.862+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T13:52:04.872+0530] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T13:52:04.895+0530] {logging_mixin.py:190} INFO - [2025-12-16T13:52:04.895+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-16T13:52:04.907+0530] {logging_mixin.py:190} INFO - [2025-12-16T13:52:04.907+0530] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-12-16T13:52:04.925+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.075 seconds
+[2025-12-16T13:53:00.243+0530] {processor.py:186} INFO - Started process (PID=55218) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T13:53:00.244+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-12-16T13:53:00.246+0530] {logging_mixin.py:190} INFO - [2025-12-16T13:53:00.245+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T13:53:00.256+0530] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T13:53:00.279+0530] {logging_mixin.py:190} INFO - [2025-12-16T13:53:00.279+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-16T13:53:00.291+0530] {logging_mixin.py:190} INFO - [2025-12-16T13:53:00.291+0530] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-12-16T13:53:00.309+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.073 seconds
+[2025-12-16T13:53:54.015+0530] {processor.py:186} INFO - Started process (PID=55276) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T13:53:54.016+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-12-16T13:53:54.017+0530] {logging_mixin.py:190} INFO - [2025-12-16T13:53:54.017+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T13:53:54.026+0530] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T13:53:54.047+0530] {logging_mixin.py:190} INFO - [2025-12-16T13:53:54.047+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-16T13:53:54.059+0530] {logging_mixin.py:190} INFO - [2025-12-16T13:53:54.059+0530] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-12-16T13:53:54.080+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.077 seconds
+[2025-12-16T13:54:49.877+0530] {processor.py:186} INFO - Started process (PID=55336) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T13:54:49.878+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-12-16T13:54:49.879+0530] {logging_mixin.py:190} INFO - [2025-12-16T13:54:49.879+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T13:54:49.888+0530] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T13:54:49.911+0530] {logging_mixin.py:190} INFO - [2025-12-16T13:54:49.911+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-16T13:54:49.923+0530] {logging_mixin.py:190} INFO - [2025-12-16T13:54:49.923+0530] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-12-16T13:54:49.941+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.072 seconds
+[2025-12-16T13:55:46.127+0530] {processor.py:186} INFO - Started process (PID=55406) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T13:55:46.128+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-12-16T13:55:46.129+0530] {logging_mixin.py:190} INFO - [2025-12-16T13:55:46.129+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T13:55:46.139+0530] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T13:55:46.160+0530] {logging_mixin.py:190} INFO - [2025-12-16T13:55:46.159+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-16T13:55:46.171+0530] {logging_mixin.py:190} INFO - [2025-12-16T13:55:46.171+0530] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-12-16T13:55:46.188+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.074 seconds
+[2025-12-16T13:56:36.828+0530] {processor.py:186} INFO - Started process (PID=55461) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T13:56:36.829+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-12-16T13:56:36.830+0530] {logging_mixin.py:190} INFO - [2025-12-16T13:56:36.830+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T13:56:36.839+0530] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T13:56:36.862+0530] {logging_mixin.py:190} INFO - [2025-12-16T13:56:36.862+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-16T13:56:36.874+0530] {logging_mixin.py:190} INFO - [2025-12-16T13:56:36.874+0530] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-12-16T13:56:36.892+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.076 seconds
+[2025-12-16T19:27:33.961+0530] {processor.py:186} INFO - Started process (PID=20299) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T19:27:33.963+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-12-16T19:27:33.967+0530] {logging_mixin.py:190} INFO - [2025-12-16T19:27:33.967+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T19:27:33.986+0530] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T19:27:34.031+0530] {logging_mixin.py:190} INFO - [2025-12-16T19:27:34.031+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-16T19:27:34.052+0530] {logging_mixin.py:190} INFO - [2025-12-16T19:27:34.051+0530] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-12-16T19:27:34.089+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.138 seconds
+[2025-12-16T19:28:41.291+0530] {processor.py:186} INFO - Started process (PID=20721) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T19:28:41.292+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-12-16T19:28:41.295+0530] {logging_mixin.py:190} INFO - [2025-12-16T19:28:41.295+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T19:28:41.313+0530] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T19:28:41.352+0530] {logging_mixin.py:190} INFO - [2025-12-16T19:28:41.351+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-16T19:28:41.375+0530] {logging_mixin.py:190} INFO - [2025-12-16T19:28:41.374+0530] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-12-16T19:28:41.411+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.130 seconds
+[2025-12-16T19:29:53.959+0530] {processor.py:186} INFO - Started process (PID=21076) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T19:29:53.961+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-12-16T19:29:53.966+0530] {logging_mixin.py:190} INFO - [2025-12-16T19:29:53.965+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T19:29:53.985+0530] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T19:29:54.024+0530] {logging_mixin.py:190} INFO - [2025-12-16T19:29:54.024+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-16T19:29:54.053+0530] {logging_mixin.py:190} INFO - [2025-12-16T19:29:54.052+0530] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-12-16T19:29:54.108+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.158 seconds
+[2025-12-16T19:31:12.955+0530] {processor.py:186} INFO - Started process (PID=30144) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T19:31:12.956+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-12-16T19:31:12.961+0530] {logging_mixin.py:190} INFO - [2025-12-16T19:31:12.960+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T19:31:12.987+0530] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T19:31:13.035+0530] {logging_mixin.py:190} INFO - [2025-12-16T19:31:13.035+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-16T19:31:13.058+0530] {logging_mixin.py:190} INFO - [2025-12-16T19:31:13.058+0530] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-12-16T19:31:13.100+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.160 seconds
+[2025-12-16T19:32:09.796+0530] {processor.py:186} INFO - Started process (PID=30252) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T19:32:09.798+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-12-16T19:32:09.801+0530] {logging_mixin.py:190} INFO - [2025-12-16T19:32:09.801+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T19:32:09.820+0530] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T19:32:09.855+0530] {logging_mixin.py:190} INFO - [2025-12-16T19:32:09.855+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-16T19:32:09.876+0530] {logging_mixin.py:190} INFO - [2025-12-16T19:32:09.875+0530] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-12-16T19:32:09.909+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.123 seconds
+[2025-12-16T19:33:07.785+0530] {processor.py:186} INFO - Started process (PID=30638) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T19:33:07.797+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-12-16T19:33:07.801+0530] {logging_mixin.py:190} INFO - [2025-12-16T19:33:07.801+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T19:33:07.821+0530] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T19:33:07.860+0530] {logging_mixin.py:190} INFO - [2025-12-16T19:33:07.860+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-16T19:33:07.886+0530] {logging_mixin.py:190} INFO - [2025-12-16T19:33:07.885+0530] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-12-16T19:33:07.925+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.150 seconds
+[2025-12-16T19:34:03.992+0530] {processor.py:186} INFO - Started process (PID=30690) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T19:34:03.994+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-12-16T19:34:03.998+0530] {logging_mixin.py:190} INFO - [2025-12-16T19:34:03.997+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T19:34:04.017+0530] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T19:34:04.055+0530] {logging_mixin.py:190} INFO - [2025-12-16T19:34:04.054+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-16T19:34:04.077+0530] {logging_mixin.py:190} INFO - [2025-12-16T19:34:04.076+0530] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-12-16T19:34:04.111+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.128 seconds
+[2025-12-16T19:35:21.379+0530] {processor.py:186} INFO - Started process (PID=30773) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T19:35:21.380+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-12-16T19:35:21.384+0530] {logging_mixin.py:190} INFO - [2025-12-16T19:35:21.383+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T19:35:21.402+0530] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T19:35:21.650+0530] {logging_mixin.py:190} INFO - [2025-12-16T19:35:21.649+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-16T19:35:21.667+0530] {logging_mixin.py:190} INFO - [2025-12-16T19:35:21.667+0530] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-12-16T19:35:21.698+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.331 seconds
+[2025-12-16T19:37:02.542+0530] {processor.py:186} INFO - Started process (PID=31193) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T19:37:02.553+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-12-16T19:37:02.557+0530] {logging_mixin.py:190} INFO - [2025-12-16T19:37:02.556+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T19:37:02.576+0530] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T19:37:02.612+0530] {logging_mixin.py:190} INFO - [2025-12-16T19:37:02.611+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-16T19:37:02.634+0530] {logging_mixin.py:190} INFO - [2025-12-16T19:37:02.633+0530] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-12-16T19:37:02.667+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.136 seconds
+[2025-12-16T19:38:08.676+0530] {processor.py:186} INFO - Started process (PID=31257) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T19:38:08.678+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-12-16T19:38:08.683+0530] {logging_mixin.py:190} INFO - [2025-12-16T19:38:08.682+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T19:38:08.704+0530] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T19:38:08.742+0530] {logging_mixin.py:190} INFO - [2025-12-16T19:38:08.742+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-16T19:38:08.766+0530] {logging_mixin.py:190} INFO - [2025-12-16T19:38:08.766+0530] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-12-16T19:38:08.801+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.137 seconds
+[2025-12-16T19:39:14.841+0530] {processor.py:186} INFO - Started process (PID=31414) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T19:39:14.843+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-12-16T19:39:14.846+0530] {logging_mixin.py:190} INFO - [2025-12-16T19:39:14.846+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T19:39:14.863+0530] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T19:39:14.899+0530] {logging_mixin.py:190} INFO - [2025-12-16T19:39:14.898+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-16T19:39:14.924+0530] {logging_mixin.py:190} INFO - [2025-12-16T19:39:14.923+0530] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-12-16T19:39:14.973+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.141 seconds
+[2025-12-16T19:40:21.663+0530] {processor.py:186} INFO - Started process (PID=31768) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T19:40:21.675+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-12-16T19:40:21.679+0530] {logging_mixin.py:190} INFO - [2025-12-16T19:40:21.679+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T19:40:21.698+0530] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T19:40:21.736+0530] {logging_mixin.py:190} INFO - [2025-12-16T19:40:21.735+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-16T19:40:21.759+0530] {logging_mixin.py:190} INFO - [2025-12-16T19:40:21.758+0530] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-12-16T19:40:21.794+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.141 seconds
+[2025-12-16T19:41:25.913+0530] {processor.py:186} INFO - Started process (PID=31971) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T19:41:25.915+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-12-16T19:41:25.918+0530] {logging_mixin.py:190} INFO - [2025-12-16T19:41:25.918+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T19:41:25.937+0530] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T19:41:25.975+0530] {logging_mixin.py:190} INFO - [2025-12-16T19:41:25.974+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-16T19:41:25.998+0530] {logging_mixin.py:190} INFO - [2025-12-16T19:41:25.998+0530] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-12-16T19:41:26.034+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.135 seconds
+[2025-12-16T19:41:36.563+0530] {processor.py:186} INFO - Started process (PID=32065) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T19:41:36.565+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-12-16T19:41:36.568+0530] {logging_mixin.py:190} INFO - [2025-12-16T19:41:36.567+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T19:41:36.597+0530] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T19:41:36.663+0530] {logging_mixin.py:190} INFO - [2025-12-16T19:41:36.662+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-16T19:41:36.685+0530] {logging_mixin.py:190} INFO - [2025-12-16T19:41:36.684+0530] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-12-16T19:41:36.717+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.165 seconds
+[2025-12-16T19:43:03.844+0530] {processor.py:186} INFO - Started process (PID=33241) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T19:43:03.846+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-12-16T19:43:03.850+0530] {logging_mixin.py:190} INFO - [2025-12-16T19:43:03.849+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T19:43:03.869+0530] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T19:43:03.907+0530] {logging_mixin.py:190} INFO - [2025-12-16T19:43:03.906+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-16T19:43:03.932+0530] {logging_mixin.py:190} INFO - [2025-12-16T19:43:03.931+0530] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-12-16T19:43:03.965+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.131 seconds
+[2025-12-16T19:43:06.487+0530] {processor.py:186} INFO - Started process (PID=33287) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T19:43:06.488+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-12-16T19:43:06.493+0530] {logging_mixin.py:190} INFO - [2025-12-16T19:43:06.492+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T19:43:06.517+0530] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T19:43:06.556+0530] {logging_mixin.py:190} INFO - [2025-12-16T19:43:06.556+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-16T19:43:06.580+0530] {logging_mixin.py:190} INFO - [2025-12-16T19:43:06.580+0530] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-12-16T19:43:06.621+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.146 seconds
+[2025-12-16T19:44:12.493+0530] {processor.py:186} INFO - Started process (PID=33748) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T19:44:12.495+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-12-16T19:44:12.500+0530] {logging_mixin.py:190} INFO - [2025-12-16T19:44:12.499+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T19:44:12.520+0530] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T19:44:12.559+0530] {logging_mixin.py:190} INFO - [2025-12-16T19:44:12.558+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-16T19:44:12.582+0530] {logging_mixin.py:190} INFO - [2025-12-16T19:44:12.582+0530] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-12-16T19:44:12.619+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.136 seconds
+[2025-12-16T19:44:27.788+0530] {processor.py:186} INFO - Started process (PID=33915) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T19:44:27.789+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-12-16T19:44:27.793+0530] {logging_mixin.py:190} INFO - [2025-12-16T19:44:27.792+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T19:44:27.814+0530] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T19:44:27.851+0530] {logging_mixin.py:190} INFO - [2025-12-16T19:44:27.851+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-16T19:44:27.874+0530] {logging_mixin.py:190} INFO - [2025-12-16T19:44:27.873+0530] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-12-16T19:44:27.910+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.131 seconds
+[2025-12-16T19:45:21.565+0530] {processor.py:186} INFO - Started process (PID=34052) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T19:45:21.567+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-12-16T19:45:21.571+0530] {logging_mixin.py:190} INFO - [2025-12-16T19:45:21.570+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T19:45:21.588+0530] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T19:45:21.627+0530] {logging_mixin.py:190} INFO - [2025-12-16T19:45:21.627+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-16T19:45:21.652+0530] {logging_mixin.py:190} INFO - [2025-12-16T19:45:21.652+0530] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-12-16T19:45:21.689+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.135 seconds
+[2025-12-16T19:45:38.502+0530] {processor.py:186} INFO - Started process (PID=34081) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T19:45:38.503+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-12-16T19:45:38.507+0530] {logging_mixin.py:190} INFO - [2025-12-16T19:45:38.506+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T19:45:38.525+0530] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T19:45:38.560+0530] {logging_mixin.py:190} INFO - [2025-12-16T19:45:38.559+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-16T19:45:38.580+0530] {logging_mixin.py:190} INFO - [2025-12-16T19:45:38.579+0530] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-12-16T19:45:38.616+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.123 seconds
+[2025-12-16T19:46:28.659+0530] {processor.py:186} INFO - Started process (PID=34195) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T19:46:28.661+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-12-16T19:46:28.664+0530] {logging_mixin.py:190} INFO - [2025-12-16T19:46:28.664+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T19:46:28.683+0530] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T19:46:28.719+0530] {logging_mixin.py:190} INFO - [2025-12-16T19:46:28.719+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-16T19:46:28.741+0530] {logging_mixin.py:190} INFO - [2025-12-16T19:46:28.741+0530] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-12-16T19:46:28.781+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.132 seconds
+[2025-12-16T19:46:54.051+0530] {processor.py:186} INFO - Started process (PID=34342) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T19:46:54.053+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-12-16T19:46:54.059+0530] {logging_mixin.py:190} INFO - [2025-12-16T19:46:54.057+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T19:46:54.083+0530] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T19:46:54.138+0530] {logging_mixin.py:190} INFO - [2025-12-16T19:46:54.137+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-16T19:46:54.166+0530] {logging_mixin.py:190} INFO - [2025-12-16T19:46:54.166+0530] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-12-16T19:46:54.206+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.169 seconds
+[2025-12-16T19:47:41.671+0530] {processor.py:186} INFO - Started process (PID=34509) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T19:47:41.675+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-12-16T19:47:41.683+0530] {logging_mixin.py:190} INFO - [2025-12-16T19:47:41.681+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T19:47:41.717+0530] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T19:47:41.783+0530] {logging_mixin.py:190} INFO - [2025-12-16T19:47:41.782+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-16T19:47:41.827+0530] {logging_mixin.py:190} INFO - [2025-12-16T19:47:41.827+0530] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-12-16T19:47:41.880+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.226 seconds
+[2025-12-16T19:48:51.479+0530] {processor.py:186} INFO - Started process (PID=35000) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T19:48:51.491+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-12-16T19:48:51.494+0530] {logging_mixin.py:190} INFO - [2025-12-16T19:48:51.494+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T19:48:51.513+0530] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T19:48:51.549+0530] {logging_mixin.py:190} INFO - [2025-12-16T19:48:51.548+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-16T19:48:51.569+0530] {logging_mixin.py:190} INFO - [2025-12-16T19:48:51.568+0530] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-12-16T19:48:51.602+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.135 seconds
+[2025-12-16T23:24:41.733+0530] {processor.py:186} INFO - Started process (PID=83281) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T23:24:41.735+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-12-16T23:24:41.737+0530] {logging_mixin.py:190} INFO - [2025-12-16T23:24:41.736+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T23:24:41.752+0530] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T23:24:41.792+0530] {logging_mixin.py:190} INFO - [2025-12-16T23:24:41.792+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-16T23:24:41.811+0530] {logging_mixin.py:190} INFO - [2025-12-16T23:24:41.810+0530] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-12-16T23:24:41.842+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.120 seconds
+[2025-12-16T23:25:49.468+0530] {processor.py:186} INFO - Started process (PID=83746) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T23:25:49.470+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-12-16T23:25:49.472+0530] {logging_mixin.py:190} INFO - [2025-12-16T23:25:49.472+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T23:25:49.488+0530] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T23:25:49.523+0530] {logging_mixin.py:190} INFO - [2025-12-16T23:25:49.523+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-16T23:25:49.542+0530] {logging_mixin.py:190} INFO - [2025-12-16T23:25:49.541+0530] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-12-16T23:25:49.573+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.115 seconds
+[2025-12-16T23:27:03.445+0530] {processor.py:186} INFO - Started process (PID=84230) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T23:27:03.446+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-12-16T23:27:03.448+0530] {logging_mixin.py:190} INFO - [2025-12-16T23:27:03.448+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T23:27:03.462+0530] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T23:27:03.495+0530] {logging_mixin.py:190} INFO - [2025-12-16T23:27:03.494+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-16T23:27:03.514+0530] {logging_mixin.py:190} INFO - [2025-12-16T23:27:03.513+0530] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-12-16T23:27:03.543+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.108 seconds
+[2025-12-16T23:28:14.520+0530] {processor.py:186} INFO - Started process (PID=84610) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T23:28:14.522+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-12-16T23:28:14.524+0530] {logging_mixin.py:190} INFO - [2025-12-16T23:28:14.523+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T23:28:14.540+0530] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T23:28:14.577+0530] {logging_mixin.py:190} INFO - [2025-12-16T23:28:14.576+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-16T23:28:14.599+0530] {logging_mixin.py:190} INFO - [2025-12-16T23:28:14.599+0530] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-12-16T23:28:14.634+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.125 seconds
+[2025-12-16T23:29:34.962+0530] {processor.py:186} INFO - Started process (PID=85280) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T23:29:34.964+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-12-16T23:29:34.966+0530] {logging_mixin.py:190} INFO - [2025-12-16T23:29:34.966+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T23:29:34.980+0530] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T23:29:35.012+0530] {logging_mixin.py:190} INFO - [2025-12-16T23:29:35.011+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-16T23:29:35.029+0530] {logging_mixin.py:190} INFO - [2025-12-16T23:29:35.028+0530] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-12-16T23:29:35.058+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.107 seconds
+[2025-12-16T23:31:03.350+0530] {processor.py:186} INFO - Started process (PID=85885) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T23:31:03.351+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-12-16T23:31:03.354+0530] {logging_mixin.py:190} INFO - [2025-12-16T23:31:03.353+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T23:31:03.368+0530] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T23:31:03.401+0530] {logging_mixin.py:190} INFO - [2025-12-16T23:31:03.400+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-16T23:31:03.420+0530] {logging_mixin.py:190} INFO - [2025-12-16T23:31:03.419+0530] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-12-16T23:31:03.450+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.109 seconds
+[2025-12-16T23:32:08.525+0530] {processor.py:186} INFO - Started process (PID=86436) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T23:32:08.527+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-12-16T23:32:08.529+0530] {logging_mixin.py:190} INFO - [2025-12-16T23:32:08.528+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T23:32:08.542+0530] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T23:32:08.575+0530] {logging_mixin.py:190} INFO - [2025-12-16T23:32:08.574+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-16T23:32:08.592+0530] {logging_mixin.py:190} INFO - [2025-12-16T23:32:08.591+0530] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-12-16T23:32:08.622+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.107 seconds
+[2025-12-16T23:33:21.489+0530] {processor.py:186} INFO - Started process (PID=86574) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T23:33:21.491+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-12-16T23:33:21.493+0530] {logging_mixin.py:190} INFO - [2025-12-16T23:33:21.492+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T23:33:21.508+0530] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T23:33:21.544+0530] {logging_mixin.py:190} INFO - [2025-12-16T23:33:21.544+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-16T23:33:21.564+0530] {logging_mixin.py:190} INFO - [2025-12-16T23:33:21.564+0530] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-12-16T23:33:21.594+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.116 seconds
+[2025-12-16T23:34:25.801+0530] {processor.py:186} INFO - Started process (PID=86819) to work on /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T23:34:25.803+0530] {processor.py:914} INFO - Processing file /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-12-16T23:34:25.805+0530] {logging_mixin.py:190} INFO - [2025-12-16T23:34:25.804+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T23:34:25.821+0530] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-12-16T23:34:25.866+0530] {logging_mixin.py:190} INFO - [2025-12-16T23:34:25.865+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-16T23:34:25.934+0530] {logging_mixin.py:190} INFO - [2025-12-16T23:34:25.928+0530] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-12-16T23:34:25.985+0530] {processor.py:208} INFO - Processing /home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.195 seconds

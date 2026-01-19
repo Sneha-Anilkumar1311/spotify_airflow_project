@@ -1,0 +1,993 @@
+[2025-12-17T12:53:27.597+0530] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-12-17T12:53:27.615+0530] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: spotify_streaming_pipeline.run_spark_consumer manual__2025-12-17T07:18:05.715918+00:00 [queued]>
+[2025-12-17T12:53:27.626+0530] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: spotify_streaming_pipeline.run_spark_consumer manual__2025-12-17T07:18:05.715918+00:00 [queued]>
+[2025-12-17T12:53:27.627+0530] {taskinstance.py:2865} INFO - Starting attempt 1 of 2
+[2025-12-17T12:53:27.645+0530] {taskinstance.py:2888} INFO - Executing <Task(BashOperator): run_spark_consumer> on 2025-12-17 07:18:05.715918+00:00
+[2025-12-17T12:53:27.657+0530] {standard_task_runner.py:72} INFO - Started process 72542 to run task
+[2025-12-17T12:53:27.663+0530] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'spotify_streaming_pipeline', 'run_spark_consumer', 'manual__2025-12-17T07:18:05.715918+00:00', '--job-id', '122', '--raw', '--subdir', 'DAGS_FOLDER/spotify_streaming_dag.py', '--cfg-path', '/tmp/tmpal2la9y0']
+[2025-12-17T12:53:27.664+0530] {standard_task_runner.py:105} INFO - Job 122: Subtask run_spark_consumer
+[2025-12-17T12:53:27.719+0530] {task_command.py:467} INFO - Running <TaskInstance: spotify_streaming_pipeline.run_spark_consumer manual__2025-12-17T07:18:05.715918+00:00 [running]> on host sneha-HP-Laptop-15s-eq1xxx
+[2025-12-17T12:53:27.807+0530] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='sneha' AIRFLOW_CTX_DAG_ID='spotify_streaming_pipeline' AIRFLOW_CTX_TASK_ID='run_spark_consumer' AIRFLOW_CTX_EXECUTION_DATE='2025-12-17T07:18:05.715918+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-12-17T07:18:05.715918+00:00'
+[2025-12-17T12:53:27.809+0530] {logging_mixin.py:190} INFO - Task instance is in running state
+[2025-12-17T12:53:27.809+0530] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2025-12-17T12:53:27.810+0530] {logging_mixin.py:190} INFO - Current task name:run_spark_consumer state:running start_date:2025-12-17 07:23:27.616324+00:00
+[2025-12-17T12:53:27.810+0530] {logging_mixin.py:190} INFO - Dag name:spotify_streaming_pipeline and current dag run status:running
+[2025-12-17T12:53:27.810+0530] {taskinstance.py:731} INFO - ::endgroup::
+[2025-12-17T12:53:27.811+0530] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2025-12-17T12:53:27.812+0530] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', '\n        spark-submit         --packages org.apache.spark:spark-sql-kafka-0-10_2.12:3.4.4,org.postgresql:postgresql:42.7.3         /home/sneha/spotify_airflow_project/scripts/spark_consumer_airflow.py\n        ']
+[2025-12-17T12:53:27.839+0530] {subprocess.py:86} INFO - Output:
+[2025-12-17T12:53:31.168+0530] {subprocess.py:93} INFO - 25/12/17 12:53:31 WARN Utils: Your hostname, sneha-HP-Laptop-15s-eq1xxx resolves to a loopback address: 127.0.1.1; using 192.168.1.86 instead (on interface wlo1)
+[2025-12-17T12:53:31.177+0530] {subprocess.py:93} INFO - 25/12/17 12:53:31 WARN Utils: Set SPARK_LOCAL_IP if you need to bind to another address
+[2025-12-17T12:53:36.932+0530] {subprocess.py:93} INFO - :: loading settings :: url = jar:file:/home/sneha/spark/spark-3.4.4-bin-hadoop3/jars/ivy-2.5.1.jar!/org/apache/ivy/core/settings/ivysettings.xml
+[2025-12-17T12:53:37.055+0530] {subprocess.py:93} INFO - Ivy Default Cache set to: /home/sneha/.ivy2/cache
+[2025-12-17T12:53:37.055+0530] {subprocess.py:93} INFO - The jars for the packages stored in: /home/sneha/.ivy2/jars
+[2025-12-17T12:53:37.064+0530] {subprocess.py:93} INFO - org.apache.spark#spark-sql-kafka-0-10_2.12 added as a dependency
+[2025-12-17T12:53:37.065+0530] {subprocess.py:93} INFO - org.postgresql#postgresql added as a dependency
+[2025-12-17T12:53:37.067+0530] {subprocess.py:93} INFO - :: resolving dependencies :: org.apache.spark#spark-submit-parent-4ae5b19d-9a54-445e-bc9d-a368743288ef;1.0
+[2025-12-17T12:53:37.067+0530] {subprocess.py:93} INFO - 	confs: [default]
+[2025-12-17T12:53:37.341+0530] {subprocess.py:93} INFO - 	found org.apache.spark#spark-sql-kafka-0-10_2.12;3.4.4 in central
+[2025-12-17T12:53:37.526+0530] {subprocess.py:93} INFO - 	found org.apache.spark#spark-token-provider-kafka-0-10_2.12;3.4.4 in central
+[2025-12-17T12:53:37.576+0530] {subprocess.py:93} INFO - 	found org.apache.kafka#kafka-clients;3.3.2 in central
+[2025-12-17T12:53:37.657+0530] {subprocess.py:93} INFO - 	found org.lz4#lz4-java;1.8.0 in central
+[2025-12-17T12:53:37.718+0530] {subprocess.py:93} INFO - 	found org.xerial.snappy#snappy-java;1.1.10.5 in central
+[2025-12-17T12:53:37.786+0530] {subprocess.py:93} INFO - 	found org.slf4j#slf4j-api;2.0.6 in central
+[2025-12-17T12:53:37.836+0530] {subprocess.py:93} INFO - 	found org.apache.hadoop#hadoop-client-runtime;3.3.4 in central
+[2025-12-17T12:53:37.875+0530] {subprocess.py:93} INFO - 	found org.apache.hadoop#hadoop-client-api;3.3.4 in central
+[2025-12-17T12:53:37.918+0530] {subprocess.py:93} INFO - 	found commons-logging#commons-logging;1.1.3 in central
+[2025-12-17T12:53:37.951+0530] {subprocess.py:93} INFO - 	found com.google.code.findbugs#jsr305;3.0.0 in central
+[2025-12-17T12:53:37.986+0530] {subprocess.py:93} INFO - 	found org.apache.commons#commons-pool2;2.11.1 in central
+[2025-12-17T12:53:38.012+0530] {subprocess.py:93} INFO - 	found org.postgresql#postgresql;42.7.3 in central
+[2025-12-17T12:53:38.036+0530] {subprocess.py:93} INFO - 	found org.checkerframework#checker-qual;3.42.0 in central
+[2025-12-17T12:53:38.109+0530] {subprocess.py:93} INFO - :: resolution report :: resolve 1000ms :: artifacts dl 42ms
+[2025-12-17T12:53:38.110+0530] {subprocess.py:93} INFO - 	:: modules in use:
+[2025-12-17T12:53:38.112+0530] {subprocess.py:93} INFO - 	com.google.code.findbugs#jsr305;3.0.0 from central in [default]
+[2025-12-17T12:53:38.114+0530] {subprocess.py:93} INFO - 	commons-logging#commons-logging;1.1.3 from central in [default]
+[2025-12-17T12:53:38.115+0530] {subprocess.py:93} INFO - 	org.apache.commons#commons-pool2;2.11.1 from central in [default]
+[2025-12-17T12:53:38.115+0530] {subprocess.py:93} INFO - 	org.apache.hadoop#hadoop-client-api;3.3.4 from central in [default]
+[2025-12-17T12:53:38.115+0530] {subprocess.py:93} INFO - 	org.apache.hadoop#hadoop-client-runtime;3.3.4 from central in [default]
+[2025-12-17T12:53:38.116+0530] {subprocess.py:93} INFO - 	org.apache.kafka#kafka-clients;3.3.2 from central in [default]
+[2025-12-17T12:53:38.116+0530] {subprocess.py:93} INFO - 	org.apache.spark#spark-sql-kafka-0-10_2.12;3.4.4 from central in [default]
+[2025-12-17T12:53:38.116+0530] {subprocess.py:93} INFO - 	org.apache.spark#spark-token-provider-kafka-0-10_2.12;3.4.4 from central in [default]
+[2025-12-17T12:53:38.116+0530] {subprocess.py:93} INFO - 	org.checkerframework#checker-qual;3.42.0 from central in [default]
+[2025-12-17T12:53:38.116+0530] {subprocess.py:93} INFO - 	org.lz4#lz4-java;1.8.0 from central in [default]
+[2025-12-17T12:53:38.120+0530] {subprocess.py:93} INFO - 	org.postgresql#postgresql;42.7.3 from central in [default]
+[2025-12-17T12:53:38.121+0530] {subprocess.py:93} INFO - 	org.slf4j#slf4j-api;2.0.6 from central in [default]
+[2025-12-17T12:53:38.121+0530] {subprocess.py:93} INFO - 	org.xerial.snappy#snappy-java;1.1.10.5 from central in [default]
+[2025-12-17T12:53:38.121+0530] {subprocess.py:93} INFO - 	---------------------------------------------------------------------
+[2025-12-17T12:53:38.122+0530] {subprocess.py:93} INFO - 	|                  |            modules            ||   artifacts   |
+[2025-12-17T12:53:38.122+0530] {subprocess.py:93} INFO - 	|       conf       | number| search|dwnlded|evicted|| number|dwnlded|
+[2025-12-17T12:53:38.122+0530] {subprocess.py:93} INFO - 	---------------------------------------------------------------------
+[2025-12-17T12:53:38.122+0530] {subprocess.py:93} INFO - 	|      default     |   13  |   0   |   0   |   0   ||   13  |   0   |
+[2025-12-17T12:53:38.122+0530] {subprocess.py:93} INFO - 	---------------------------------------------------------------------
+[2025-12-17T12:53:38.137+0530] {subprocess.py:93} INFO - :: retrieving :: org.apache.spark#spark-submit-parent-4ae5b19d-9a54-445e-bc9d-a368743288ef
+[2025-12-17T12:53:38.139+0530] {subprocess.py:93} INFO - 	confs: [default]
+[2025-12-17T12:53:38.163+0530] {subprocess.py:93} INFO - 	0 artifacts copied, 13 already retrieved (0kB/25ms)
+[2025-12-17T12:53:38.694+0530] {subprocess.py:93} INFO - 25/12/17 12:53:38 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+[2025-12-17T12:53:40.868+0530] {subprocess.py:93} INFO - 25/12/17 12:53:40 INFO SparkContext: Running Spark version 3.4.4
+[2025-12-17T12:53:41.005+0530] {subprocess.py:93} INFO - 25/12/17 12:53:41 INFO ResourceUtils: ==============================================================
+[2025-12-17T12:53:41.007+0530] {subprocess.py:93} INFO - 25/12/17 12:53:41 INFO ResourceUtils: No custom resources configured for spark.driver.
+[2025-12-17T12:53:41.008+0530] {subprocess.py:93} INFO - 25/12/17 12:53:41 INFO ResourceUtils: ==============================================================
+[2025-12-17T12:53:41.011+0530] {subprocess.py:93} INFO - 25/12/17 12:53:41 INFO SparkContext: Submitted application: spotify_streaming_airflow
+[2025-12-17T12:53:41.065+0530] {subprocess.py:93} INFO - 25/12/17 12:53:41 INFO ResourceProfile: Default ResourceProfile created, executor resources: Map(cores -> name: cores, amount: 1, script: , vendor: , memory -> name: memory, amount: 1024, script: , vendor: , offHeap -> name: offHeap, amount: 0, script: , vendor: ), task resources: Map(cpus -> name: cpus, amount: 1.0)
+[2025-12-17T12:53:41.090+0530] {subprocess.py:93} INFO - 25/12/17 12:53:41 INFO ResourceProfile: Limiting resource is cpu
+[2025-12-17T12:53:41.091+0530] {subprocess.py:93} INFO - 25/12/17 12:53:41 INFO ResourceProfileManager: Added ResourceProfile id: 0
+[2025-12-17T12:53:41.376+0530] {subprocess.py:93} INFO - 25/12/17 12:53:41 INFO SecurityManager: Changing view acls to: sneha
+[2025-12-17T12:53:41.383+0530] {subprocess.py:93} INFO - 25/12/17 12:53:41 INFO SecurityManager: Changing modify acls to: sneha
+[2025-12-17T12:53:41.385+0530] {subprocess.py:93} INFO - 25/12/17 12:53:41 INFO SecurityManager: Changing view acls groups to:
+[2025-12-17T12:53:41.386+0530] {subprocess.py:93} INFO - 25/12/17 12:53:41 INFO SecurityManager: Changing modify acls groups to:
+[2025-12-17T12:53:41.392+0530] {subprocess.py:93} INFO - 25/12/17 12:53:41 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users with view permissions: sneha; groups with view permissions: EMPTY; users with modify permissions: sneha; groups with modify permissions: EMPTY
+[2025-12-17T12:53:42.091+0530] {subprocess.py:93} INFO - 25/12/17 12:53:42 INFO Utils: Successfully started service 'sparkDriver' on port 39129.
+[2025-12-17T12:53:42.178+0530] {subprocess.py:93} INFO - 25/12/17 12:53:42 INFO SparkEnv: Registering MapOutputTracker
+[2025-12-17T12:53:42.254+0530] {subprocess.py:93} INFO - 25/12/17 12:53:42 INFO SparkEnv: Registering BlockManagerMaster
+[2025-12-17T12:53:42.290+0530] {subprocess.py:93} INFO - 25/12/17 12:53:42 INFO BlockManagerMasterEndpoint: Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+[2025-12-17T12:53:42.292+0530] {subprocess.py:93} INFO - 25/12/17 12:53:42 INFO BlockManagerMasterEndpoint: BlockManagerMasterEndpoint up
+[2025-12-17T12:53:42.300+0530] {subprocess.py:93} INFO - 25/12/17 12:53:42 INFO SparkEnv: Registering BlockManagerMasterHeartbeat
+[2025-12-17T12:53:42.353+0530] {subprocess.py:93} INFO - 25/12/17 12:53:42 INFO DiskBlockManager: Created local directory at /tmp/blockmgr-1e3e77f1-d6f9-427e-9980-5caa7a69e185
+[2025-12-17T12:53:42.414+0530] {subprocess.py:93} INFO - 25/12/17 12:53:42 INFO MemoryStore: MemoryStore started with capacity 366.3 MiB
+[2025-12-17T12:53:42.472+0530] {subprocess.py:93} INFO - 25/12/17 12:53:42 INFO SparkEnv: Registering OutputCommitCoordinator
+[2025-12-17T12:53:42.875+0530] {subprocess.py:93} INFO - 25/12/17 12:53:42 INFO JettyUtils: Start Jetty 0.0.0.0:4040 for SparkUI
+[2025-12-17T12:53:43.034+0530] {subprocess.py:93} INFO - 25/12/17 12:53:43 INFO Utils: Successfully started service 'SparkUI' on port 4040.
+[2025-12-17T12:53:43.123+0530] {subprocess.py:93} INFO - 25/12/17 12:53:43 INFO SparkContext: Added JAR file:///home/sneha/.ivy2/jars/org.apache.spark_spark-sql-kafka-0-10_2.12-3.4.4.jar at spark://192.168.1.86:39129/jars/org.apache.spark_spark-sql-kafka-0-10_2.12-3.4.4.jar with timestamp 1765956220831
+[2025-12-17T12:53:43.124+0530] {subprocess.py:93} INFO - 25/12/17 12:53:43 INFO SparkContext: Added JAR file:///home/sneha/.ivy2/jars/org.postgresql_postgresql-42.7.3.jar at spark://192.168.1.86:39129/jars/org.postgresql_postgresql-42.7.3.jar with timestamp 1765956220831
+[2025-12-17T12:53:43.128+0530] {subprocess.py:93} INFO - 25/12/17 12:53:43 INFO SparkContext: Added JAR file:///home/sneha/.ivy2/jars/org.apache.spark_spark-token-provider-kafka-0-10_2.12-3.4.4.jar at spark://192.168.1.86:39129/jars/org.apache.spark_spark-token-provider-kafka-0-10_2.12-3.4.4.jar with timestamp 1765956220831
+[2025-12-17T12:53:43.128+0530] {subprocess.py:93} INFO - 25/12/17 12:53:43 INFO SparkContext: Added JAR file:///home/sneha/.ivy2/jars/org.apache.kafka_kafka-clients-3.3.2.jar at spark://192.168.1.86:39129/jars/org.apache.kafka_kafka-clients-3.3.2.jar with timestamp 1765956220831
+[2025-12-17T12:53:43.128+0530] {subprocess.py:93} INFO - 25/12/17 12:53:43 INFO SparkContext: Added JAR file:///home/sneha/.ivy2/jars/com.google.code.findbugs_jsr305-3.0.0.jar at spark://192.168.1.86:39129/jars/com.google.code.findbugs_jsr305-3.0.0.jar with timestamp 1765956220831
+[2025-12-17T12:53:43.129+0530] {subprocess.py:93} INFO - 25/12/17 12:53:43 INFO SparkContext: Added JAR file:///home/sneha/.ivy2/jars/org.apache.commons_commons-pool2-2.11.1.jar at spark://192.168.1.86:39129/jars/org.apache.commons_commons-pool2-2.11.1.jar with timestamp 1765956220831
+[2025-12-17T12:53:43.129+0530] {subprocess.py:93} INFO - 25/12/17 12:53:43 INFO SparkContext: Added JAR file:///home/sneha/.ivy2/jars/org.apache.hadoop_hadoop-client-runtime-3.3.4.jar at spark://192.168.1.86:39129/jars/org.apache.hadoop_hadoop-client-runtime-3.3.4.jar with timestamp 1765956220831
+[2025-12-17T12:53:43.129+0530] {subprocess.py:93} INFO - 25/12/17 12:53:43 INFO SparkContext: Added JAR file:///home/sneha/.ivy2/jars/org.lz4_lz4-java-1.8.0.jar at spark://192.168.1.86:39129/jars/org.lz4_lz4-java-1.8.0.jar with timestamp 1765956220831
+[2025-12-17T12:53:43.129+0530] {subprocess.py:93} INFO - 25/12/17 12:53:43 INFO SparkContext: Added JAR file:///home/sneha/.ivy2/jars/org.xerial.snappy_snappy-java-1.1.10.5.jar at spark://192.168.1.86:39129/jars/org.xerial.snappy_snappy-java-1.1.10.5.jar with timestamp 1765956220831
+[2025-12-17T12:53:43.129+0530] {subprocess.py:93} INFO - 25/12/17 12:53:43 INFO SparkContext: Added JAR file:///home/sneha/.ivy2/jars/org.slf4j_slf4j-api-2.0.6.jar at spark://192.168.1.86:39129/jars/org.slf4j_slf4j-api-2.0.6.jar with timestamp 1765956220831
+[2025-12-17T12:53:43.129+0530] {subprocess.py:93} INFO - 25/12/17 12:53:43 INFO SparkContext: Added JAR file:///home/sneha/.ivy2/jars/org.apache.hadoop_hadoop-client-api-3.3.4.jar at spark://192.168.1.86:39129/jars/org.apache.hadoop_hadoop-client-api-3.3.4.jar with timestamp 1765956220831
+[2025-12-17T12:53:43.130+0530] {subprocess.py:93} INFO - 25/12/17 12:53:43 INFO SparkContext: Added JAR file:///home/sneha/.ivy2/jars/commons-logging_commons-logging-1.1.3.jar at spark://192.168.1.86:39129/jars/commons-logging_commons-logging-1.1.3.jar with timestamp 1765956220831
+[2025-12-17T12:53:43.132+0530] {subprocess.py:93} INFO - 25/12/17 12:53:43 INFO SparkContext: Added JAR file:///home/sneha/.ivy2/jars/org.checkerframework_checker-qual-3.42.0.jar at spark://192.168.1.86:39129/jars/org.checkerframework_checker-qual-3.42.0.jar with timestamp 1765956220831
+[2025-12-17T12:53:43.139+0530] {subprocess.py:93} INFO - 25/12/17 12:53:43 INFO SparkContext: Added file file:///home/sneha/.ivy2/jars/org.apache.spark_spark-sql-kafka-0-10_2.12-3.4.4.jar at file:///home/sneha/.ivy2/jars/org.apache.spark_spark-sql-kafka-0-10_2.12-3.4.4.jar with timestamp 1765956220831
+[2025-12-17T12:53:43.146+0530] {subprocess.py:93} INFO - 25/12/17 12:53:43 INFO Utils: Copying /home/sneha/.ivy2/jars/org.apache.spark_spark-sql-kafka-0-10_2.12-3.4.4.jar to /tmp/spark-71211745-ae1a-4456-aa9b-41d05faa98b4/userFiles-eae47f46-31eb-4031-a67e-d5f27a84bbd0/org.apache.spark_spark-sql-kafka-0-10_2.12-3.4.4.jar
+[2025-12-17T12:53:43.179+0530] {subprocess.py:93} INFO - 25/12/17 12:53:43 INFO SparkContext: Added file file:///home/sneha/.ivy2/jars/org.postgresql_postgresql-42.7.3.jar at file:///home/sneha/.ivy2/jars/org.postgresql_postgresql-42.7.3.jar with timestamp 1765956220831
+[2025-12-17T12:53:43.180+0530] {subprocess.py:93} INFO - 25/12/17 12:53:43 INFO Utils: Copying /home/sneha/.ivy2/jars/org.postgresql_postgresql-42.7.3.jar to /tmp/spark-71211745-ae1a-4456-aa9b-41d05faa98b4/userFiles-eae47f46-31eb-4031-a67e-d5f27a84bbd0/org.postgresql_postgresql-42.7.3.jar
+[2025-12-17T12:53:43.189+0530] {subprocess.py:93} INFO - 25/12/17 12:53:43 INFO SparkContext: Added file file:///home/sneha/.ivy2/jars/org.apache.spark_spark-token-provider-kafka-0-10_2.12-3.4.4.jar at file:///home/sneha/.ivy2/jars/org.apache.spark_spark-token-provider-kafka-0-10_2.12-3.4.4.jar with timestamp 1765956220831
+[2025-12-17T12:53:43.191+0530] {subprocess.py:93} INFO - 25/12/17 12:53:43 INFO Utils: Copying /home/sneha/.ivy2/jars/org.apache.spark_spark-token-provider-kafka-0-10_2.12-3.4.4.jar to /tmp/spark-71211745-ae1a-4456-aa9b-41d05faa98b4/userFiles-eae47f46-31eb-4031-a67e-d5f27a84bbd0/org.apache.spark_spark-token-provider-kafka-0-10_2.12-3.4.4.jar
+[2025-12-17T12:53:43.198+0530] {subprocess.py:93} INFO - 25/12/17 12:53:43 INFO SparkContext: Added file file:///home/sneha/.ivy2/jars/org.apache.kafka_kafka-clients-3.3.2.jar at file:///home/sneha/.ivy2/jars/org.apache.kafka_kafka-clients-3.3.2.jar with timestamp 1765956220831
+[2025-12-17T12:53:43.199+0530] {subprocess.py:93} INFO - 25/12/17 12:53:43 INFO Utils: Copying /home/sneha/.ivy2/jars/org.apache.kafka_kafka-clients-3.3.2.jar to /tmp/spark-71211745-ae1a-4456-aa9b-41d05faa98b4/userFiles-eae47f46-31eb-4031-a67e-d5f27a84bbd0/org.apache.kafka_kafka-clients-3.3.2.jar
+[2025-12-17T12:53:43.215+0530] {subprocess.py:93} INFO - 25/12/17 12:53:43 INFO SparkContext: Added file file:///home/sneha/.ivy2/jars/com.google.code.findbugs_jsr305-3.0.0.jar at file:///home/sneha/.ivy2/jars/com.google.code.findbugs_jsr305-3.0.0.jar with timestamp 1765956220831
+[2025-12-17T12:53:43.216+0530] {subprocess.py:93} INFO - 25/12/17 12:53:43 INFO Utils: Copying /home/sneha/.ivy2/jars/com.google.code.findbugs_jsr305-3.0.0.jar to /tmp/spark-71211745-ae1a-4456-aa9b-41d05faa98b4/userFiles-eae47f46-31eb-4031-a67e-d5f27a84bbd0/com.google.code.findbugs_jsr305-3.0.0.jar
+[2025-12-17T12:53:43.222+0530] {subprocess.py:93} INFO - 25/12/17 12:53:43 INFO SparkContext: Added file file:///home/sneha/.ivy2/jars/org.apache.commons_commons-pool2-2.11.1.jar at file:///home/sneha/.ivy2/jars/org.apache.commons_commons-pool2-2.11.1.jar with timestamp 1765956220831
+[2025-12-17T12:53:43.222+0530] {subprocess.py:93} INFO - 25/12/17 12:53:43 INFO Utils: Copying /home/sneha/.ivy2/jars/org.apache.commons_commons-pool2-2.11.1.jar to /tmp/spark-71211745-ae1a-4456-aa9b-41d05faa98b4/userFiles-eae47f46-31eb-4031-a67e-d5f27a84bbd0/org.apache.commons_commons-pool2-2.11.1.jar
+[2025-12-17T12:53:43.229+0530] {subprocess.py:93} INFO - 25/12/17 12:53:43 INFO SparkContext: Added file file:///home/sneha/.ivy2/jars/org.apache.hadoop_hadoop-client-runtime-3.3.4.jar at file:///home/sneha/.ivy2/jars/org.apache.hadoop_hadoop-client-runtime-3.3.4.jar with timestamp 1765956220831
+[2025-12-17T12:53:43.230+0530] {subprocess.py:93} INFO - 25/12/17 12:53:43 INFO Utils: Copying /home/sneha/.ivy2/jars/org.apache.hadoop_hadoop-client-runtime-3.3.4.jar to /tmp/spark-71211745-ae1a-4456-aa9b-41d05faa98b4/userFiles-eae47f46-31eb-4031-a67e-d5f27a84bbd0/org.apache.hadoop_hadoop-client-runtime-3.3.4.jar
+[2025-12-17T12:53:43.293+0530] {subprocess.py:93} INFO - 25/12/17 12:53:43 INFO SparkContext: Added file file:///home/sneha/.ivy2/jars/org.lz4_lz4-java-1.8.0.jar at file:///home/sneha/.ivy2/jars/org.lz4_lz4-java-1.8.0.jar with timestamp 1765956220831
+[2025-12-17T12:53:43.294+0530] {subprocess.py:93} INFO - 25/12/17 12:53:43 INFO Utils: Copying /home/sneha/.ivy2/jars/org.lz4_lz4-java-1.8.0.jar to /tmp/spark-71211745-ae1a-4456-aa9b-41d05faa98b4/userFiles-eae47f46-31eb-4031-a67e-d5f27a84bbd0/org.lz4_lz4-java-1.8.0.jar
+[2025-12-17T12:53:43.302+0530] {subprocess.py:93} INFO - 25/12/17 12:53:43 INFO SparkContext: Added file file:///home/sneha/.ivy2/jars/org.xerial.snappy_snappy-java-1.1.10.5.jar at file:///home/sneha/.ivy2/jars/org.xerial.snappy_snappy-java-1.1.10.5.jar with timestamp 1765956220831
+[2025-12-17T12:53:43.302+0530] {subprocess.py:93} INFO - 25/12/17 12:53:43 INFO Utils: Copying /home/sneha/.ivy2/jars/org.xerial.snappy_snappy-java-1.1.10.5.jar to /tmp/spark-71211745-ae1a-4456-aa9b-41d05faa98b4/userFiles-eae47f46-31eb-4031-a67e-d5f27a84bbd0/org.xerial.snappy_snappy-java-1.1.10.5.jar
+[2025-12-17T12:53:43.315+0530] {subprocess.py:93} INFO - 25/12/17 12:53:43 INFO SparkContext: Added file file:///home/sneha/.ivy2/jars/org.slf4j_slf4j-api-2.0.6.jar at file:///home/sneha/.ivy2/jars/org.slf4j_slf4j-api-2.0.6.jar with timestamp 1765956220831
+[2025-12-17T12:53:43.315+0530] {subprocess.py:93} INFO - 25/12/17 12:53:43 INFO Utils: Copying /home/sneha/.ivy2/jars/org.slf4j_slf4j-api-2.0.6.jar to /tmp/spark-71211745-ae1a-4456-aa9b-41d05faa98b4/userFiles-eae47f46-31eb-4031-a67e-d5f27a84bbd0/org.slf4j_slf4j-api-2.0.6.jar
+[2025-12-17T12:53:43.322+0530] {subprocess.py:93} INFO - 25/12/17 12:53:43 INFO SparkContext: Added file file:///home/sneha/.ivy2/jars/org.apache.hadoop_hadoop-client-api-3.3.4.jar at file:///home/sneha/.ivy2/jars/org.apache.hadoop_hadoop-client-api-3.3.4.jar with timestamp 1765956220831
+[2025-12-17T12:53:43.323+0530] {subprocess.py:93} INFO - 25/12/17 12:53:43 INFO Utils: Copying /home/sneha/.ivy2/jars/org.apache.hadoop_hadoop-client-api-3.3.4.jar to /tmp/spark-71211745-ae1a-4456-aa9b-41d05faa98b4/userFiles-eae47f46-31eb-4031-a67e-d5f27a84bbd0/org.apache.hadoop_hadoop-client-api-3.3.4.jar
+[2025-12-17T12:53:43.366+0530] {subprocess.py:93} INFO - 25/12/17 12:53:43 INFO SparkContext: Added file file:///home/sneha/.ivy2/jars/commons-logging_commons-logging-1.1.3.jar at file:///home/sneha/.ivy2/jars/commons-logging_commons-logging-1.1.3.jar with timestamp 1765956220831
+[2025-12-17T12:53:43.367+0530] {subprocess.py:93} INFO - 25/12/17 12:53:43 INFO Utils: Copying /home/sneha/.ivy2/jars/commons-logging_commons-logging-1.1.3.jar to /tmp/spark-71211745-ae1a-4456-aa9b-41d05faa98b4/userFiles-eae47f46-31eb-4031-a67e-d5f27a84bbd0/commons-logging_commons-logging-1.1.3.jar
+[2025-12-17T12:53:43.373+0530] {subprocess.py:93} INFO - 25/12/17 12:53:43 INFO SparkContext: Added file file:///home/sneha/.ivy2/jars/org.checkerframework_checker-qual-3.42.0.jar at file:///home/sneha/.ivy2/jars/org.checkerframework_checker-qual-3.42.0.jar with timestamp 1765956220831
+[2025-12-17T12:53:43.374+0530] {subprocess.py:93} INFO - 25/12/17 12:53:43 INFO Utils: Copying /home/sneha/.ivy2/jars/org.checkerframework_checker-qual-3.42.0.jar to /tmp/spark-71211745-ae1a-4456-aa9b-41d05faa98b4/userFiles-eae47f46-31eb-4031-a67e-d5f27a84bbd0/org.checkerframework_checker-qual-3.42.0.jar
+[2025-12-17T12:53:43.534+0530] {subprocess.py:93} INFO - 25/12/17 12:53:43 INFO Executor: Starting executor ID driver on host 192.168.1.86
+[2025-12-17T12:53:43.548+0530] {subprocess.py:93} INFO - 25/12/17 12:53:43 INFO Executor: Starting executor with user classpath (userClassPathFirst = false): ''
+[2025-12-17T12:53:43.573+0530] {subprocess.py:93} INFO - 25/12/17 12:53:43 INFO Executor: Fetching file:///home/sneha/.ivy2/jars/org.lz4_lz4-java-1.8.0.jar with timestamp 1765956220831
+[2025-12-17T12:53:43.610+0530] {subprocess.py:93} INFO - 25/12/17 12:53:43 INFO Utils: /home/sneha/.ivy2/jars/org.lz4_lz4-java-1.8.0.jar has been previously copied to /tmp/spark-71211745-ae1a-4456-aa9b-41d05faa98b4/userFiles-eae47f46-31eb-4031-a67e-d5f27a84bbd0/org.lz4_lz4-java-1.8.0.jar
+[2025-12-17T12:53:43.616+0530] {subprocess.py:93} INFO - 25/12/17 12:53:43 INFO Executor: Fetching file:///home/sneha/.ivy2/jars/commons-logging_commons-logging-1.1.3.jar with timestamp 1765956220831
+[2025-12-17T12:53:43.617+0530] {subprocess.py:93} INFO - 25/12/17 12:53:43 INFO Utils: /home/sneha/.ivy2/jars/commons-logging_commons-logging-1.1.3.jar has been previously copied to /tmp/spark-71211745-ae1a-4456-aa9b-41d05faa98b4/userFiles-eae47f46-31eb-4031-a67e-d5f27a84bbd0/commons-logging_commons-logging-1.1.3.jar
+[2025-12-17T12:53:43.623+0530] {subprocess.py:93} INFO - 25/12/17 12:53:43 INFO Executor: Fetching file:///home/sneha/.ivy2/jars/org.apache.kafka_kafka-clients-3.3.2.jar with timestamp 1765956220831
+[2025-12-17T12:53:43.634+0530] {subprocess.py:93} INFO - 25/12/17 12:53:43 INFO Utils: /home/sneha/.ivy2/jars/org.apache.kafka_kafka-clients-3.3.2.jar has been previously copied to /tmp/spark-71211745-ae1a-4456-aa9b-41d05faa98b4/userFiles-eae47f46-31eb-4031-a67e-d5f27a84bbd0/org.apache.kafka_kafka-clients-3.3.2.jar
+[2025-12-17T12:53:43.640+0530] {subprocess.py:93} INFO - 25/12/17 12:53:43 INFO Executor: Fetching file:///home/sneha/.ivy2/jars/org.postgresql_postgresql-42.7.3.jar with timestamp 1765956220831
+[2025-12-17T12:53:43.643+0530] {subprocess.py:93} INFO - 25/12/17 12:53:43 INFO Utils: /home/sneha/.ivy2/jars/org.postgresql_postgresql-42.7.3.jar has been previously copied to /tmp/spark-71211745-ae1a-4456-aa9b-41d05faa98b4/userFiles-eae47f46-31eb-4031-a67e-d5f27a84bbd0/org.postgresql_postgresql-42.7.3.jar
+[2025-12-17T12:53:43.648+0530] {subprocess.py:93} INFO - 25/12/17 12:53:43 INFO Executor: Fetching file:///home/sneha/.ivy2/jars/org.apache.hadoop_hadoop-client-api-3.3.4.jar with timestamp 1765956220831
+[2025-12-17T12:53:43.686+0530] {subprocess.py:93} INFO - 25/12/17 12:53:43 INFO Utils: /home/sneha/.ivy2/jars/org.apache.hadoop_hadoop-client-api-3.3.4.jar has been previously copied to /tmp/spark-71211745-ae1a-4456-aa9b-41d05faa98b4/userFiles-eae47f46-31eb-4031-a67e-d5f27a84bbd0/org.apache.hadoop_hadoop-client-api-3.3.4.jar
+[2025-12-17T12:53:43.692+0530] {subprocess.py:93} INFO - 25/12/17 12:53:43 INFO Executor: Fetching file:///home/sneha/.ivy2/jars/org.xerial.snappy_snappy-java-1.1.10.5.jar with timestamp 1765956220831
+[2025-12-17T12:53:43.697+0530] {subprocess.py:93} INFO - 25/12/17 12:53:43 INFO Utils: /home/sneha/.ivy2/jars/org.xerial.snappy_snappy-java-1.1.10.5.jar has been previously copied to /tmp/spark-71211745-ae1a-4456-aa9b-41d05faa98b4/userFiles-eae47f46-31eb-4031-a67e-d5f27a84bbd0/org.xerial.snappy_snappy-java-1.1.10.5.jar
+[2025-12-17T12:53:43.703+0530] {subprocess.py:93} INFO - 25/12/17 12:53:43 INFO Executor: Fetching file:///home/sneha/.ivy2/jars/org.slf4j_slf4j-api-2.0.6.jar with timestamp 1765956220831
+[2025-12-17T12:53:43.704+0530] {subprocess.py:93} INFO - 25/12/17 12:53:43 INFO Utils: /home/sneha/.ivy2/jars/org.slf4j_slf4j-api-2.0.6.jar has been previously copied to /tmp/spark-71211745-ae1a-4456-aa9b-41d05faa98b4/userFiles-eae47f46-31eb-4031-a67e-d5f27a84bbd0/org.slf4j_slf4j-api-2.0.6.jar
+[2025-12-17T12:53:43.709+0530] {subprocess.py:93} INFO - 25/12/17 12:53:43 INFO Executor: Fetching file:///home/sneha/.ivy2/jars/org.checkerframework_checker-qual-3.42.0.jar with timestamp 1765956220831
+[2025-12-17T12:53:43.711+0530] {subprocess.py:93} INFO - 25/12/17 12:53:43 INFO Utils: /home/sneha/.ivy2/jars/org.checkerframework_checker-qual-3.42.0.jar has been previously copied to /tmp/spark-71211745-ae1a-4456-aa9b-41d05faa98b4/userFiles-eae47f46-31eb-4031-a67e-d5f27a84bbd0/org.checkerframework_checker-qual-3.42.0.jar
+[2025-12-17T12:53:43.716+0530] {subprocess.py:93} INFO - 25/12/17 12:53:43 INFO Executor: Fetching file:///home/sneha/.ivy2/jars/org.apache.spark_spark-token-provider-kafka-0-10_2.12-3.4.4.jar with timestamp 1765956220831
+[2025-12-17T12:53:43.717+0530] {subprocess.py:93} INFO - 25/12/17 12:53:43 INFO Utils: /home/sneha/.ivy2/jars/org.apache.spark_spark-token-provider-kafka-0-10_2.12-3.4.4.jar has been previously copied to /tmp/spark-71211745-ae1a-4456-aa9b-41d05faa98b4/userFiles-eae47f46-31eb-4031-a67e-d5f27a84bbd0/org.apache.spark_spark-token-provider-kafka-0-10_2.12-3.4.4.jar
+[2025-12-17T12:53:43.723+0530] {subprocess.py:93} INFO - 25/12/17 12:53:43 INFO Executor: Fetching file:///home/sneha/.ivy2/jars/org.apache.spark_spark-sql-kafka-0-10_2.12-3.4.4.jar with timestamp 1765956220831
+[2025-12-17T12:53:43.725+0530] {subprocess.py:93} INFO - 25/12/17 12:53:43 INFO Utils: /home/sneha/.ivy2/jars/org.apache.spark_spark-sql-kafka-0-10_2.12-3.4.4.jar has been previously copied to /tmp/spark-71211745-ae1a-4456-aa9b-41d05faa98b4/userFiles-eae47f46-31eb-4031-a67e-d5f27a84bbd0/org.apache.spark_spark-sql-kafka-0-10_2.12-3.4.4.jar
+[2025-12-17T12:53:43.730+0530] {subprocess.py:93} INFO - 25/12/17 12:53:43 INFO Executor: Fetching file:///home/sneha/.ivy2/jars/org.apache.commons_commons-pool2-2.11.1.jar with timestamp 1765956220831
+[2025-12-17T12:53:43.732+0530] {subprocess.py:93} INFO - 25/12/17 12:53:43 INFO Utils: /home/sneha/.ivy2/jars/org.apache.commons_commons-pool2-2.11.1.jar has been previously copied to /tmp/spark-71211745-ae1a-4456-aa9b-41d05faa98b4/userFiles-eae47f46-31eb-4031-a67e-d5f27a84bbd0/org.apache.commons_commons-pool2-2.11.1.jar
+[2025-12-17T12:53:43.737+0530] {subprocess.py:93} INFO - 25/12/17 12:53:43 INFO Executor: Fetching file:///home/sneha/.ivy2/jars/org.apache.hadoop_hadoop-client-runtime-3.3.4.jar with timestamp 1765956220831
+[2025-12-17T12:53:43.797+0530] {subprocess.py:93} INFO - 25/12/17 12:53:43 INFO Utils: /home/sneha/.ivy2/jars/org.apache.hadoop_hadoop-client-runtime-3.3.4.jar has been previously copied to /tmp/spark-71211745-ae1a-4456-aa9b-41d05faa98b4/userFiles-eae47f46-31eb-4031-a67e-d5f27a84bbd0/org.apache.hadoop_hadoop-client-runtime-3.3.4.jar
+[2025-12-17T12:53:43.804+0530] {subprocess.py:93} INFO - 25/12/17 12:53:43 INFO Executor: Fetching file:///home/sneha/.ivy2/jars/com.google.code.findbugs_jsr305-3.0.0.jar with timestamp 1765956220831
+[2025-12-17T12:53:43.805+0530] {subprocess.py:93} INFO - 25/12/17 12:53:43 INFO Utils: /home/sneha/.ivy2/jars/com.google.code.findbugs_jsr305-3.0.0.jar has been previously copied to /tmp/spark-71211745-ae1a-4456-aa9b-41d05faa98b4/userFiles-eae47f46-31eb-4031-a67e-d5f27a84bbd0/com.google.code.findbugs_jsr305-3.0.0.jar
+[2025-12-17T12:53:43.816+0530] {subprocess.py:93} INFO - 25/12/17 12:53:43 INFO Executor: Fetching spark://192.168.1.86:39129/jars/org.apache.commons_commons-pool2-2.11.1.jar with timestamp 1765956220831
+[2025-12-17T12:53:43.907+0530] {subprocess.py:93} INFO - 25/12/17 12:53:43 INFO TransportClientFactory: Successfully created connection to /192.168.1.86:39129 after 59 ms (0 ms spent in bootstraps)
+[2025-12-17T12:53:43.920+0530] {subprocess.py:93} INFO - 25/12/17 12:53:43 INFO Utils: Fetching spark://192.168.1.86:39129/jars/org.apache.commons_commons-pool2-2.11.1.jar to /tmp/spark-71211745-ae1a-4456-aa9b-41d05faa98b4/userFiles-eae47f46-31eb-4031-a67e-d5f27a84bbd0/fetchFileTemp6068961106740437348.tmp
+[2025-12-17T12:53:43.962+0530] {subprocess.py:93} INFO - 25/12/17 12:53:43 INFO Utils: /tmp/spark-71211745-ae1a-4456-aa9b-41d05faa98b4/userFiles-eae47f46-31eb-4031-a67e-d5f27a84bbd0/fetchFileTemp6068961106740437348.tmp has been previously copied to /tmp/spark-71211745-ae1a-4456-aa9b-41d05faa98b4/userFiles-eae47f46-31eb-4031-a67e-d5f27a84bbd0/org.apache.commons_commons-pool2-2.11.1.jar
+[2025-12-17T12:53:43.968+0530] {subprocess.py:93} INFO - 25/12/17 12:53:43 INFO Executor: Adding file:/tmp/spark-71211745-ae1a-4456-aa9b-41d05faa98b4/userFiles-eae47f46-31eb-4031-a67e-d5f27a84bbd0/org.apache.commons_commons-pool2-2.11.1.jar to class loader
+[2025-12-17T12:53:43.969+0530] {subprocess.py:93} INFO - 25/12/17 12:53:43 INFO Executor: Fetching spark://192.168.1.86:39129/jars/org.xerial.snappy_snappy-java-1.1.10.5.jar with timestamp 1765956220831
+[2025-12-17T12:53:43.970+0530] {subprocess.py:93} INFO - 25/12/17 12:53:43 INFO Utils: Fetching spark://192.168.1.86:39129/jars/org.xerial.snappy_snappy-java-1.1.10.5.jar to /tmp/spark-71211745-ae1a-4456-aa9b-41d05faa98b4/userFiles-eae47f46-31eb-4031-a67e-d5f27a84bbd0/fetchFileTemp6134685843412487566.tmp
+[2025-12-17T12:53:43.995+0530] {subprocess.py:93} INFO - 25/12/17 12:53:43 INFO Utils: /tmp/spark-71211745-ae1a-4456-aa9b-41d05faa98b4/userFiles-eae47f46-31eb-4031-a67e-d5f27a84bbd0/fetchFileTemp6134685843412487566.tmp has been previously copied to /tmp/spark-71211745-ae1a-4456-aa9b-41d05faa98b4/userFiles-eae47f46-31eb-4031-a67e-d5f27a84bbd0/org.xerial.snappy_snappy-java-1.1.10.5.jar
+[2025-12-17T12:53:44.002+0530] {subprocess.py:93} INFO - 25/12/17 12:53:44 INFO Executor: Adding file:/tmp/spark-71211745-ae1a-4456-aa9b-41d05faa98b4/userFiles-eae47f46-31eb-4031-a67e-d5f27a84bbd0/org.xerial.snappy_snappy-java-1.1.10.5.jar to class loader
+[2025-12-17T12:53:44.002+0530] {subprocess.py:93} INFO - 25/12/17 12:53:44 INFO Executor: Fetching spark://192.168.1.86:39129/jars/commons-logging_commons-logging-1.1.3.jar with timestamp 1765956220831
+[2025-12-17T12:53:44.003+0530] {subprocess.py:93} INFO - 25/12/17 12:53:44 INFO Utils: Fetching spark://192.168.1.86:39129/jars/commons-logging_commons-logging-1.1.3.jar to /tmp/spark-71211745-ae1a-4456-aa9b-41d05faa98b4/userFiles-eae47f46-31eb-4031-a67e-d5f27a84bbd0/fetchFileTemp733639626061580062.tmp
+[2025-12-17T12:53:44.007+0530] {subprocess.py:93} INFO - 25/12/17 12:53:44 INFO Utils: /tmp/spark-71211745-ae1a-4456-aa9b-41d05faa98b4/userFiles-eae47f46-31eb-4031-a67e-d5f27a84bbd0/fetchFileTemp733639626061580062.tmp has been previously copied to /tmp/spark-71211745-ae1a-4456-aa9b-41d05faa98b4/userFiles-eae47f46-31eb-4031-a67e-d5f27a84bbd0/commons-logging_commons-logging-1.1.3.jar
+[2025-12-17T12:53:44.013+0530] {subprocess.py:93} INFO - 25/12/17 12:53:44 INFO Executor: Adding file:/tmp/spark-71211745-ae1a-4456-aa9b-41d05faa98b4/userFiles-eae47f46-31eb-4031-a67e-d5f27a84bbd0/commons-logging_commons-logging-1.1.3.jar to class loader
+[2025-12-17T12:53:44.013+0530] {subprocess.py:93} INFO - 25/12/17 12:53:44 INFO Executor: Fetching spark://192.168.1.86:39129/jars/org.postgresql_postgresql-42.7.3.jar with timestamp 1765956220831
+[2025-12-17T12:53:44.015+0530] {subprocess.py:93} INFO - 25/12/17 12:53:44 INFO Utils: Fetching spark://192.168.1.86:39129/jars/org.postgresql_postgresql-42.7.3.jar to /tmp/spark-71211745-ae1a-4456-aa9b-41d05faa98b4/userFiles-eae47f46-31eb-4031-a67e-d5f27a84bbd0/fetchFileTemp686180088239567036.tmp
+[2025-12-17T12:53:44.027+0530] {subprocess.py:93} INFO - 25/12/17 12:53:44 INFO Utils: /tmp/spark-71211745-ae1a-4456-aa9b-41d05faa98b4/userFiles-eae47f46-31eb-4031-a67e-d5f27a84bbd0/fetchFileTemp686180088239567036.tmp has been previously copied to /tmp/spark-71211745-ae1a-4456-aa9b-41d05faa98b4/userFiles-eae47f46-31eb-4031-a67e-d5f27a84bbd0/org.postgresql_postgresql-42.7.3.jar
+[2025-12-17T12:53:44.033+0530] {subprocess.py:93} INFO - 25/12/17 12:53:44 INFO Executor: Adding file:/tmp/spark-71211745-ae1a-4456-aa9b-41d05faa98b4/userFiles-eae47f46-31eb-4031-a67e-d5f27a84bbd0/org.postgresql_postgresql-42.7.3.jar to class loader
+[2025-12-17T12:53:44.033+0530] {subprocess.py:93} INFO - 25/12/17 12:53:44 INFO Executor: Fetching spark://192.168.1.86:39129/jars/org.slf4j_slf4j-api-2.0.6.jar with timestamp 1765956220831
+[2025-12-17T12:53:44.034+0530] {subprocess.py:93} INFO - 25/12/17 12:53:44 INFO Utils: Fetching spark://192.168.1.86:39129/jars/org.slf4j_slf4j-api-2.0.6.jar to /tmp/spark-71211745-ae1a-4456-aa9b-41d05faa98b4/userFiles-eae47f46-31eb-4031-a67e-d5f27a84bbd0/fetchFileTemp5248680801215009822.tmp
+[2025-12-17T12:53:44.038+0530] {subprocess.py:93} INFO - 25/12/17 12:53:44 INFO Utils: /tmp/spark-71211745-ae1a-4456-aa9b-41d05faa98b4/userFiles-eae47f46-31eb-4031-a67e-d5f27a84bbd0/fetchFileTemp5248680801215009822.tmp has been previously copied to /tmp/spark-71211745-ae1a-4456-aa9b-41d05faa98b4/userFiles-eae47f46-31eb-4031-a67e-d5f27a84bbd0/org.slf4j_slf4j-api-2.0.6.jar
+[2025-12-17T12:53:44.044+0530] {subprocess.py:93} INFO - 25/12/17 12:53:44 INFO Executor: Adding file:/tmp/spark-71211745-ae1a-4456-aa9b-41d05faa98b4/userFiles-eae47f46-31eb-4031-a67e-d5f27a84bbd0/org.slf4j_slf4j-api-2.0.6.jar to class loader
+[2025-12-17T12:53:44.044+0530] {subprocess.py:93} INFO - 25/12/17 12:53:44 INFO Executor: Fetching spark://192.168.1.86:39129/jars/org.apache.spark_spark-sql-kafka-0-10_2.12-3.4.4.jar with timestamp 1765956220831
+[2025-12-17T12:53:44.045+0530] {subprocess.py:93} INFO - 25/12/17 12:53:44 INFO Utils: Fetching spark://192.168.1.86:39129/jars/org.apache.spark_spark-sql-kafka-0-10_2.12-3.4.4.jar to /tmp/spark-71211745-ae1a-4456-aa9b-41d05faa98b4/userFiles-eae47f46-31eb-4031-a67e-d5f27a84bbd0/fetchFileTemp6704098621640544907.tmp
+[2025-12-17T12:53:44.051+0530] {subprocess.py:93} INFO - 25/12/17 12:53:44 INFO Utils: /tmp/spark-71211745-ae1a-4456-aa9b-41d05faa98b4/userFiles-eae47f46-31eb-4031-a67e-d5f27a84bbd0/fetchFileTemp6704098621640544907.tmp has been previously copied to /tmp/spark-71211745-ae1a-4456-aa9b-41d05faa98b4/userFiles-eae47f46-31eb-4031-a67e-d5f27a84bbd0/org.apache.spark_spark-sql-kafka-0-10_2.12-3.4.4.jar
+[2025-12-17T12:53:44.057+0530] {subprocess.py:93} INFO - 25/12/17 12:53:44 INFO Executor: Adding file:/tmp/spark-71211745-ae1a-4456-aa9b-41d05faa98b4/userFiles-eae47f46-31eb-4031-a67e-d5f27a84bbd0/org.apache.spark_spark-sql-kafka-0-10_2.12-3.4.4.jar to class loader
+[2025-12-17T12:53:44.058+0530] {subprocess.py:93} INFO - 25/12/17 12:53:44 INFO Executor: Fetching spark://192.168.1.86:39129/jars/org.lz4_lz4-java-1.8.0.jar with timestamp 1765956220831
+[2025-12-17T12:53:44.059+0530] {subprocess.py:93} INFO - 25/12/17 12:53:44 INFO Utils: Fetching spark://192.168.1.86:39129/jars/org.lz4_lz4-java-1.8.0.jar to /tmp/spark-71211745-ae1a-4456-aa9b-41d05faa98b4/userFiles-eae47f46-31eb-4031-a67e-d5f27a84bbd0/fetchFileTemp5824097711043156275.tmp
+[2025-12-17T12:53:44.067+0530] {subprocess.py:93} INFO - 25/12/17 12:53:44 INFO Utils: /tmp/spark-71211745-ae1a-4456-aa9b-41d05faa98b4/userFiles-eae47f46-31eb-4031-a67e-d5f27a84bbd0/fetchFileTemp5824097711043156275.tmp has been previously copied to /tmp/spark-71211745-ae1a-4456-aa9b-41d05faa98b4/userFiles-eae47f46-31eb-4031-a67e-d5f27a84bbd0/org.lz4_lz4-java-1.8.0.jar
+[2025-12-17T12:53:44.072+0530] {subprocess.py:93} INFO - 25/12/17 12:53:44 INFO Executor: Adding file:/tmp/spark-71211745-ae1a-4456-aa9b-41d05faa98b4/userFiles-eae47f46-31eb-4031-a67e-d5f27a84bbd0/org.lz4_lz4-java-1.8.0.jar to class loader
+[2025-12-17T12:53:44.073+0530] {subprocess.py:93} INFO - 25/12/17 12:53:44 INFO Executor: Fetching spark://192.168.1.86:39129/jars/com.google.code.findbugs_jsr305-3.0.0.jar with timestamp 1765956220831
+[2025-12-17T12:53:44.073+0530] {subprocess.py:93} INFO - 25/12/17 12:53:44 INFO Utils: Fetching spark://192.168.1.86:39129/jars/com.google.code.findbugs_jsr305-3.0.0.jar to /tmp/spark-71211745-ae1a-4456-aa9b-41d05faa98b4/userFiles-eae47f46-31eb-4031-a67e-d5f27a84bbd0/fetchFileTemp4574541794003392518.tmp
+[2025-12-17T12:53:44.077+0530] {subprocess.py:93} INFO - 25/12/17 12:53:44 INFO Utils: /tmp/spark-71211745-ae1a-4456-aa9b-41d05faa98b4/userFiles-eae47f46-31eb-4031-a67e-d5f27a84bbd0/fetchFileTemp4574541794003392518.tmp has been previously copied to /tmp/spark-71211745-ae1a-4456-aa9b-41d05faa98b4/userFiles-eae47f46-31eb-4031-a67e-d5f27a84bbd0/com.google.code.findbugs_jsr305-3.0.0.jar
+[2025-12-17T12:53:44.083+0530] {subprocess.py:93} INFO - 25/12/17 12:53:44 INFO Executor: Adding file:/tmp/spark-71211745-ae1a-4456-aa9b-41d05faa98b4/userFiles-eae47f46-31eb-4031-a67e-d5f27a84bbd0/com.google.code.findbugs_jsr305-3.0.0.jar to class loader
+[2025-12-17T12:53:44.083+0530] {subprocess.py:93} INFO - 25/12/17 12:53:44 INFO Executor: Fetching spark://192.168.1.86:39129/jars/org.apache.kafka_kafka-clients-3.3.2.jar with timestamp 1765956220831
+[2025-12-17T12:53:44.084+0530] {subprocess.py:93} INFO - 25/12/17 12:53:44 INFO Utils: Fetching spark://192.168.1.86:39129/jars/org.apache.kafka_kafka-clients-3.3.2.jar to /tmp/spark-71211745-ae1a-4456-aa9b-41d05faa98b4/userFiles-eae47f46-31eb-4031-a67e-d5f27a84bbd0/fetchFileTemp1282184184588303752.tmp
+[2025-12-17T12:53:44.121+0530] {subprocess.py:93} INFO - 25/12/17 12:53:44 INFO Utils: /tmp/spark-71211745-ae1a-4456-aa9b-41d05faa98b4/userFiles-eae47f46-31eb-4031-a67e-d5f27a84bbd0/fetchFileTemp1282184184588303752.tmp has been previously copied to /tmp/spark-71211745-ae1a-4456-aa9b-41d05faa98b4/userFiles-eae47f46-31eb-4031-a67e-d5f27a84bbd0/org.apache.kafka_kafka-clients-3.3.2.jar
+[2025-12-17T12:53:44.128+0530] {subprocess.py:93} INFO - 25/12/17 12:53:44 INFO Executor: Adding file:/tmp/spark-71211745-ae1a-4456-aa9b-41d05faa98b4/userFiles-eae47f46-31eb-4031-a67e-d5f27a84bbd0/org.apache.kafka_kafka-clients-3.3.2.jar to class loader
+[2025-12-17T12:53:44.129+0530] {subprocess.py:93} INFO - 25/12/17 12:53:44 INFO Executor: Fetching spark://192.168.1.86:39129/jars/org.apache.hadoop_hadoop-client-runtime-3.3.4.jar with timestamp 1765956220831
+[2025-12-17T12:53:44.129+0530] {subprocess.py:93} INFO - 25/12/17 12:53:44 INFO Utils: Fetching spark://192.168.1.86:39129/jars/org.apache.hadoop_hadoop-client-runtime-3.3.4.jar to /tmp/spark-71211745-ae1a-4456-aa9b-41d05faa98b4/userFiles-eae47f46-31eb-4031-a67e-d5f27a84bbd0/fetchFileTemp6458627295116660969.tmp
+[2025-12-17T12:53:44.320+0530] {subprocess.py:93} INFO - 25/12/17 12:53:44 INFO Utils: /tmp/spark-71211745-ae1a-4456-aa9b-41d05faa98b4/userFiles-eae47f46-31eb-4031-a67e-d5f27a84bbd0/fetchFileTemp6458627295116660969.tmp has been previously copied to /tmp/spark-71211745-ae1a-4456-aa9b-41d05faa98b4/userFiles-eae47f46-31eb-4031-a67e-d5f27a84bbd0/org.apache.hadoop_hadoop-client-runtime-3.3.4.jar
+[2025-12-17T12:53:44.339+0530] {subprocess.py:93} INFO - 25/12/17 12:53:44 INFO Executor: Adding file:/tmp/spark-71211745-ae1a-4456-aa9b-41d05faa98b4/userFiles-eae47f46-31eb-4031-a67e-d5f27a84bbd0/org.apache.hadoop_hadoop-client-runtime-3.3.4.jar to class loader
+[2025-12-17T12:53:44.339+0530] {subprocess.py:93} INFO - 25/12/17 12:53:44 INFO Executor: Fetching spark://192.168.1.86:39129/jars/org.apache.hadoop_hadoop-client-api-3.3.4.jar with timestamp 1765956220831
+[2025-12-17T12:53:44.340+0530] {subprocess.py:93} INFO - 25/12/17 12:53:44 INFO Utils: Fetching spark://192.168.1.86:39129/jars/org.apache.hadoop_hadoop-client-api-3.3.4.jar to /tmp/spark-71211745-ae1a-4456-aa9b-41d05faa98b4/userFiles-eae47f46-31eb-4031-a67e-d5f27a84bbd0/fetchFileTemp3801884392631488625.tmp
+[2025-12-17T12:53:44.453+0530] {subprocess.py:93} INFO - 25/12/17 12:53:44 INFO Utils: /tmp/spark-71211745-ae1a-4456-aa9b-41d05faa98b4/userFiles-eae47f46-31eb-4031-a67e-d5f27a84bbd0/fetchFileTemp3801884392631488625.tmp has been previously copied to /tmp/spark-71211745-ae1a-4456-aa9b-41d05faa98b4/userFiles-eae47f46-31eb-4031-a67e-d5f27a84bbd0/org.apache.hadoop_hadoop-client-api-3.3.4.jar
+[2025-12-17T12:53:44.470+0530] {subprocess.py:93} INFO - 25/12/17 12:53:44 INFO Executor: Adding file:/tmp/spark-71211745-ae1a-4456-aa9b-41d05faa98b4/userFiles-eae47f46-31eb-4031-a67e-d5f27a84bbd0/org.apache.hadoop_hadoop-client-api-3.3.4.jar to class loader
+[2025-12-17T12:53:44.471+0530] {subprocess.py:93} INFO - 25/12/17 12:53:44 INFO Executor: Fetching spark://192.168.1.86:39129/jars/org.apache.spark_spark-token-provider-kafka-0-10_2.12-3.4.4.jar with timestamp 1765956220831
+[2025-12-17T12:53:44.471+0530] {subprocess.py:93} INFO - 25/12/17 12:53:44 INFO Utils: Fetching spark://192.168.1.86:39129/jars/org.apache.spark_spark-token-provider-kafka-0-10_2.12-3.4.4.jar to /tmp/spark-71211745-ae1a-4456-aa9b-41d05faa98b4/userFiles-eae47f46-31eb-4031-a67e-d5f27a84bbd0/fetchFileTemp3857568692067769457.tmp
+[2025-12-17T12:53:44.476+0530] {subprocess.py:93} INFO - 25/12/17 12:53:44 INFO Utils: /tmp/spark-71211745-ae1a-4456-aa9b-41d05faa98b4/userFiles-eae47f46-31eb-4031-a67e-d5f27a84bbd0/fetchFileTemp3857568692067769457.tmp has been previously copied to /tmp/spark-71211745-ae1a-4456-aa9b-41d05faa98b4/userFiles-eae47f46-31eb-4031-a67e-d5f27a84bbd0/org.apache.spark_spark-token-provider-kafka-0-10_2.12-3.4.4.jar
+[2025-12-17T12:53:44.482+0530] {subprocess.py:93} INFO - 25/12/17 12:53:44 INFO Executor: Adding file:/tmp/spark-71211745-ae1a-4456-aa9b-41d05faa98b4/userFiles-eae47f46-31eb-4031-a67e-d5f27a84bbd0/org.apache.spark_spark-token-provider-kafka-0-10_2.12-3.4.4.jar to class loader
+[2025-12-17T12:53:44.482+0530] {subprocess.py:93} INFO - 25/12/17 12:53:44 INFO Executor: Fetching spark://192.168.1.86:39129/jars/org.checkerframework_checker-qual-3.42.0.jar with timestamp 1765956220831
+[2025-12-17T12:53:44.483+0530] {subprocess.py:93} INFO - 25/12/17 12:53:44 INFO Utils: Fetching spark://192.168.1.86:39129/jars/org.checkerframework_checker-qual-3.42.0.jar to /tmp/spark-71211745-ae1a-4456-aa9b-41d05faa98b4/userFiles-eae47f46-31eb-4031-a67e-d5f27a84bbd0/fetchFileTemp4949310720025428370.tmp
+[2025-12-17T12:53:44.487+0530] {subprocess.py:93} INFO - 25/12/17 12:53:44 INFO Utils: /tmp/spark-71211745-ae1a-4456-aa9b-41d05faa98b4/userFiles-eae47f46-31eb-4031-a67e-d5f27a84bbd0/fetchFileTemp4949310720025428370.tmp has been previously copied to /tmp/spark-71211745-ae1a-4456-aa9b-41d05faa98b4/userFiles-eae47f46-31eb-4031-a67e-d5f27a84bbd0/org.checkerframework_checker-qual-3.42.0.jar
+[2025-12-17T12:53:44.494+0530] {subprocess.py:93} INFO - 25/12/17 12:53:44 INFO Executor: Adding file:/tmp/spark-71211745-ae1a-4456-aa9b-41d05faa98b4/userFiles-eae47f46-31eb-4031-a67e-d5f27a84bbd0/org.checkerframework_checker-qual-3.42.0.jar to class loader
+[2025-12-17T12:53:44.511+0530] {subprocess.py:93} INFO - 25/12/17 12:53:44 INFO Utils: Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 34961.
+[2025-12-17T12:53:44.512+0530] {subprocess.py:93} INFO - 25/12/17 12:53:44 INFO NettyBlockTransferService: Server created on 192.168.1.86:34961
+[2025-12-17T12:53:44.516+0530] {subprocess.py:93} INFO - 25/12/17 12:53:44 INFO BlockManager: Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+[2025-12-17T12:53:44.557+0530] {subprocess.py:93} INFO - 25/12/17 12:53:44 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, 192.168.1.86, 34961, None)
+[2025-12-17T12:53:44.566+0530] {subprocess.py:93} INFO - 25/12/17 12:53:44 INFO BlockManagerMasterEndpoint: Registering block manager 192.168.1.86:34961 with 366.3 MiB RAM, BlockManagerId(driver, 192.168.1.86, 34961, None)
+[2025-12-17T12:53:44.570+0530] {subprocess.py:93} INFO - 25/12/17 12:53:44 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, 192.168.1.86, 34961, None)
+[2025-12-17T12:53:44.573+0530] {subprocess.py:93} INFO - 25/12/17 12:53:44 INFO BlockManager: Initialized BlockManager: BlockManagerId(driver, 192.168.1.86, 34961, None)
+[2025-12-17T12:53:51.556+0530] {subprocess.py:93} INFO - 25/12/17 12:53:51 WARN ResolveWriteToStream: spark.sql.adaptive.enabled is not supported in streaming DataFrames/Datasets and will be disabled.
+[2025-12-17T12:54:01.674+0530] {subprocess.py:93} INFO - 25/12/17 12:54:01 WARN HDFSBackedStateStoreProvider: The state for version 1 doesn't exist in loadedMaps. Reading snapshot file and delta files if needed...Note that this is normal for the first batch of starting query.
+[2025-12-17T12:54:01.675+0530] {subprocess.py:93} INFO - 25/12/17 12:54:01 WARN HDFSBackedStateStoreProvider: The state for version 1 doesn't exist in loadedMaps. Reading snapshot file and delta files if needed...Note that this is normal for the first batch of starting query.
+[2025-12-17T12:54:01.675+0530] {subprocess.py:93} INFO - 25/12/17 12:54:01 WARN HDFSBackedStateStoreProvider: The state for version 1 doesn't exist in loadedMaps. Reading snapshot file and delta files if needed...Note that this is normal for the first batch of starting query.
+[2025-12-17T12:54:01.676+0530] {subprocess.py:93} INFO - 25/12/17 12:54:01 WARN HDFSBackedStateStoreProvider: The state for version 1 doesn't exist in loadedMaps. Reading snapshot file and delta files if needed...Note that this is normal for the first batch of starting query.
+[2025-12-17T12:54:02.781+0530] {subprocess.py:93} INFO - 25/12/17 12:54:02 ERROR Executor: Exception in task 40.0 in stage 1.0 (TID 2)
+[2025-12-17T12:54:02.781+0530] {subprocess.py:93} INFO - java.sql.BatchUpdateException: Batch entry 0 INSERT INTO spotify_tracks ("track_name","artist","album","played_at") VALUES ('Mazhaneer Thullikal (Male) (from "Beautiful (Malayalam Film)")','Unni Menon','Monsoon Rhapsody','2025-12-17T05:03:04.884Z') was aborted: ERROR: duplicate key value violates unique constraint "spotify_tracks_pkey"
+[2025-12-17T12:54:02.782+0530] {subprocess.py:93} INFO -   Detail: Key (played_at)=(2025-12-17T05:03:04.884Z) already exists.  Call getNextException to see other errors in the batch.
+[2025-12-17T12:54:02.782+0530] {subprocess.py:93} INFO - 	at org.postgresql.jdbc.BatchResultHandler.handleError(BatchResultHandler.java:165)
+[2025-12-17T12:54:02.782+0530] {subprocess.py:93} INFO - 	at org.postgresql.core.ResultHandlerDelegate.handleError(ResultHandlerDelegate.java:52)
+[2025-12-17T12:54:02.782+0530] {subprocess.py:93} INFO - 	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2367)
+[2025-12-17T12:54:02.782+0530] {subprocess.py:93} INFO - 	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:560)
+[2025-12-17T12:54:02.783+0530] {subprocess.py:93} INFO - 	at org.postgresql.jdbc.PgStatement.internalExecuteBatch(PgStatement.java:893)
+[2025-12-17T12:54:02.783+0530] {subprocess.py:93} INFO - 	at org.postgresql.jdbc.PgStatement.executeBatch(PgStatement.java:916)
+[2025-12-17T12:54:02.783+0530] {subprocess.py:93} INFO - 	at org.postgresql.jdbc.PgPreparedStatement.executeBatch(PgPreparedStatement.java:1684)
+[2025-12-17T12:54:02.785+0530] {subprocess.py:93} INFO - 	at org.apache.spark.sql.execution.datasources.jdbc.JdbcUtils$.savePartition(JdbcUtils.scala:745)
+[2025-12-17T12:54:02.786+0530] {subprocess.py:93} INFO - 	at org.apache.spark.sql.execution.datasources.jdbc.JdbcUtils$.$anonfun$saveTable$1(JdbcUtils.scala:896)
+[2025-12-17T12:54:02.786+0530] {subprocess.py:93} INFO - 	at org.apache.spark.sql.execution.datasources.jdbc.JdbcUtils$.$anonfun$saveTable$1$adapted(JdbcUtils.scala:895)
+[2025-12-17T12:54:02.786+0530] {subprocess.py:93} INFO - 	at org.apache.spark.rdd.RDD.$anonfun$foreachPartition$2(RDD.scala:1012)
+[2025-12-17T12:54:02.787+0530] {subprocess.py:93} INFO - 	at org.apache.spark.rdd.RDD.$anonfun$foreachPartition$2$adapted(RDD.scala:1012)
+[2025-12-17T12:54:02.787+0530] {subprocess.py:93} INFO - 	at org.apache.spark.SparkContext.$anonfun$runJob$5(SparkContext.scala:2298)
+[2025-12-17T12:54:02.787+0530] {subprocess.py:93} INFO - 	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:92)
+[2025-12-17T12:54:02.787+0530] {subprocess.py:93} INFO - 	at org.apache.spark.TaskContext.runTaskWithListeners(TaskContext.scala:161)
+[2025-12-17T12:54:02.789+0530] {subprocess.py:93} INFO - 	at org.apache.spark.scheduler.Task.run(Task.scala:139)
+[2025-12-17T12:54:02.789+0530] {subprocess.py:93} INFO - 	at org.apache.spark.executor.Executor$TaskRunner.$anonfun$run$3(Executor.scala:554)
+[2025-12-17T12:54:02.789+0530] {subprocess.py:93} INFO - 	at org.apache.spark.util.Utils$.tryWithSafeFinally(Utils.scala:1529)
+[2025-12-17T12:54:02.789+0530] {subprocess.py:93} INFO - 	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:557)
+[2025-12-17T12:54:02.790+0530] {subprocess.py:93} INFO - 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+[2025-12-17T12:54:02.790+0530] {subprocess.py:93} INFO - 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+[2025-12-17T12:54:02.790+0530] {subprocess.py:93} INFO - 	at java.lang.Thread.run(Thread.java:748)
+[2025-12-17T12:54:02.790+0530] {subprocess.py:93} INFO - Caused by: org.postgresql.util.PSQLException: ERROR: duplicate key value violates unique constraint "spotify_tracks_pkey"
+[2025-12-17T12:54:02.791+0530] {subprocess.py:93} INFO -   Detail: Key (played_at)=(2025-12-17T05:03:04.884Z) already exists.
+[2025-12-17T12:54:02.791+0530] {subprocess.py:93} INFO - 	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+[2025-12-17T12:54:02.791+0530] {subprocess.py:93} INFO - 	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+[2025-12-17T12:54:02.791+0530] {subprocess.py:93} INFO - 	... 19 more
+[2025-12-17T12:54:02.795+0530] {subprocess.py:93} INFO - 25/12/17 12:54:02 ERROR Executor: Exception in task 38.0 in stage 1.0 (TID 1)
+[2025-12-17T12:54:02.795+0530] {subprocess.py:93} INFO - java.sql.BatchUpdateException: Batch entry 0 INSERT INTO spotify_tracks ("track_name","artist","album","played_at") VALUES ('Njan Kanavil (from "Aagathan")','Ranjith Govind','Hits of Ouseppachan, Vol. 3','2025-12-17T05:28:58.627Z') was aborted: ERROR: duplicate key value violates unique constraint "spotify_tracks_pkey"
+[2025-12-17T12:54:02.795+0530] {subprocess.py:93} INFO -   Detail: Key (played_at)=(2025-12-17T05:28:58.627Z) already exists.  Call getNextException to see other errors in the batch.
+[2025-12-17T12:54:02.796+0530] {subprocess.py:93} INFO - 	at org.postgresql.jdbc.BatchResultHandler.handleError(BatchResultHandler.java:165)
+[2025-12-17T12:54:02.796+0530] {subprocess.py:93} INFO - 	at org.postgresql.core.ResultHandlerDelegate.handleError(ResultHandlerDelegate.java:52)
+[2025-12-17T12:54:02.796+0530] {subprocess.py:93} INFO - 	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2367)
+[2025-12-17T12:54:02.796+0530] {subprocess.py:93} INFO - 	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:560)
+[2025-12-17T12:54:02.796+0530] {subprocess.py:93} INFO - 	at org.postgresql.jdbc.PgStatement.internalExecuteBatch(PgStatement.java:893)
+[2025-12-17T12:54:02.797+0530] {subprocess.py:93} INFO - 	at org.postgresql.jdbc.PgStatement.executeBatch(PgStatement.java:916)
+[2025-12-17T12:54:02.797+0530] {subprocess.py:93} INFO - 	at org.postgresql.jdbc.PgPreparedStatement.executeBatch(PgPreparedStatement.java:1684)
+[2025-12-17T12:54:02.797+0530] {subprocess.py:93} INFO - 	at org.apache.spark.sql.execution.datasources.jdbc.JdbcUtils$.savePartition(JdbcUtils.scala:745)
+[2025-12-17T12:54:02.797+0530] {subprocess.py:93} INFO - 	at org.apache.spark.sql.execution.datasources.jdbc.JdbcUtils$.$anonfun$saveTable$1(JdbcUtils.scala:896)
+[2025-12-17T12:54:02.797+0530] {subprocess.py:93} INFO - 	at org.apache.spark.sql.execution.datasources.jdbc.JdbcUtils$.$anonfun$saveTable$1$adapted(JdbcUtils.scala:895)
+[2025-12-17T12:54:02.797+0530] {subprocess.py:93} INFO - 	at org.apache.spark.rdd.RDD.$anonfun$foreachPartition$2(RDD.scala:1012)
+[2025-12-17T12:54:02.798+0530] {subprocess.py:93} INFO - 	at org.apache.spark.rdd.RDD.$anonfun$foreachPartition$2$adapted(RDD.scala:1012)
+[2025-12-17T12:54:02.798+0530] {subprocess.py:93} INFO - 	at org.apache.spark.SparkContext.$anonfun$runJob$5(SparkContext.scala:2298)
+[2025-12-17T12:54:02.798+0530] {subprocess.py:93} INFO - 	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:92)
+[2025-12-17T12:54:02.798+0530] {subprocess.py:93} INFO - 	at org.apache.spark.TaskContext.runTaskWithListeners(TaskContext.scala:161)
+[2025-12-17T12:54:02.798+0530] {subprocess.py:93} INFO - 	at org.apache.spark.scheduler.Task.run(Task.scala:139)
+[2025-12-17T12:54:02.799+0530] {subprocess.py:93} INFO - 	at org.apache.spark.executor.Executor$TaskRunner.$anonfun$run$3(Executor.scala:554)
+[2025-12-17T12:54:02.799+0530] {subprocess.py:93} INFO - 	at org.apache.spark.util.Utils$.tryWithSafeFinally(Utils.scala:1529)
+[2025-12-17T12:54:02.799+0530] {subprocess.py:93} INFO - 	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:557)
+[2025-12-17T12:54:02.799+0530] {subprocess.py:93} INFO - 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+[2025-12-17T12:54:02.799+0530] {subprocess.py:93} INFO - 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+[2025-12-17T12:54:02.800+0530] {subprocess.py:93} INFO - 	at java.lang.Thread.run(Thread.java:748)
+[2025-12-17T12:54:02.800+0530] {subprocess.py:93} INFO - Caused by: org.postgresql.util.PSQLException: ERROR: duplicate key value violates unique constraint "spotify_tracks_pkey"
+[2025-12-17T12:54:02.800+0530] {subprocess.py:93} INFO -   Detail: Key (played_at)=(2025-12-17T05:28:58.627Z) already exists.
+[2025-12-17T12:54:02.800+0530] {subprocess.py:93} INFO - 	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+[2025-12-17T12:54:02.800+0530] {subprocess.py:93} INFO - 	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+[2025-12-17T12:54:02.804+0530] {subprocess.py:93} INFO - 	... 19 more
+[2025-12-17T12:54:02.804+0530] {subprocess.py:93} INFO - 25/12/17 12:54:02 ERROR Executor: Exception in task 59.0 in stage 1.0 (TID 3)
+[2025-12-17T12:54:02.804+0530] {subprocess.py:93} INFO - java.sql.BatchUpdateException: Batch entry 0 INSERT INTO spotify_tracks ("track_name","artist","album","played_at") VALUES ('Kathayoraavarthanam - Version, 01','Bijibal','Daddy Cool (Original Motion Picture Soundtrack)','2025-12-17T04:58:34.983Z') was aborted: ERROR: duplicate key value violates unique constraint "spotify_tracks_pkey"
+[2025-12-17T12:54:02.805+0530] {subprocess.py:93} INFO -   Detail: Key (played_at)=(2025-12-17T04:58:34.983Z) already exists.  Call getNextException to see other errors in the batch.
+[2025-12-17T12:54:02.805+0530] {subprocess.py:93} INFO - 	at org.postgresql.jdbc.BatchResultHandler.handleError(BatchResultHandler.java:165)
+[2025-12-17T12:54:02.805+0530] {subprocess.py:93} INFO - 	at org.postgresql.core.ResultHandlerDelegate.handleError(ResultHandlerDelegate.java:52)
+[2025-12-17T12:54:02.805+0530] {subprocess.py:93} INFO - 	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2367)
+[2025-12-17T12:54:02.805+0530] {subprocess.py:93} INFO - 	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:560)
+[2025-12-17T12:54:02.805+0530] {subprocess.py:93} INFO - 	at org.postgresql.jdbc.PgStatement.internalExecuteBatch(PgStatement.java:893)
+[2025-12-17T12:54:02.806+0530] {subprocess.py:93} INFO - 	at org.postgresql.jdbc.PgStatement.executeBatch(PgStatement.java:916)
+[2025-12-17T12:54:02.806+0530] {subprocess.py:93} INFO - 	at org.postgresql.jdbc.PgPreparedStatement.executeBatch(PgPreparedStatement.java:1684)
+[2025-12-17T12:54:02.806+0530] {subprocess.py:93} INFO - 	at org.apache.spark.sql.execution.datasources.jdbc.JdbcUtils$.savePartition(JdbcUtils.scala:745)
+[2025-12-17T12:54:02.806+0530] {subprocess.py:93} INFO - 	at org.apache.spark.sql.execution.datasources.jdbc.JdbcUtils$.$anonfun$saveTable$1(JdbcUtils.scala:896)
+[2025-12-17T12:54:02.808+0530] {subprocess.py:93} INFO - 	at org.apache.spark.sql.execution.datasources.jdbc.JdbcUtils$.$anonfun$saveTable$1$adapted(JdbcUtils.scala:895)
+[2025-12-17T12:54:02.808+0530] {subprocess.py:93} INFO - 	at org.apache.spark.rdd.RDD.$anonfun$foreachPartition$2(RDD.scala:1012)
+[2025-12-17T12:54:02.808+0530] {subprocess.py:93} INFO - 	at org.apache.spark.rdd.RDD.$anonfun$foreachPartition$2$adapted(RDD.scala:1012)
+[2025-12-17T12:54:02.809+0530] {subprocess.py:93} INFO - 	at org.apache.spark.SparkContext.$anonfun$runJob$5(SparkContext.scala:2298)
+[2025-12-17T12:54:02.809+0530] {subprocess.py:93} INFO - 	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:92)
+[2025-12-17T12:54:02.809+0530] {subprocess.py:93} INFO - 	at org.apache.spark.TaskContext.runTaskWithListeners(TaskContext.scala:161)
+[2025-12-17T12:54:02.809+0530] {subprocess.py:93} INFO - 	at org.apache.spark.scheduler.Task.run(Task.scala:139)
+[2025-12-17T12:54:02.809+0530] {subprocess.py:93} INFO - 	at org.apache.spark.executor.Executor$TaskRunner.$anonfun$run$3(Executor.scala:554)
+[2025-12-17T12:54:02.812+0530] {subprocess.py:93} INFO - 	at org.apache.spark.util.Utils$.tryWithSafeFinally(Utils.scala:1529)
+[2025-12-17T12:54:02.812+0530] {subprocess.py:93} INFO - 	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:557)
+[2025-12-17T12:54:02.813+0530] {subprocess.py:93} INFO - 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+[2025-12-17T12:54:02.813+0530] {subprocess.py:93} INFO - 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+[2025-12-17T12:54:02.813+0530] {subprocess.py:93} INFO - 	at java.lang.Thread.run(Thread.java:748)
+[2025-12-17T12:54:02.813+0530] {subprocess.py:93} INFO - Caused by: org.postgresql.util.PSQLException: ERROR: duplicate key value violates unique constraint "spotify_tracks_pkey"
+[2025-12-17T12:54:02.813+0530] {subprocess.py:93} INFO -   Detail: Key (played_at)=(2025-12-17T04:58:34.983Z) already exists.
+[2025-12-17T12:54:02.814+0530] {subprocess.py:93} INFO - 	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+[2025-12-17T12:54:02.814+0530] {subprocess.py:93} INFO - 	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+[2025-12-17T12:54:02.814+0530] {subprocess.py:93} INFO - 	... 19 more
+[2025-12-17T12:54:02.814+0530] {subprocess.py:93} INFO - 25/12/17 12:54:02 ERROR Executor: Exception in task 171.0 in stage 1.0 (TID 4)
+[2025-12-17T12:54:02.814+0530] {subprocess.py:93} INFO - java.sql.BatchUpdateException: Batch entry 0 INSERT INTO spotify_tracks ("track_name","artist","album","played_at") VALUES ('Njan Kanavil (from "Aagathan")','Ranjith Govind','Hits of Ouseppachan, Vol. 3','2025-12-17T05:26:39.966Z') was aborted: ERROR: duplicate key value violates unique constraint "spotify_tracks_pkey"
+[2025-12-17T12:54:02.815+0530] {subprocess.py:93} INFO -   Detail: Key (played_at)=(2025-12-17T05:26:39.966Z) already exists.  Call getNextException to see other errors in the batch.
+[2025-12-17T12:54:02.815+0530] {subprocess.py:93} INFO - 	at org.postgresql.jdbc.BatchResultHandler.handleError(BatchResultHandler.java:165)
+[2025-12-17T12:54:02.815+0530] {subprocess.py:93} INFO - 	at org.postgresql.core.ResultHandlerDelegate.handleError(ResultHandlerDelegate.java:52)
+[2025-12-17T12:54:02.815+0530] {subprocess.py:93} INFO - 	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2367)
+[2025-12-17T12:54:02.816+0530] {subprocess.py:93} INFO - 	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:560)
+[2025-12-17T12:54:02.817+0530] {subprocess.py:93} INFO - 	at org.postgresql.jdbc.PgStatement.internalExecuteBatch(PgStatement.java:893)
+[2025-12-17T12:54:02.817+0530] {subprocess.py:93} INFO - 	at org.postgresql.jdbc.PgStatement.executeBatch(PgStatement.java:916)
+[2025-12-17T12:54:02.817+0530] {subprocess.py:93} INFO - 	at org.postgresql.jdbc.PgPreparedStatement.executeBatch(PgPreparedStatement.java:1684)
+[2025-12-17T12:54:02.818+0530] {subprocess.py:93} INFO - 	at org.apache.spark.sql.execution.datasources.jdbc.JdbcUtils$.savePartition(JdbcUtils.scala:745)
+[2025-12-17T12:54:02.818+0530] {subprocess.py:93} INFO - 	at org.apache.spark.sql.execution.datasources.jdbc.JdbcUtils$.$anonfun$saveTable$1(JdbcUtils.scala:896)
+[2025-12-17T12:54:02.818+0530] {subprocess.py:93} INFO - 	at org.apache.spark.sql.execution.datasources.jdbc.JdbcUtils$.$anonfun$saveTable$1$adapted(JdbcUtils.scala:895)
+[2025-12-17T12:54:02.818+0530] {subprocess.py:93} INFO - 	at org.apache.spark.rdd.RDD.$anonfun$foreachPartition$2(RDD.scala:1012)
+[2025-12-17T12:54:02.818+0530] {subprocess.py:93} INFO - 	at org.apache.spark.rdd.RDD.$anonfun$foreachPartition$2$adapted(RDD.scala:1012)
+[2025-12-17T12:54:02.819+0530] {subprocess.py:93} INFO - 	at org.apache.spark.SparkContext.$anonfun$runJob$5(SparkContext.scala:2298)
+[2025-12-17T12:54:02.819+0530] {subprocess.py:93} INFO - 	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:92)
+[2025-12-17T12:54:02.819+0530] {subprocess.py:93} INFO - 	at org.apache.spark.TaskContext.runTaskWithListeners(TaskContext.scala:161)
+[2025-12-17T12:54:02.819+0530] {subprocess.py:93} INFO - 	at org.apache.spark.scheduler.Task.run(Task.scala:139)
+[2025-12-17T12:54:02.819+0530] {subprocess.py:93} INFO - 	at org.apache.spark.executor.Executor$TaskRunner.$anonfun$run$3(Executor.scala:554)
+[2025-12-17T12:54:02.820+0530] {subprocess.py:93} INFO - 	at org.apache.spark.util.Utils$.tryWithSafeFinally(Utils.scala:1529)
+[2025-12-17T12:54:02.821+0530] {subprocess.py:93} INFO - 	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:557)
+[2025-12-17T12:54:02.821+0530] {subprocess.py:93} INFO - 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+[2025-12-17T12:54:02.821+0530] {subprocess.py:93} INFO - 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+[2025-12-17T12:54:02.821+0530] {subprocess.py:93} INFO - 	at java.lang.Thread.run(Thread.java:748)
+[2025-12-17T12:54:02.821+0530] {subprocess.py:93} INFO - Caused by: org.postgresql.util.PSQLException: ERROR: duplicate key value violates unique constraint "spotify_tracks_pkey"
+[2025-12-17T12:54:02.822+0530] {subprocess.py:93} INFO -   Detail: Key (played_at)=(2025-12-17T05:26:39.966Z) already exists.
+[2025-12-17T12:54:02.822+0530] {subprocess.py:93} INFO - 	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+[2025-12-17T12:54:02.822+0530] {subprocess.py:93} INFO - 	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+[2025-12-17T12:54:02.823+0530] {subprocess.py:93} INFO - 	... 19 more
+[2025-12-17T12:54:02.995+0530] {subprocess.py:93} INFO - 25/12/17 12:54:02 WARN TaskSetManager: Lost task 38.0 in stage 1.0 (TID 1) (192.168.1.86 executor driver): java.sql.BatchUpdateException: Batch entry 0 INSERT INTO spotify_tracks ("track_name","artist","album","played_at") VALUES ('Njan Kanavil (from "Aagathan")','Ranjith Govind','Hits of Ouseppachan, Vol. 3','2025-12-17T05:28:58.627Z') was aborted: ERROR: duplicate key value violates unique constraint "spotify_tracks_pkey"
+[2025-12-17T12:54:02.996+0530] {subprocess.py:93} INFO -   Detail: Key (played_at)=(2025-12-17T05:28:58.627Z) already exists.  Call getNextException to see other errors in the batch.
+[2025-12-17T12:54:02.996+0530] {subprocess.py:93} INFO - 	at org.postgresql.jdbc.BatchResultHandler.handleError(BatchResultHandler.java:165)
+[2025-12-17T12:54:02.997+0530] {subprocess.py:93} INFO - 	at org.postgresql.core.ResultHandlerDelegate.handleError(ResultHandlerDelegate.java:52)
+[2025-12-17T12:54:02.997+0530] {subprocess.py:93} INFO - 	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2367)
+[2025-12-17T12:54:02.998+0530] {subprocess.py:93} INFO - 	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:560)
+[2025-12-17T12:54:02.998+0530] {subprocess.py:93} INFO - 	at org.postgresql.jdbc.PgStatement.internalExecuteBatch(PgStatement.java:893)
+[2025-12-17T12:54:02.998+0530] {subprocess.py:93} INFO - 	at org.postgresql.jdbc.PgStatement.executeBatch(PgStatement.java:916)
+[2025-12-17T12:54:02.998+0530] {subprocess.py:93} INFO - 	at org.postgresql.jdbc.PgPreparedStatement.executeBatch(PgPreparedStatement.java:1684)
+[2025-12-17T12:54:02.998+0530] {subprocess.py:93} INFO - 	at org.apache.spark.sql.execution.datasources.jdbc.JdbcUtils$.savePartition(JdbcUtils.scala:745)
+[2025-12-17T12:54:03.000+0530] {subprocess.py:93} INFO - 	at org.apache.spark.sql.execution.datasources.jdbc.JdbcUtils$.$anonfun$saveTable$1(JdbcUtils.scala:896)
+[2025-12-17T12:54:03.001+0530] {subprocess.py:93} INFO - 	at org.apache.spark.sql.execution.datasources.jdbc.JdbcUtils$.$anonfun$saveTable$1$adapted(JdbcUtils.scala:895)
+[2025-12-17T12:54:03.004+0530] {subprocess.py:93} INFO - 	at org.apache.spark.rdd.RDD.$anonfun$foreachPartition$2(RDD.scala:1012)
+[2025-12-17T12:54:03.004+0530] {subprocess.py:93} INFO - 	at org.apache.spark.rdd.RDD.$anonfun$foreachPartition$2$adapted(RDD.scala:1012)
+[2025-12-17T12:54:03.004+0530] {subprocess.py:93} INFO - 	at org.apache.spark.SparkContext.$anonfun$runJob$5(SparkContext.scala:2298)
+[2025-12-17T12:54:03.005+0530] {subprocess.py:93} INFO - 	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:92)
+[2025-12-17T12:54:03.005+0530] {subprocess.py:93} INFO - 	at org.apache.spark.TaskContext.runTaskWithListeners(TaskContext.scala:161)
+[2025-12-17T12:54:03.005+0530] {subprocess.py:93} INFO - 	at org.apache.spark.scheduler.Task.run(Task.scala:139)
+[2025-12-17T12:54:03.005+0530] {subprocess.py:93} INFO - 	at org.apache.spark.executor.Executor$TaskRunner.$anonfun$run$3(Executor.scala:554)
+[2025-12-17T12:54:03.005+0530] {subprocess.py:93} INFO - 	at org.apache.spark.util.Utils$.tryWithSafeFinally(Utils.scala:1529)
+[2025-12-17T12:54:03.007+0530] {subprocess.py:93} INFO - 	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:557)
+[2025-12-17T12:54:03.008+0530] {subprocess.py:93} INFO - 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+[2025-12-17T12:54:03.009+0530] {subprocess.py:93} INFO - 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+[2025-12-17T12:54:03.010+0530] {subprocess.py:93} INFO - 	at java.lang.Thread.run(Thread.java:748)
+[2025-12-17T12:54:03.010+0530] {subprocess.py:93} INFO - Caused by: org.postgresql.util.PSQLException: ERROR: duplicate key value violates unique constraint "spotify_tracks_pkey"
+[2025-12-17T12:54:03.010+0530] {subprocess.py:93} INFO -   Detail: Key (played_at)=(2025-12-17T05:28:58.627Z) already exists.
+[2025-12-17T12:54:03.011+0530] {subprocess.py:93} INFO - 	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+[2025-12-17T12:54:03.011+0530] {subprocess.py:93} INFO - 	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+[2025-12-17T12:54:03.011+0530] {subprocess.py:93} INFO - 	... 19 more
+[2025-12-17T12:54:03.011+0530] {subprocess.py:93} INFO - 
+[2025-12-17T12:54:03.023+0530] {subprocess.py:93} INFO - 25/12/17 12:54:03 ERROR TaskSetManager: Task 38 in stage 1.0 failed 1 times; aborting job
+[2025-12-17T12:54:03.067+0530] {subprocess.py:93} INFO - 25/12/17 12:54:03 WARN TaskSetManager: Lost task 171.0 in stage 1.0 (TID 4) (192.168.1.86 executor driver): java.sql.BatchUpdateException: Batch entry 0 INSERT INTO spotify_tracks ("track_name","artist","album","played_at") VALUES ('Njan Kanavil (from "Aagathan")','Ranjith Govind','Hits of Ouseppachan, Vol. 3','2025-12-17T05:26:39.966Z') was aborted: ERROR: duplicate key value violates unique constraint "spotify_tracks_pkey"
+[2025-12-17T12:54:03.070+0530] {subprocess.py:93} INFO -   Detail: Key (played_at)=(2025-12-17T05:26:39.966Z) already exists.  Call getNextException to see other errors in the batch.
+[2025-12-17T12:54:03.071+0530] {subprocess.py:93} INFO - 	at org.postgresql.jdbc.BatchResultHandler.handleError(BatchResultHandler.java:165)
+[2025-12-17T12:54:03.071+0530] {subprocess.py:93} INFO - 	at org.postgresql.core.ResultHandlerDelegate.handleError(ResultHandlerDelegate.java:52)
+[2025-12-17T12:54:03.072+0530] {subprocess.py:93} INFO - 	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2367)
+[2025-12-17T12:54:03.073+0530] {subprocess.py:93} INFO - 	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:560)
+[2025-12-17T12:54:03.073+0530] {subprocess.py:93} INFO - 	at org.postgresql.jdbc.PgStatement.internalExecuteBatch(PgStatement.java:893)
+[2025-12-17T12:54:03.073+0530] {subprocess.py:93} INFO - 	at org.postgresql.jdbc.PgStatement.executeBatch(PgStatement.java:916)
+[2025-12-17T12:54:03.073+0530] {subprocess.py:93} INFO - 	at org.postgresql.jdbc.PgPreparedStatement.executeBatch(PgPreparedStatement.java:1684)
+[2025-12-17T12:54:03.073+0530] {subprocess.py:93} INFO - 	at org.apache.spark.sql.execution.datasources.jdbc.JdbcUtils$.savePartition(JdbcUtils.scala:745)
+[2025-12-17T12:54:03.073+0530] {subprocess.py:93} INFO - 	at org.apache.spark.sql.execution.datasources.jdbc.JdbcUtils$.$anonfun$saveTable$1(JdbcUtils.scala:896)
+[2025-12-17T12:54:03.074+0530] {subprocess.py:93} INFO - 	at org.apache.spark.sql.execution.datasources.jdbc.JdbcUtils$.$anonfun$saveTable$1$adapted(JdbcUtils.scala:895)
+[2025-12-17T12:54:03.074+0530] {subprocess.py:93} INFO - 	at org.apache.spark.rdd.RDD.$anonfun$foreachPartition$2(RDD.scala:1012)
+[2025-12-17T12:54:03.074+0530] {subprocess.py:93} INFO - 	at org.apache.spark.rdd.RDD.$anonfun$foreachPartition$2$adapted(RDD.scala:1012)
+[2025-12-17T12:54:03.074+0530] {subprocess.py:93} INFO - 	at org.apache.spark.SparkContext.$anonfun$runJob$5(SparkContext.scala:2298)
+[2025-12-17T12:54:03.077+0530] {subprocess.py:93} INFO - 	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:92)
+[2025-12-17T12:54:03.078+0530] {subprocess.py:93} INFO - 	at org.apache.spark.TaskContext.runTaskWithListeners(TaskContext.scala:161)
+[2025-12-17T12:54:03.078+0530] {subprocess.py:93} INFO - 	at org.apache.spark.scheduler.Task.run(Task.scala:139)
+[2025-12-17T12:54:03.078+0530] {subprocess.py:93} INFO - 	at org.apache.spark.executor.Executor$TaskRunner.$anonfun$run$3(Executor.scala:554)
+[2025-12-17T12:54:03.079+0530] {subprocess.py:93} INFO - 	at org.apache.spark.util.Utils$.tryWithSafeFinally(Utils.scala:1529)
+[2025-12-17T12:54:03.079+0530] {subprocess.py:93} INFO - 	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:557)
+[2025-12-17T12:54:03.079+0530] {subprocess.py:93} INFO - 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+[2025-12-17T12:54:03.080+0530] {subprocess.py:93} INFO - 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+[2025-12-17T12:54:03.082+0530] {subprocess.py:93} INFO - 	at java.lang.Thread.run(Thread.java:748)
+[2025-12-17T12:54:03.082+0530] {subprocess.py:93} INFO - Caused by: org.postgresql.util.PSQLException: ERROR: duplicate key value violates unique constraint "spotify_tracks_pkey"
+[2025-12-17T12:54:03.082+0530] {subprocess.py:93} INFO -   Detail: Key (played_at)=(2025-12-17T05:26:39.966Z) already exists.
+[2025-12-17T12:54:03.082+0530] {subprocess.py:93} INFO - 	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+[2025-12-17T12:54:03.083+0530] {subprocess.py:93} INFO - 	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+[2025-12-17T12:54:03.083+0530] {subprocess.py:93} INFO - 	... 19 more
+[2025-12-17T12:54:03.083+0530] {subprocess.py:93} INFO - 
+[2025-12-17T12:54:03.083+0530] {subprocess.py:93} INFO - 25/12/17 12:54:03 WARN TaskSetManager: Lost task 59.0 in stage 1.0 (TID 3) (192.168.1.86 executor driver): java.sql.BatchUpdateException: Batch entry 0 INSERT INTO spotify_tracks ("track_name","artist","album","played_at") VALUES ('Kathayoraavarthanam - Version, 01','Bijibal','Daddy Cool (Original Motion Picture Soundtrack)','2025-12-17T04:58:34.983Z') was aborted: ERROR: duplicate key value violates unique constraint "spotify_tracks_pkey"
+[2025-12-17T12:54:03.086+0530] {subprocess.py:93} INFO -   Detail: Key (played_at)=(2025-12-17T04:58:34.983Z) already exists.  Call getNextException to see other errors in the batch.
+[2025-12-17T12:54:03.087+0530] {subprocess.py:93} INFO - 	at org.postgresql.jdbc.BatchResultHandler.handleError(BatchResultHandler.java:165)
+[2025-12-17T12:54:03.088+0530] {subprocess.py:93} INFO - 	at org.postgresql.core.ResultHandlerDelegate.handleError(ResultHandlerDelegate.java:52)
+[2025-12-17T12:54:03.088+0530] {subprocess.py:93} INFO - 	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2367)
+[2025-12-17T12:54:03.088+0530] {subprocess.py:93} INFO - 	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:560)
+[2025-12-17T12:54:03.088+0530] {subprocess.py:93} INFO - 	at org.postgresql.jdbc.PgStatement.internalExecuteBatch(PgStatement.java:893)
+[2025-12-17T12:54:03.090+0530] {subprocess.py:93} INFO - 	at org.postgresql.jdbc.PgStatement.executeBatch(PgStatement.java:916)
+[2025-12-17T12:54:03.091+0530] {subprocess.py:93} INFO - 	at org.postgresql.jdbc.PgPreparedStatement.executeBatch(PgPreparedStatement.java:1684)
+[2025-12-17T12:54:03.091+0530] {subprocess.py:93} INFO - 	at org.apache.spark.sql.execution.datasources.jdbc.JdbcUtils$.savePartition(JdbcUtils.scala:745)
+[2025-12-17T12:54:03.092+0530] {subprocess.py:93} INFO - 	at org.apache.spark.sql.execution.datasources.jdbc.JdbcUtils$.$anonfun$saveTable$1(JdbcUtils.scala:896)
+[2025-12-17T12:54:03.092+0530] {subprocess.py:93} INFO - 	at org.apache.spark.sql.execution.datasources.jdbc.JdbcUtils$.$anonfun$saveTable$1$adapted(JdbcUtils.scala:895)
+[2025-12-17T12:54:03.092+0530] {subprocess.py:93} INFO - 	at org.apache.spark.rdd.RDD.$anonfun$foreachPartition$2(RDD.scala:1012)
+[2025-12-17T12:54:03.094+0530] {subprocess.py:93} INFO - 	at org.apache.spark.rdd.RDD.$anonfun$foreachPartition$2$adapted(RDD.scala:1012)
+[2025-12-17T12:54:03.094+0530] {subprocess.py:93} INFO - 	at org.apache.spark.SparkContext.$anonfun$runJob$5(SparkContext.scala:2298)
+[2025-12-17T12:54:03.095+0530] {subprocess.py:93} INFO - 	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:92)
+[2025-12-17T12:54:03.095+0530] {subprocess.py:93} INFO - 	at org.apache.spark.TaskContext.runTaskWithListeners(TaskContext.scala:161)
+[2025-12-17T12:54:03.095+0530] {subprocess.py:93} INFO - 	at org.apache.spark.scheduler.Task.run(Task.scala:139)
+[2025-12-17T12:54:03.098+0530] {subprocess.py:93} INFO - 	at org.apache.spark.executor.Executor$TaskRunner.$anonfun$run$3(Executor.scala:554)
+[2025-12-17T12:54:03.099+0530] {subprocess.py:93} INFO - 	at org.apache.spark.util.Utils$.tryWithSafeFinally(Utils.scala:1529)
+[2025-12-17T12:54:03.099+0530] {subprocess.py:93} INFO - 	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:557)
+[2025-12-17T12:54:03.099+0530] {subprocess.py:93} INFO - 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+[2025-12-17T12:54:03.099+0530] {subprocess.py:93} INFO - 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+[2025-12-17T12:54:03.099+0530] {subprocess.py:93} INFO - 	at java.lang.Thread.run(Thread.java:748)
+[2025-12-17T12:54:03.100+0530] {subprocess.py:93} INFO - Caused by: org.postgresql.util.PSQLException: ERROR: duplicate key value violates unique constraint "spotify_tracks_pkey"
+[2025-12-17T12:54:03.100+0530] {subprocess.py:93} INFO -   Detail: Key (played_at)=(2025-12-17T04:58:34.983Z) already exists.
+[2025-12-17T12:54:03.100+0530] {subprocess.py:93} INFO - 	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+[2025-12-17T12:54:03.100+0530] {subprocess.py:93} INFO - 	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+[2025-12-17T12:54:03.103+0530] {subprocess.py:93} INFO - 	... 19 more
+[2025-12-17T12:54:03.103+0530] {subprocess.py:93} INFO - 
+[2025-12-17T12:54:03.103+0530] {subprocess.py:93} INFO - 25/12/17 12:54:03 WARN HDFSBackedStateStoreProvider: The state for version 1 doesn't exist in loadedMaps. Reading snapshot file and delta files if needed...Note that this is normal for the first batch of starting query.
+[2025-12-17T12:54:03.142+0530] {subprocess.py:93} INFO - 25/12/17 12:54:03 WARN TaskSetManager: Lost task 40.0 in stage 1.0 (TID 2) (192.168.1.86 executor driver): java.sql.BatchUpdateException: Batch entry 0 INSERT INTO spotify_tracks ("track_name","artist","album","played_at") VALUES ('Mazhaneer Thullikal (Male) (from "Beautiful (Malayalam Film)")','Unni Menon','Monsoon Rhapsody','2025-12-17T05:03:04.884Z') was aborted: ERROR: duplicate key value violates unique constraint "spotify_tracks_pkey"
+[2025-12-17T12:54:03.143+0530] {subprocess.py:93} INFO -   Detail: Key (played_at)=(2025-12-17T05:03:04.884Z) already exists.  Call getNextException to see other errors in the batch.
+[2025-12-17T12:54:03.143+0530] {subprocess.py:93} INFO - 	at org.postgresql.jdbc.BatchResultHandler.handleError(BatchResultHandler.java:165)
+[2025-12-17T12:54:03.143+0530] {subprocess.py:93} INFO - 	at org.postgresql.core.ResultHandlerDelegate.handleError(ResultHandlerDelegate.java:52)
+[2025-12-17T12:54:03.144+0530] {subprocess.py:93} INFO - 	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2367)
+[2025-12-17T12:54:03.144+0530] {subprocess.py:93} INFO - 	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:560)
+[2025-12-17T12:54:03.144+0530] {subprocess.py:93} INFO - 	at org.postgresql.jdbc.PgStatement.internalExecuteBatch(PgStatement.java:893)
+[2025-12-17T12:54:03.144+0530] {subprocess.py:93} INFO - 	at org.postgresql.jdbc.PgStatement.executeBatch(PgStatement.java:916)
+[2025-12-17T12:54:03.145+0530] {subprocess.py:93} INFO - 	at org.postgresql.jdbc.PgPreparedStatement.executeBatch(PgPreparedStatement.java:1684)
+[2025-12-17T12:54:03.145+0530] {subprocess.py:93} INFO - 	at org.apache.spark.sql.execution.datasources.jdbc.JdbcUtils$.savePartition(JdbcUtils.scala:745)
+[2025-12-17T12:54:03.145+0530] {subprocess.py:93} INFO - 	at org.apache.spark.sql.execution.datasources.jdbc.JdbcUtils$.$anonfun$saveTable$1(JdbcUtils.scala:896)
+[2025-12-17T12:54:03.145+0530] {subprocess.py:93} INFO - 	at org.apache.spark.sql.execution.datasources.jdbc.JdbcUtils$.$anonfun$saveTable$1$adapted(JdbcUtils.scala:895)
+[2025-12-17T12:54:03.146+0530] {subprocess.py:93} INFO - 	at org.apache.spark.rdd.RDD.$anonfun$foreachPartition$2(RDD.scala:1012)
+[2025-12-17T12:54:03.147+0530] {subprocess.py:93} INFO - 	at org.apache.spark.rdd.RDD.$anonfun$foreachPartition$2$adapted(RDD.scala:1012)
+[2025-12-17T12:54:03.147+0530] {subprocess.py:93} INFO - 	at org.apache.spark.SparkContext.$anonfun$runJob$5(SparkContext.scala:2298)
+[2025-12-17T12:54:03.147+0530] {subprocess.py:93} INFO - 	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:92)
+[2025-12-17T12:54:03.148+0530] {subprocess.py:93} INFO - 	at org.apache.spark.TaskContext.runTaskWithListeners(TaskContext.scala:161)
+[2025-12-17T12:54:03.149+0530] {subprocess.py:93} INFO - 	at org.apache.spark.scheduler.Task.run(Task.scala:139)
+[2025-12-17T12:54:03.149+0530] {subprocess.py:93} INFO - 	at org.apache.spark.executor.Executor$TaskRunner.$anonfun$run$3(Executor.scala:554)
+[2025-12-17T12:54:03.149+0530] {subprocess.py:93} INFO - 	at org.apache.spark.util.Utils$.tryWithSafeFinally(Utils.scala:1529)
+[2025-12-17T12:54:03.150+0530] {subprocess.py:93} INFO - 	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:557)
+[2025-12-17T12:54:03.150+0530] {subprocess.py:93} INFO - 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+[2025-12-17T12:54:03.150+0530] {subprocess.py:93} INFO - 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+[2025-12-17T12:54:03.150+0530] {subprocess.py:93} INFO - 	at java.lang.Thread.run(Thread.java:748)
+[2025-12-17T12:54:03.151+0530] {subprocess.py:93} INFO - Caused by: org.postgresql.util.PSQLException: ERROR: duplicate key value violates unique constraint "spotify_tracks_pkey"
+[2025-12-17T12:54:03.151+0530] {subprocess.py:93} INFO -   Detail: Key (played_at)=(2025-12-17T05:03:04.884Z) already exists.
+[2025-12-17T12:54:03.152+0530] {subprocess.py:93} INFO - 	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+[2025-12-17T12:54:03.153+0530] {subprocess.py:93} INFO - 	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+[2025-12-17T12:54:03.153+0530] {subprocess.py:93} INFO - 	... 19 more
+[2025-12-17T12:54:03.153+0530] {subprocess.py:93} INFO - 
+[2025-12-17T12:54:03.184+0530] {subprocess.py:93} INFO - 25/12/17 12:54:03 ERROR TaskContextImpl: Error in TaskCompletionListener
+[2025-12-17T12:54:03.185+0530] {subprocess.py:93} INFO - java.io.InterruptedIOException: java.lang.InterruptedException
+[2025-12-17T12:54:03.185+0530] {subprocess.py:93} INFO - 	at org.apache.hadoop.util.Shell.runCommand(Shell.java:1010)
+[2025-12-17T12:54:03.185+0530] {subprocess.py:93} INFO - 	at org.apache.hadoop.util.Shell.run(Shell.java:900)
+[2025-12-17T12:54:03.186+0530] {subprocess.py:93} INFO - 	at org.apache.hadoop.util.Shell$ShellCommandExecutor.execute(Shell.java:1212)
+[2025-12-17T12:54:03.186+0530] {subprocess.py:93} INFO - 	at org.apache.hadoop.util.Shell.execCommand(Shell.java:1306)
+[2025-12-17T12:54:03.186+0530] {subprocess.py:93} INFO - 	at org.apache.hadoop.util.Shell.execCommand(Shell.java:1288)
+[2025-12-17T12:54:03.186+0530] {subprocess.py:93} INFO - 	at org.apache.hadoop.fs.RawLocalFileSystem.setPermission(RawLocalFileSystem.java:978)
+[2025-12-17T12:54:03.186+0530] {subprocess.py:93} INFO - 	at org.apache.hadoop.fs.RawLocalFileSystem$LocalFSFileOutputStream.<init>(RawLocalFileSystem.java:324)
+[2025-12-17T12:54:03.187+0530] {subprocess.py:93} INFO - 	at org.apache.hadoop.fs.RawLocalFileSystem$LocalFSFileOutputStream.<init>(RawLocalFileSystem.java:294)
+[2025-12-17T12:54:03.189+0530] {subprocess.py:93} INFO - 	at org.apache.hadoop.fs.RawLocalFileSystem.createOutputStreamWithMode(RawLocalFileSystem.java:439)
+[2025-12-17T12:54:03.189+0530] {subprocess.py:93} INFO - 	at org.apache.hadoop.fs.RawLocalFileSystem.create(RawLocalFileSystem.java:428)
+[2025-12-17T12:54:03.190+0530] {subprocess.py:93} INFO - 	at org.apache.hadoop.fs.RawLocalFileSystem.create(RawLocalFileSystem.java:459)
+[2025-12-17T12:54:03.190+0530] {subprocess.py:93} INFO - 	at org.apache.hadoop.fs.FileSystem.primitiveCreate(FileSystem.java:1305)
+[2025-12-17T12:54:03.190+0530] {subprocess.py:93} INFO - 	at org.apache.hadoop.fs.DelegateToFileSystem.createInternal(DelegateToFileSystem.java:102)
+[2025-12-17T12:54:03.191+0530] {subprocess.py:93} INFO - 	at org.apache.hadoop.fs.ChecksumFs$ChecksumFSOutputSummer.<init>(ChecksumFs.java:353)
+[2025-12-17T12:54:03.192+0530] {subprocess.py:93} INFO - 	at org.apache.hadoop.fs.ChecksumFs.createInternal(ChecksumFs.java:400)
+[2025-12-17T12:54:03.192+0530] {subprocess.py:93} INFO - 	at org.apache.hadoop.fs.AbstractFileSystem.create(AbstractFileSystem.java:626)
+[2025-12-17T12:54:03.195+0530] {subprocess.py:93} INFO - 	at org.apache.hadoop.fs.FileContext$3.next(FileContext.java:701)
+[2025-12-17T12:54:03.195+0530] {subprocess.py:93} INFO - 	at org.apache.hadoop.fs.FileContext$3.next(FileContext.java:697)
+[2025-12-17T12:54:03.195+0530] {subprocess.py:93} INFO - 	at org.apache.hadoop.fs.FSLinkResolver.resolve(FSLinkResolver.java:90)
+[2025-12-17T12:54:03.196+0530] {subprocess.py:93} INFO - 	at org.apache.hadoop.fs.FileContext.create(FileContext.java:703)
+[2025-12-17T12:54:03.196+0530] {subprocess.py:93} INFO - 	at org.apache.spark.sql.execution.streaming.FileContextBasedCheckpointFileManager.createTempFile(CheckpointFileManager.scala:366)
+[2025-12-17T12:54:03.196+0530] {subprocess.py:93} INFO - 	at org.apache.spark.sql.execution.streaming.CheckpointFileManager$RenameBasedFSDataOutputStream.<init>(CheckpointFileManager.scala:140)
+[2025-12-17T12:54:03.200+0530] {subprocess.py:93} INFO - 	at org.apache.spark.sql.execution.streaming.CheckpointFileManager$RenameBasedFSDataOutputStream.<init>(CheckpointFileManager.scala:143)
+[2025-12-17T12:54:03.200+0530] {subprocess.py:93} INFO - 	at org.apache.spark.sql.execution.streaming.FileContextBasedCheckpointFileManager.createAtomic(CheckpointFileManager.scala:372)
+[2025-12-17T12:54:03.201+0530] {subprocess.py:93} INFO - 	at org.apache.spark.sql.execution.streaming.state.HDFSBackedStateStoreProvider$HDFSBackedStateStore.deltaFileStream$lzycompute(HDFSBackedStateStoreProvider.scala:110)
+[2025-12-17T12:54:03.201+0530] {subprocess.py:93} INFO - 	at org.apache.spark.sql.execution.streaming.state.HDFSBackedStateStoreProvider$HDFSBackedStateStore.deltaFileStream(HDFSBackedStateStoreProvider.scala:110)
+[2025-12-17T12:54:03.201+0530] {subprocess.py:93} INFO - 	at org.apache.spark.sql.execution.streaming.state.HDFSBackedStateStoreProvider$HDFSBackedStateStore.compressedStream$lzycompute(HDFSBackedStateStoreProvider.scala:111)
+[2025-12-17T12:54:03.201+0530] {subprocess.py:93} INFO - 	at org.apache.spark.sql.execution.streaming.state.HDFSBackedStateStoreProvider$HDFSBackedStateStore.compressedStream(HDFSBackedStateStoreProvider.scala:111)
+[2025-12-17T12:54:03.201+0530] {subprocess.py:93} INFO - 	at org.apache.spark.sql.execution.streaming.state.HDFSBackedStateStoreProvider$HDFSBackedStateStore.abort(HDFSBackedStateStoreProvider.scala:158)
+[2025-12-17T12:54:03.202+0530] {subprocess.py:93} INFO - 	at org.apache.spark.sql.execution.streaming.state.package$StateStoreOps.$anonfun$mapPartitionsWithStateStore$2(package.scala:66)
+[2025-12-17T12:54:03.202+0530] {subprocess.py:93} INFO - 	at org.apache.spark.sql.execution.streaming.state.package$StateStoreOps.$anonfun$mapPartitionsWithStateStore$2$adapted(package.scala:65)
+[2025-12-17T12:54:03.202+0530] {subprocess.py:93} INFO - 	at org.apache.spark.TaskContext$$anon$1.onTaskCompletion(TaskContext.scala:132)
+[2025-12-17T12:54:03.202+0530] {subprocess.py:93} INFO - 	at org.apache.spark.TaskContextImpl.$anonfun$invokeTaskCompletionListeners$1(TaskContextImpl.scala:144)
+[2025-12-17T12:54:03.202+0530] {subprocess.py:93} INFO - 	at org.apache.spark.TaskContextImpl.$anonfun$invokeTaskCompletionListeners$1$adapted(TaskContextImpl.scala:144)
+[2025-12-17T12:54:03.206+0530] {subprocess.py:93} INFO - 	at org.apache.spark.TaskContextImpl.invokeListeners(TaskContextImpl.scala:199)
+[2025-12-17T12:54:03.206+0530] {subprocess.py:93} INFO - 	at org.apache.spark.TaskContextImpl.invokeTaskCompletionListeners(TaskContextImpl.scala:144)
+[2025-12-17T12:54:03.207+0530] {subprocess.py:93} INFO - 	at org.apache.spark.TaskContextImpl.markTaskCompleted(TaskContextImpl.scala:137)
+[2025-12-17T12:54:03.207+0530] {subprocess.py:93} INFO - 	at org.apache.spark.TaskContext.runTaskWithListeners(TaskContext.scala:172)
+[2025-12-17T12:54:03.207+0530] {subprocess.py:93} INFO - 	at org.apache.spark.scheduler.Task.run(Task.scala:139)
+[2025-12-17T12:54:03.207+0530] {subprocess.py:93} INFO - 	at org.apache.spark.executor.Executor$TaskRunner.$anonfun$run$3(Executor.scala:554)
+[2025-12-17T12:54:03.207+0530] {subprocess.py:93} INFO - 	at org.apache.spark.util.Utils$.tryWithSafeFinally(Utils.scala:1529)
+[2025-12-17T12:54:03.207+0530] {subprocess.py:93} INFO - 	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:557)
+[2025-12-17T12:54:03.208+0530] {subprocess.py:93} INFO - 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+[2025-12-17T12:54:03.208+0530] {subprocess.py:93} INFO - 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+[2025-12-17T12:54:03.208+0530] {subprocess.py:93} INFO - 	at java.lang.Thread.run(Thread.java:748)
+[2025-12-17T12:54:03.209+0530] {subprocess.py:93} INFO - Caused by: java.lang.InterruptedException
+[2025-12-17T12:54:03.210+0530] {subprocess.py:93} INFO - 	at java.lang.Object.wait(Native Method)
+[2025-12-17T12:54:03.210+0530] {subprocess.py:93} INFO - 	at java.lang.Object.wait(Object.java:502)
+[2025-12-17T12:54:03.210+0530] {subprocess.py:93} INFO - 	at java.lang.UNIXProcess.waitFor(UNIXProcess.java:395)
+[2025-12-17T12:54:03.210+0530] {subprocess.py:93} INFO - 	at org.apache.hadoop.util.Shell.runCommand(Shell.java:1000)
+[2025-12-17T12:54:03.210+0530] {subprocess.py:93} INFO - 	... 44 more
+[2025-12-17T12:54:03.258+0530] {subprocess.py:93} INFO - 25/12/17 12:54:03 WARN TaskSetManager: Lost task 187.0 in stage 1.0 (TID 5) (192.168.1.86 executor driver): TaskKilled (Stage cancelled)
+[2025-12-17T12:54:04.406+0530] {subprocess.py:93} INFO - 25/12/17 12:54:04 ERROR MicroBatchExecution: Query [id = 32fb9f10-fc41-4d22-9987-b35e089b5a75, runId = 41430596-b2b9-43e4-a6cc-b1d3ff363aef] terminated with error
+[2025-12-17T12:54:04.408+0530] {subprocess.py:93} INFO - py4j.Py4JException: An exception was raised by the Python Proxy. Return Message: Traceback (most recent call last):
+[2025-12-17T12:54:04.408+0530] {subprocess.py:93} INFO -   File "/home/sneha/spark/spark-3.4.4-bin-hadoop3/python/lib/py4j-0.10.9.7-src.zip/py4j/clientserver.py", line 617, in _call_proxy
+[2025-12-17T12:54:04.410+0530] {subprocess.py:93} INFO -     return_value = getattr(self.pool[obj_id], method)(*params)
+[2025-12-17T12:54:04.411+0530] {subprocess.py:93} INFO -                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2025-12-17T12:54:04.412+0530] {subprocess.py:93} INFO -   File "/home/sneha/spark/spark-3.4.4-bin-hadoop3/python/lib/pyspark.zip/pyspark/sql/utils.py", line 115, in call
+[2025-12-17T12:54:04.412+0530] {subprocess.py:93} INFO -     raise e
+[2025-12-17T12:54:04.412+0530] {subprocess.py:93} INFO -   File "/home/sneha/spark/spark-3.4.4-bin-hadoop3/python/lib/pyspark.zip/pyspark/sql/utils.py", line 112, in call
+[2025-12-17T12:54:04.412+0530] {subprocess.py:93} INFO -     self.func(DataFrame(jdf, wrapped_session_jdf), batch_id)
+[2025-12-17T12:54:04.413+0530] {subprocess.py:93} INFO -   File "/home/sneha/spotify_airflow_project/scripts/spark_consumer_airflow.py", line 52, in write_to_postgres
+[2025-12-17T12:54:04.414+0530] {subprocess.py:93} INFO -     .save()
+[2025-12-17T12:54:04.414+0530] {subprocess.py:93} INFO -      ^^^^^^
+[2025-12-17T12:54:04.414+0530] {subprocess.py:93} INFO -   File "/home/sneha/spark/spark-3.4.4-bin-hadoop3/python/lib/pyspark.zip/pyspark/sql/readwriter.py", line 1396, in save
+[2025-12-17T12:54:04.414+0530] {subprocess.py:93} INFO -     self._jwrite.save()
+[2025-12-17T12:54:04.414+0530] {subprocess.py:93} INFO -   File "/home/sneha/spark/spark-3.4.4-bin-hadoop3/python/lib/py4j-0.10.9.7-src.zip/py4j/java_gateway.py", line 1322, in __call__
+[2025-12-17T12:54:04.415+0530] {subprocess.py:93} INFO -     return_value = get_return_value(
+[2025-12-17T12:54:04.415+0530] {subprocess.py:93} INFO -                    ^^^^^^^^^^^^^^^^^
+[2025-12-17T12:54:04.415+0530] {subprocess.py:93} INFO -   File "/home/sneha/spark/spark-3.4.4-bin-hadoop3/python/lib/pyspark.zip/pyspark/errors/exceptions/captured.py", line 169, in deco
+[2025-12-17T12:54:04.415+0530] {subprocess.py:93} INFO -     return f(*a, **kw)
+[2025-12-17T12:54:04.416+0530] {subprocess.py:93} INFO -            ^^^^^^^^^^^
+[2025-12-17T12:54:04.416+0530] {subprocess.py:93} INFO -   File "/home/sneha/spark/spark-3.4.4-bin-hadoop3/python/lib/py4j-0.10.9.7-src.zip/py4j/protocol.py", line 326, in get_return_value
+[2025-12-17T12:54:04.416+0530] {subprocess.py:93} INFO -     raise Py4JJavaError(
+[2025-12-17T12:54:04.417+0530] {subprocess.py:93} INFO - py4j.protocol.Py4JJavaError: An error occurred while calling o67.save.
+[2025-12-17T12:54:04.418+0530] {subprocess.py:93} INFO - : org.apache.spark.SparkException: Job aborted due to stage failure: Task 38 in stage 1.0 failed 1 times, most recent failure: Lost task 38.0 in stage 1.0 (TID 1) (192.168.1.86 executor driver): java.sql.BatchUpdateException: Batch entry 0 INSERT INTO spotify_tracks ("track_name","artist","album","played_at") VALUES ('Njan Kanavil (from "Aagathan")','Ranjith Govind','Hits of Ouseppachan, Vol. 3','2025-12-17T05:28:58.627Z') was aborted: ERROR: duplicate key value violates unique constraint "spotify_tracks_pkey"
+[2025-12-17T12:54:04.419+0530] {subprocess.py:93} INFO -   Detail: Key (played_at)=(2025-12-17T05:28:58.627Z) already exists.  Call getNextException to see other errors in the batch.
+[2025-12-17T12:54:04.420+0530] {subprocess.py:93} INFO - 	at org.postgresql.jdbc.BatchResultHandler.handleError(BatchResultHandler.java:165)
+[2025-12-17T12:54:04.420+0530] {subprocess.py:93} INFO - 	at org.postgresql.core.ResultHandlerDelegate.handleError(ResultHandlerDelegate.java:52)
+[2025-12-17T12:54:04.420+0530] {subprocess.py:93} INFO - 	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2367)
+[2025-12-17T12:54:04.421+0530] {subprocess.py:93} INFO - 	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:560)
+[2025-12-17T12:54:04.421+0530] {subprocess.py:93} INFO - 	at org.postgresql.jdbc.PgStatement.internalExecuteBatch(PgStatement.java:893)
+[2025-12-17T12:54:04.421+0530] {subprocess.py:93} INFO - 	at org.postgresql.jdbc.PgStatement.executeBatch(PgStatement.java:916)
+[2025-12-17T12:54:04.421+0530] {subprocess.py:93} INFO - 	at org.postgresql.jdbc.PgPreparedStatement.executeBatch(PgPreparedStatement.java:1684)
+[2025-12-17T12:54:04.421+0530] {subprocess.py:93} INFO - 	at org.apache.spark.sql.execution.datasources.jdbc.JdbcUtils$.savePartition(JdbcUtils.scala:745)
+[2025-12-17T12:54:04.421+0530] {subprocess.py:93} INFO - 	at org.apache.spark.sql.execution.datasources.jdbc.JdbcUtils$.$anonfun$saveTable$1(JdbcUtils.scala:896)
+[2025-12-17T12:54:04.422+0530] {subprocess.py:93} INFO - 	at org.apache.spark.sql.execution.datasources.jdbc.JdbcUtils$.$anonfun$saveTable$1$adapted(JdbcUtils.scala:895)
+[2025-12-17T12:54:04.422+0530] {subprocess.py:93} INFO - 	at org.apache.spark.rdd.RDD.$anonfun$foreachPartition$2(RDD.scala:1012)
+[2025-12-17T12:54:04.422+0530] {subprocess.py:93} INFO - 	at org.apache.spark.rdd.RDD.$anonfun$foreachPartition$2$adapted(RDD.scala:1012)
+[2025-12-17T12:54:04.422+0530] {subprocess.py:93} INFO - 	at org.apache.spark.SparkContext.$anonfun$runJob$5(SparkContext.scala:2298)
+[2025-12-17T12:54:04.424+0530] {subprocess.py:93} INFO - 	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:92)
+[2025-12-17T12:54:04.424+0530] {subprocess.py:93} INFO - 	at org.apache.spark.TaskContext.runTaskWithListeners(TaskContext.scala:161)
+[2025-12-17T12:54:04.425+0530] {subprocess.py:93} INFO - 	at org.apache.spark.scheduler.Task.run(Task.scala:139)
+[2025-12-17T12:54:04.426+0530] {subprocess.py:93} INFO - 	at org.apache.spark.executor.Executor$TaskRunner.$anonfun$run$3(Executor.scala:554)
+[2025-12-17T12:54:04.426+0530] {subprocess.py:93} INFO - 	at org.apache.spark.util.Utils$.tryWithSafeFinally(Utils.scala:1529)
+[2025-12-17T12:54:04.426+0530] {subprocess.py:93} INFO - 	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:557)
+[2025-12-17T12:54:04.426+0530] {subprocess.py:93} INFO - 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+[2025-12-17T12:54:04.426+0530] {subprocess.py:93} INFO - 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+[2025-12-17T12:54:04.427+0530] {subprocess.py:93} INFO - 	at java.lang.Thread.run(Thread.java:748)
+[2025-12-17T12:54:04.427+0530] {subprocess.py:93} INFO - Caused by: org.postgresql.util.PSQLException: ERROR: duplicate key value violates unique constraint "spotify_tracks_pkey"
+[2025-12-17T12:54:04.427+0530] {subprocess.py:93} INFO -   Detail: Key (played_at)=(2025-12-17T05:28:58.627Z) already exists.
+[2025-12-17T12:54:04.428+0530] {subprocess.py:93} INFO - 	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+[2025-12-17T12:54:04.428+0530] {subprocess.py:93} INFO - 	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+[2025-12-17T12:54:04.428+0530] {subprocess.py:93} INFO - 	... 19 more
+[2025-12-17T12:54:04.428+0530] {subprocess.py:93} INFO - 
+[2025-12-17T12:54:04.428+0530] {subprocess.py:93} INFO - Driver stacktrace:
+[2025-12-17T12:54:04.429+0530] {subprocess.py:93} INFO - 	at org.apache.spark.scheduler.DAGScheduler.failJobAndIndependentStages(DAGScheduler.scala:2790)
+[2025-12-17T12:54:04.429+0530] {subprocess.py:93} INFO - 	at org.apache.spark.scheduler.DAGScheduler.$anonfun$abortStage$2(DAGScheduler.scala:2726)
+[2025-12-17T12:54:04.429+0530] {subprocess.py:93} INFO - 	at org.apache.spark.scheduler.DAGScheduler.$anonfun$abortStage$2$adapted(DAGScheduler.scala:2725)
+[2025-12-17T12:54:04.429+0530] {subprocess.py:93} INFO - 	at scala.collection.mutable.ResizableArray.foreach(ResizableArray.scala:62)
+[2025-12-17T12:54:04.429+0530] {subprocess.py:93} INFO - 	at scala.collection.mutable.ResizableArray.foreach$(ResizableArray.scala:55)
+[2025-12-17T12:54:04.430+0530] {subprocess.py:93} INFO - 	at scala.collection.mutable.ArrayBuffer.foreach(ArrayBuffer.scala:49)
+[2025-12-17T12:54:04.430+0530] {subprocess.py:93} INFO - 	at org.apache.spark.scheduler.DAGScheduler.abortStage(DAGScheduler.scala:2725)
+[2025-12-17T12:54:04.430+0530] {subprocess.py:93} INFO - 	at org.apache.spark.scheduler.DAGScheduler.$anonfun$handleTaskSetFailed$1(DAGScheduler.scala:1211)
+[2025-12-17T12:54:04.430+0530] {subprocess.py:93} INFO - 	at org.apache.spark.scheduler.DAGScheduler.$anonfun$handleTaskSetFailed$1$adapted(DAGScheduler.scala:1211)
+[2025-12-17T12:54:04.430+0530] {subprocess.py:93} INFO - 	at scala.Option.foreach(Option.scala:407)
+[2025-12-17T12:54:04.430+0530] {subprocess.py:93} INFO - 	at org.apache.spark.scheduler.DAGScheduler.handleTaskSetFailed(DAGScheduler.scala:1211)
+[2025-12-17T12:54:04.431+0530] {subprocess.py:93} INFO - 	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.doOnReceive(DAGScheduler.scala:2989)
+[2025-12-17T12:54:04.431+0530] {subprocess.py:93} INFO - 	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.onReceive(DAGScheduler.scala:2928)
+[2025-12-17T12:54:04.431+0530] {subprocess.py:93} INFO - 	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.onReceive(DAGScheduler.scala:2917)
+[2025-12-17T12:54:04.431+0530] {subprocess.py:93} INFO - 	at org.apache.spark.util.EventLoop$$anon$1.run(EventLoop.scala:49)
+[2025-12-17T12:54:04.431+0530] {subprocess.py:93} INFO - 	at org.apache.spark.scheduler.DAGScheduler.runJob(DAGScheduler.scala:976)
+[2025-12-17T12:54:04.432+0530] {subprocess.py:93} INFO - 	at org.apache.spark.SparkContext.runJob(SparkContext.scala:2258)
+[2025-12-17T12:54:04.432+0530] {subprocess.py:93} INFO - 	at org.apache.spark.SparkContext.runJob(SparkContext.scala:2279)
+[2025-12-17T12:54:04.432+0530] {subprocess.py:93} INFO - 	at org.apache.spark.SparkContext.runJob(SparkContext.scala:2298)
+[2025-12-17T12:54:04.432+0530] {subprocess.py:93} INFO - 	at org.apache.spark.SparkContext.runJob(SparkContext.scala:2323)
+[2025-12-17T12:54:04.432+0530] {subprocess.py:93} INFO - 	at org.apache.spark.rdd.RDD.$anonfun$foreachPartition$1(RDD.scala:1012)
+[2025-12-17T12:54:04.432+0530] {subprocess.py:93} INFO - 	at org.apache.spark.rdd.RDDOperationScope$.withScope(RDDOperationScope.scala:151)
+[2025-12-17T12:54:04.432+0530] {subprocess.py:93} INFO - 	at org.apache.spark.rdd.RDDOperationScope$.withScope(RDDOperationScope.scala:112)
+[2025-12-17T12:54:04.433+0530] {subprocess.py:93} INFO - 	at org.apache.spark.rdd.RDD.withScope(RDD.scala:408)
+[2025-12-17T12:54:04.433+0530] {subprocess.py:93} INFO - 	at org.apache.spark.rdd.RDD.foreachPartition(RDD.scala:1010)
+[2025-12-17T12:54:04.433+0530] {subprocess.py:93} INFO - 	at org.apache.spark.sql.execution.datasources.jdbc.JdbcUtils$.saveTable(JdbcUtils.scala:895)
+[2025-12-17T12:54:04.433+0530] {subprocess.py:93} INFO - 	at org.apache.spark.sql.execution.datasources.jdbc.JdbcRelationProvider.createRelation(JdbcRelationProvider.scala:70)
+[2025-12-17T12:54:04.433+0530] {subprocess.py:93} INFO - 	at org.apache.spark.sql.execution.datasources.SaveIntoDataSourceCommand.run(SaveIntoDataSourceCommand.scala:47)
+[2025-12-17T12:54:04.434+0530] {subprocess.py:93} INFO - 	at org.apache.spark.sql.execution.command.ExecutedCommandExec.sideEffectResult$lzycompute(commands.scala:75)
+[2025-12-17T12:54:04.434+0530] {subprocess.py:93} INFO - 	at org.apache.spark.sql.execution.command.ExecutedCommandExec.sideEffectResult(commands.scala:73)
+[2025-12-17T12:54:04.434+0530] {subprocess.py:93} INFO - 	at org.apache.spark.sql.execution.command.ExecutedCommandExec.executeCollect(commands.scala:84)
+[2025-12-17T12:54:04.434+0530] {subprocess.py:93} INFO - 	at org.apache.spark.sql.execution.QueryExecution$$anonfun$eagerlyExecuteCommands$1.$anonfun$applyOrElse$1(QueryExecution.scala:98)
+[2025-12-17T12:54:04.434+0530] {subprocess.py:93} INFO - 	at org.apache.spark.sql.execution.SQLExecution$.$anonfun$withNewExecutionId$6(SQLExecution.scala:118)
+[2025-12-17T12:54:04.434+0530] {subprocess.py:93} INFO - 	at org.apache.spark.sql.execution.SQLExecution$.withSQLConfPropagated(SQLExecution.scala:195)
+[2025-12-17T12:54:04.435+0530] {subprocess.py:93} INFO - 	at org.apache.spark.sql.execution.SQLExecution$.$anonfun$withNewExecutionId$1(SQLExecution.scala:103)
+[2025-12-17T12:54:04.435+0530] {subprocess.py:93} INFO - 	at org.apache.spark.sql.SparkSession.withActive(SparkSession.scala:827)
+[2025-12-17T12:54:04.435+0530] {subprocess.py:93} INFO - 	at org.apache.spark.sql.execution.SQLExecution$.withNewExecutionId(SQLExecution.scala:65)
+[2025-12-17T12:54:04.435+0530] {subprocess.py:93} INFO - 	at org.apache.spark.sql.execution.QueryExecution$$anonfun$eagerlyExecuteCommands$1.applyOrElse(QueryExecution.scala:98)
+[2025-12-17T12:54:04.435+0530] {subprocess.py:93} INFO - 	at org.apache.spark.sql.execution.QueryExecution$$anonfun$eagerlyExecuteCommands$1.applyOrElse(QueryExecution.scala:94)
+[2025-12-17T12:54:04.436+0530] {subprocess.py:93} INFO - 	at org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$transformDownWithPruning$1(TreeNode.scala:512)
+[2025-12-17T12:54:04.436+0530] {subprocess.py:93} INFO - 	at org.apache.spark.sql.catalyst.trees.CurrentOrigin$.withOrigin(TreeNode.scala:104)
+[2025-12-17T12:54:04.436+0530] {subprocess.py:93} INFO - 	at org.apache.spark.sql.catalyst.trees.TreeNode.transformDownWithPruning(TreeNode.scala:512)
+[2025-12-17T12:54:04.436+0530] {subprocess.py:93} INFO - 	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.org$apache$spark$sql$catalyst$plans$logical$AnalysisHelper$$super$transformDownWithPruning(LogicalPlan.scala:31)
+[2025-12-17T12:54:04.436+0530] {subprocess.py:93} INFO - 	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.transformDownWithPruning(AnalysisHelper.scala:267)
+[2025-12-17T12:54:04.437+0530] {subprocess.py:93} INFO - 	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.transformDownWithPruning$(AnalysisHelper.scala:263)
+[2025-12-17T12:54:04.437+0530] {subprocess.py:93} INFO - 	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.transformDownWithPruning(LogicalPlan.scala:31)
+[2025-12-17T12:54:04.437+0530] {subprocess.py:93} INFO - 	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.transformDownWithPruning(LogicalPlan.scala:31)
+[2025-12-17T12:54:04.437+0530] {subprocess.py:93} INFO - 	at org.apache.spark.sql.catalyst.trees.TreeNode.transformDown(TreeNode.scala:488)
+[2025-12-17T12:54:04.437+0530] {subprocess.py:93} INFO - 	at org.apache.spark.sql.execution.QueryExecution.eagerlyExecuteCommands(QueryExecution.scala:94)
+[2025-12-17T12:54:04.438+0530] {subprocess.py:93} INFO - 	at org.apache.spark.sql.execution.QueryExecution.commandExecuted$lzycompute(QueryExecution.scala:81)
+[2025-12-17T12:54:04.438+0530] {subprocess.py:93} INFO - 	at org.apache.spark.sql.execution.QueryExecution.commandExecuted(QueryExecution.scala:79)
+[2025-12-17T12:54:04.438+0530] {subprocess.py:93} INFO - 	at org.apache.spark.sql.execution.QueryExecution.assertCommandExecuted(QueryExecution.scala:133)
+[2025-12-17T12:54:04.438+0530] {subprocess.py:93} INFO - 	at org.apache.spark.sql.DataFrameWriter.runCommand(DataFrameWriter.scala:856)
+[2025-12-17T12:54:04.438+0530] {subprocess.py:93} INFO - 	at org.apache.spark.sql.DataFrameWriter.saveToV1Source(DataFrameWriter.scala:387)
+[2025-12-17T12:54:04.438+0530] {subprocess.py:93} INFO - 	at org.apache.spark.sql.DataFrameWriter.saveInternal(DataFrameWriter.scala:360)
+[2025-12-17T12:54:04.439+0530] {subprocess.py:93} INFO - 	at org.apache.spark.sql.DataFrameWriter.save(DataFrameWriter.scala:247)
+[2025-12-17T12:54:04.439+0530] {subprocess.py:93} INFO - 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[2025-12-17T12:54:04.439+0530] {subprocess.py:93} INFO - 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+[2025-12-17T12:54:04.439+0530] {subprocess.py:93} INFO - 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[2025-12-17T12:54:04.439+0530] {subprocess.py:93} INFO - 	at java.lang.reflect.Method.invoke(Method.java:498)
+[2025-12-17T12:54:04.440+0530] {subprocess.py:93} INFO - 	at py4j.reflection.MethodInvoker.invoke(MethodInvoker.java:244)
+[2025-12-17T12:54:04.440+0530] {subprocess.py:93} INFO - 	at py4j.reflection.ReflectionEngine.invoke(ReflectionEngine.java:374)
+[2025-12-17T12:54:04.440+0530] {subprocess.py:93} INFO - 	at py4j.Gateway.invoke(Gateway.java:282)
+[2025-12-17T12:54:04.440+0530] {subprocess.py:93} INFO - 	at py4j.commands.AbstractCommand.invokeMethod(AbstractCommand.java:132)
+[2025-12-17T12:54:04.440+0530] {subprocess.py:93} INFO - 	at py4j.commands.CallCommand.execute(CallCommand.java:79)
+[2025-12-17T12:54:04.440+0530] {subprocess.py:93} INFO - 	at py4j.ClientServerConnection.sendCommand(ClientServerConnection.java:244)
+[2025-12-17T12:54:04.441+0530] {subprocess.py:93} INFO - 	at py4j.CallbackClient.sendCommand(CallbackClient.java:384)
+[2025-12-17T12:54:04.441+0530] {subprocess.py:93} INFO - 	at py4j.CallbackClient.sendCommand(CallbackClient.java:356)
+[2025-12-17T12:54:04.441+0530] {subprocess.py:93} INFO - 	at py4j.reflection.PythonProxyHandler.invoke(PythonProxyHandler.java:106)
+[2025-12-17T12:54:04.441+0530] {subprocess.py:93} INFO - 	at com.sun.proxy.$Proxy29.call(Unknown Source)
+[2025-12-17T12:54:04.441+0530] {subprocess.py:93} INFO - 	at org.apache.spark.sql.execution.streaming.sources.PythonForeachBatchHelper$.$anonfun$callForeachBatch$1(ForeachBatchSink.scala:53)
+[2025-12-17T12:54:04.442+0530] {subprocess.py:93} INFO - 	at org.apache.spark.sql.execution.streaming.sources.PythonForeachBatchHelper$.$anonfun$callForeachBatch$1$adapted(ForeachBatchSink.scala:53)
+[2025-12-17T12:54:04.442+0530] {subprocess.py:93} INFO - 	at org.apache.spark.sql.execution.streaming.sources.ForeachBatchSink.addBatch(ForeachBatchSink.scala:34)
+[2025-12-17T12:54:04.442+0530] {subprocess.py:93} INFO - 	at org.apache.spark.sql.execution.streaming.MicroBatchExecution.$anonfun$runBatch$17(MicroBatchExecution.scala:729)
+[2025-12-17T12:54:04.442+0530] {subprocess.py:93} INFO - 	at org.apache.spark.sql.execution.SQLExecution$.$anonfun$withNewExecutionId$6(SQLExecution.scala:118)
+[2025-12-17T12:54:04.442+0530] {subprocess.py:93} INFO - 	at org.apache.spark.sql.execution.SQLExecution$.withSQLConfPropagated(SQLExecution.scala:195)
+[2025-12-17T12:54:04.443+0530] {subprocess.py:93} INFO - 	at org.apache.spark.sql.execution.SQLExecution$.$anonfun$withNewExecutionId$1(SQLExecution.scala:103)
+[2025-12-17T12:54:04.443+0530] {subprocess.py:93} INFO - 	at org.apache.spark.sql.SparkSession.withActive(SparkSession.scala:827)
+[2025-12-17T12:54:04.443+0530] {subprocess.py:93} INFO - 	at org.apache.spark.sql.execution.SQLExecution$.withNewExecutionId(SQLExecution.scala:65)
+[2025-12-17T12:54:04.443+0530] {subprocess.py:93} INFO - 	at org.apache.spark.sql.execution.streaming.MicroBatchExecution.$anonfun$runBatch$16(MicroBatchExecution.scala:726)
+[2025-12-17T12:54:04.444+0530] {subprocess.py:93} INFO - 	at org.apache.spark.sql.execution.streaming.ProgressReporter.reportTimeTaken(ProgressReporter.scala:411)
+[2025-12-17T12:54:04.444+0530] {subprocess.py:93} INFO - 	at org.apache.spark.sql.execution.streaming.ProgressReporter.reportTimeTaken$(ProgressReporter.scala:409)
+[2025-12-17T12:54:04.445+0530] {subprocess.py:93} INFO - 	at org.apache.spark.sql.execution.streaming.StreamExecution.reportTimeTaken(StreamExecution.scala:67)
+[2025-12-17T12:54:04.445+0530] {subprocess.py:93} INFO - 	at org.apache.spark.sql.execution.streaming.MicroBatchExecution.runBatch(MicroBatchExecution.scala:726)
+[2025-12-17T12:54:04.445+0530] {subprocess.py:93} INFO - 	at org.apache.spark.sql.execution.streaming.MicroBatchExecution.$anonfun$runActivatedStream$2(MicroBatchExecution.scala:284)
+[2025-12-17T12:54:04.445+0530] {subprocess.py:93} INFO - 	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+[2025-12-17T12:54:04.446+0530] {subprocess.py:93} INFO - 	at org.apache.spark.sql.execution.streaming.ProgressReporter.reportTimeTaken(ProgressReporter.scala:411)
+[2025-12-17T12:54:04.446+0530] {subprocess.py:93} INFO - 	at org.apache.spark.sql.execution.streaming.ProgressReporter.reportTimeTaken$(ProgressReporter.scala:409)
+[2025-12-17T12:54:04.446+0530] {subprocess.py:93} INFO - 	at org.apache.spark.sql.execution.streaming.StreamExecution.reportTimeTaken(StreamExecution.scala:67)
+[2025-12-17T12:54:04.446+0530] {subprocess.py:93} INFO - 	at org.apache.spark.sql.execution.streaming.MicroBatchExecution.$anonfun$runActivatedStream$1(MicroBatchExecution.scala:247)
+[2025-12-17T12:54:04.447+0530] {subprocess.py:93} INFO - 	at org.apache.spark.sql.execution.streaming.ProcessingTimeExecutor.execute(TriggerExecutor.scala:67)
+[2025-12-17T12:54:04.447+0530] {subprocess.py:93} INFO - 	at org.apache.spark.sql.execution.streaming.MicroBatchExecution.runActivatedStream(MicroBatchExecution.scala:237)
+[2025-12-17T12:54:04.450+0530] {subprocess.py:93} INFO - 	at org.apache.spark.sql.execution.streaming.StreamExecution.$anonfun$runStream$1(StreamExecution.scala:306)
+[2025-12-17T12:54:04.450+0530] {subprocess.py:93} INFO - 	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+[2025-12-17T12:54:04.450+0530] {subprocess.py:93} INFO - 	at org.apache.spark.sql.SparkSession.withActive(SparkSession.scala:827)
+[2025-12-17T12:54:04.451+0530] {subprocess.py:93} INFO - 	at org.apache.spark.sql.execution.streaming.StreamExecution.org$apache$spark$sql$execution$streaming$StreamExecution$$runStream(StreamExecution.scala:284)
+[2025-12-17T12:54:04.451+0530] {subprocess.py:93} INFO - 	at org.apache.spark.sql.execution.streaming.StreamExecution$$anon$1.run(StreamExecution.scala:207)
+[2025-12-17T12:54:04.451+0530] {subprocess.py:93} INFO - Caused by: java.sql.BatchUpdateException: Batch entry 0 INSERT INTO spotify_tracks ("track_name","artist","album","played_at") VALUES ('Njan Kanavil (from "Aagathan")','Ranjith Govind','Hits of Ouseppachan, Vol. 3','2025-12-17T05:28:58.627Z') was aborted: ERROR: duplicate key value violates unique constraint "spotify_tracks_pkey"
+[2025-12-17T12:54:04.451+0530] {subprocess.py:93} INFO -   Detail: Key (played_at)=(2025-12-17T05:28:58.627Z) already exists.  Call getNextException to see other errors in the batch.
+[2025-12-17T12:54:04.452+0530] {subprocess.py:93} INFO - 	at org.postgresql.jdbc.BatchResultHandler.handleError(BatchResultHandler.java:165)
+[2025-12-17T12:54:04.452+0530] {subprocess.py:93} INFO - 	at org.postgresql.core.ResultHandlerDelegate.handleError(ResultHandlerDelegate.java:52)
+[2025-12-17T12:54:04.452+0530] {subprocess.py:93} INFO - 	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2367)
+[2025-12-17T12:54:04.452+0530] {subprocess.py:93} INFO - 	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:560)
+[2025-12-17T12:54:04.452+0530] {subprocess.py:93} INFO - 	at org.postgresql.jdbc.PgStatement.internalExecuteBatch(PgStatement.java:893)
+[2025-12-17T12:54:04.452+0530] {subprocess.py:93} INFO - 	at org.postgresql.jdbc.PgStatement.executeBatch(PgStatement.java:916)
+[2025-12-17T12:54:04.453+0530] {subprocess.py:93} INFO - 	at org.postgresql.jdbc.PgPreparedStatement.executeBatch(PgPreparedStatement.java:1684)
+[2025-12-17T12:54:04.453+0530] {subprocess.py:93} INFO - 	at org.apache.spark.sql.execution.datasources.jdbc.JdbcUtils$.savePartition(JdbcUtils.scala:745)
+[2025-12-17T12:54:04.453+0530] {subprocess.py:93} INFO - 	at org.apache.spark.sql.execution.datasources.jdbc.JdbcUtils$.$anonfun$saveTable$1(JdbcUtils.scala:896)
+[2025-12-17T12:54:04.453+0530] {subprocess.py:93} INFO - 	at org.apache.spark.sql.execution.datasources.jdbc.JdbcUtils$.$anonfun$saveTable$1$adapted(JdbcUtils.scala:895)
+[2025-12-17T12:54:04.453+0530] {subprocess.py:93} INFO - 	at org.apache.spark.rdd.RDD.$anonfun$foreachPartition$2(RDD.scala:1012)
+[2025-12-17T12:54:04.454+0530] {subprocess.py:93} INFO - 	at org.apache.spark.rdd.RDD.$anonfun$foreachPartition$2$adapted(RDD.scala:1012)
+[2025-12-17T12:54:04.454+0530] {subprocess.py:93} INFO - 	at org.apache.spark.SparkContext.$anonfun$runJob$5(SparkContext.scala:2298)
+[2025-12-17T12:54:04.454+0530] {subprocess.py:93} INFO - 	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:92)
+[2025-12-17T12:54:04.454+0530] {subprocess.py:93} INFO - 	at org.apache.spark.TaskContext.runTaskWithListeners(TaskContext.scala:161)
+[2025-12-17T12:54:04.454+0530] {subprocess.py:93} INFO - 	at org.apache.spark.scheduler.Task.run(Task.scala:139)
+[2025-12-17T12:54:04.454+0530] {subprocess.py:93} INFO - 	at org.apache.spark.executor.Executor$TaskRunner.$anonfun$run$3(Executor.scala:554)
+[2025-12-17T12:54:04.455+0530] {subprocess.py:93} INFO - 	at org.apache.spark.util.Utils$.tryWithSafeFinally(Utils.scala:1529)
+[2025-12-17T12:54:04.455+0530] {subprocess.py:93} INFO - 	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:557)
+[2025-12-17T12:54:04.455+0530] {subprocess.py:93} INFO - 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+[2025-12-17T12:54:04.455+0530] {subprocess.py:93} INFO - 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+[2025-12-17T12:54:04.455+0530] {subprocess.py:93} INFO - 	at java.lang.Thread.run(Thread.java:748)
+[2025-12-17T12:54:04.456+0530] {subprocess.py:93} INFO - Caused by: org.postgresql.util.PSQLException: ERROR: duplicate key value violates unique constraint "spotify_tracks_pkey"
+[2025-12-17T12:54:04.456+0530] {subprocess.py:93} INFO -   Detail: Key (played_at)=(2025-12-17T05:28:58.627Z) already exists.
+[2025-12-17T12:54:04.456+0530] {subprocess.py:93} INFO - 	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+[2025-12-17T12:54:04.456+0530] {subprocess.py:93} INFO - 	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+[2025-12-17T12:54:04.456+0530] {subprocess.py:93} INFO - 	... 19 more
+[2025-12-17T12:54:04.457+0530] {subprocess.py:93} INFO - 
+[2025-12-17T12:54:04.457+0530] {subprocess.py:93} INFO - 
+[2025-12-17T12:54:04.457+0530] {subprocess.py:93} INFO - 	at py4j.Protocol.getReturnValue(Protocol.java:476)
+[2025-12-17T12:54:04.457+0530] {subprocess.py:93} INFO - 	at py4j.reflection.PythonProxyHandler.invoke(PythonProxyHandler.java:108)
+[2025-12-17T12:54:04.457+0530] {subprocess.py:93} INFO - 	at com.sun.proxy.$Proxy29.call(Unknown Source)
+[2025-12-17T12:54:04.458+0530] {subprocess.py:93} INFO - 	at org.apache.spark.sql.execution.streaming.sources.PythonForeachBatchHelper$.$anonfun$callForeachBatch$1(ForeachBatchSink.scala:53)
+[2025-12-17T12:54:04.458+0530] {subprocess.py:93} INFO - 	at org.apache.spark.sql.execution.streaming.sources.PythonForeachBatchHelper$.$anonfun$callForeachBatch$1$adapted(ForeachBatchSink.scala:53)
+[2025-12-17T12:54:04.458+0530] {subprocess.py:93} INFO - 	at org.apache.spark.sql.execution.streaming.sources.ForeachBatchSink.addBatch(ForeachBatchSink.scala:34)
+[2025-12-17T12:54:04.458+0530] {subprocess.py:93} INFO - 	at org.apache.spark.sql.execution.streaming.MicroBatchExecution.$anonfun$runBatch$17(MicroBatchExecution.scala:729)
+[2025-12-17T12:54:04.458+0530] {subprocess.py:93} INFO - 	at org.apache.spark.sql.execution.SQLExecution$.$anonfun$withNewExecutionId$6(SQLExecution.scala:118)
+[2025-12-17T12:54:04.459+0530] {subprocess.py:93} INFO - 	at org.apache.spark.sql.execution.SQLExecution$.withSQLConfPropagated(SQLExecution.scala:195)
+[2025-12-17T12:54:04.459+0530] {subprocess.py:93} INFO - 	at org.apache.spark.sql.execution.SQLExecution$.$anonfun$withNewExecutionId$1(SQLExecution.scala:103)
+[2025-12-17T12:54:04.459+0530] {subprocess.py:93} INFO - 	at org.apache.spark.sql.SparkSession.withActive(SparkSession.scala:827)
+[2025-12-17T12:54:04.459+0530] {subprocess.py:93} INFO - 	at org.apache.spark.sql.execution.SQLExecution$.withNewExecutionId(SQLExecution.scala:65)
+[2025-12-17T12:54:04.459+0530] {subprocess.py:93} INFO - 	at org.apache.spark.sql.execution.streaming.MicroBatchExecution.$anonfun$runBatch$16(MicroBatchExecution.scala:726)
+[2025-12-17T12:54:04.459+0530] {subprocess.py:93} INFO - 	at org.apache.spark.sql.execution.streaming.ProgressReporter.reportTimeTaken(ProgressReporter.scala:411)
+[2025-12-17T12:54:04.460+0530] {subprocess.py:93} INFO - 	at org.apache.spark.sql.execution.streaming.ProgressReporter.reportTimeTaken$(ProgressReporter.scala:409)
+[2025-12-17T12:54:04.460+0530] {subprocess.py:93} INFO - 	at org.apache.spark.sql.execution.streaming.StreamExecution.reportTimeTaken(StreamExecution.scala:67)
+[2025-12-17T12:54:04.460+0530] {subprocess.py:93} INFO - 	at org.apache.spark.sql.execution.streaming.MicroBatchExecution.runBatch(MicroBatchExecution.scala:726)
+[2025-12-17T12:54:04.460+0530] {subprocess.py:93} INFO - 	at org.apache.spark.sql.execution.streaming.MicroBatchExecution.$anonfun$runActivatedStream$2(MicroBatchExecution.scala:284)
+[2025-12-17T12:54:04.460+0530] {subprocess.py:93} INFO - 	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+[2025-12-17T12:54:04.460+0530] {subprocess.py:93} INFO - 	at org.apache.spark.sql.execution.streaming.ProgressReporter.reportTimeTaken(ProgressReporter.scala:411)
+[2025-12-17T12:54:04.461+0530] {subprocess.py:93} INFO - 	at org.apache.spark.sql.execution.streaming.ProgressReporter.reportTimeTaken$(ProgressReporter.scala:409)
+[2025-12-17T12:54:04.461+0530] {subprocess.py:93} INFO - 	at org.apache.spark.sql.execution.streaming.StreamExecution.reportTimeTaken(StreamExecution.scala:67)
+[2025-12-17T12:54:04.461+0530] {subprocess.py:93} INFO - 	at org.apache.spark.sql.execution.streaming.MicroBatchExecution.$anonfun$runActivatedStream$1(MicroBatchExecution.scala:247)
+[2025-12-17T12:54:04.461+0530] {subprocess.py:93} INFO - 	at org.apache.spark.sql.execution.streaming.ProcessingTimeExecutor.execute(TriggerExecutor.scala:67)
+[2025-12-17T12:54:04.461+0530] {subprocess.py:93} INFO - 	at org.apache.spark.sql.execution.streaming.MicroBatchExecution.runActivatedStream(MicroBatchExecution.scala:237)
+[2025-12-17T12:54:04.462+0530] {subprocess.py:93} INFO - 	at org.apache.spark.sql.execution.streaming.StreamExecution.$anonfun$runStream$1(StreamExecution.scala:306)
+[2025-12-17T12:54:04.462+0530] {subprocess.py:93} INFO - 	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+[2025-12-17T12:54:04.462+0530] {subprocess.py:93} INFO - 	at org.apache.spark.sql.SparkSession.withActive(SparkSession.scala:827)
+[2025-12-17T12:54:04.462+0530] {subprocess.py:93} INFO - 	at org.apache.spark.sql.execution.streaming.StreamExecution.org$apache$spark$sql$execution$streaming$StreamExecution$$runStream(StreamExecution.scala:284)
+[2025-12-17T12:54:04.462+0530] {subprocess.py:93} INFO - 	at org.apache.spark.sql.execution.streaming.StreamExecution$$anon$1.run(StreamExecution.scala:207)
+[2025-12-17T12:54:04.734+0530] {subprocess.py:93} INFO - Traceback (most recent call last):
+[2025-12-17T12:54:04.735+0530] {subprocess.py:93} INFO -   File "/home/sneha/spotify_airflow_project/scripts/spark_consumer_airflow.py", line 61, in <module>
+[2025-12-17T12:54:04.736+0530] {subprocess.py:93} INFO -     query.awaitTermination(60)  # 1 minute
+[2025-12-17T12:54:04.736+0530] {subprocess.py:93} INFO -     ^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2025-12-17T12:54:04.736+0530] {subprocess.py:93} INFO -   File "/home/sneha/spark/spark-3.4.4-bin-hadoop3/python/lib/pyspark.zip/pyspark/sql/streaming/query.py", line 199, in awaitTermination
+[2025-12-17T12:54:04.737+0530] {subprocess.py:93} INFO -   File "/home/sneha/spark/spark-3.4.4-bin-hadoop3/python/lib/py4j-0.10.9.7-src.zip/py4j/java_gateway.py", line 1322, in __call__
+[2025-12-17T12:54:04.737+0530] {subprocess.py:93} INFO -   File "/home/sneha/spark/spark-3.4.4-bin-hadoop3/python/lib/pyspark.zip/pyspark/errors/exceptions/captured.py", line 175, in deco
+[2025-12-17T12:54:04.760+0530] {subprocess.py:93} INFO - pyspark.errors.exceptions.captured.StreamingQueryException: [STREAM_FAILED] Query [id = 32fb9f10-fc41-4d22-9987-b35e089b5a75, runId = 41430596-b2b9-43e4-a6cc-b1d3ff363aef] terminated with exception: An exception was raised by the Python Proxy. Return Message: Traceback (most recent call last):
+[2025-12-17T12:54:04.761+0530] {subprocess.py:93} INFO -   File "/home/sneha/spark/spark-3.4.4-bin-hadoop3/python/lib/py4j-0.10.9.7-src.zip/py4j/clientserver.py", line 617, in _call_proxy
+[2025-12-17T12:54:04.761+0530] {subprocess.py:93} INFO -     return_value = getattr(self.pool[obj_id], method)(*params)
+[2025-12-17T12:54:04.762+0530] {subprocess.py:93} INFO -                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2025-12-17T12:54:04.762+0530] {subprocess.py:93} INFO -   File "/home/sneha/spark/spark-3.4.4-bin-hadoop3/python/lib/pyspark.zip/pyspark/sql/utils.py", line 115, in call
+[2025-12-17T12:54:04.764+0530] {subprocess.py:93} INFO -     raise e
+[2025-12-17T12:54:04.765+0530] {subprocess.py:93} INFO -   File "/home/sneha/spark/spark-3.4.4-bin-hadoop3/python/lib/pyspark.zip/pyspark/sql/utils.py", line 112, in call
+[2025-12-17T12:54:04.765+0530] {subprocess.py:93} INFO -     self.func(DataFrame(jdf, wrapped_session_jdf), batch_id)
+[2025-12-17T12:54:04.765+0530] {subprocess.py:93} INFO -   File "/home/sneha/spotify_airflow_project/scripts/spark_consumer_airflow.py", line 52, in write_to_postgres
+[2025-12-17T12:54:04.765+0530] {subprocess.py:93} INFO -     .save()
+[2025-12-17T12:54:04.765+0530] {subprocess.py:93} INFO -      ^^^^^^
+[2025-12-17T12:54:04.766+0530] {subprocess.py:93} INFO -   File "/home/sneha/spark/spark-3.4.4-bin-hadoop3/python/lib/pyspark.zip/pyspark/sql/readwriter.py", line 1396, in save
+[2025-12-17T12:54:04.766+0530] {subprocess.py:93} INFO -     self._jwrite.save()
+[2025-12-17T12:54:04.766+0530] {subprocess.py:93} INFO -   File "/home/sneha/spark/spark-3.4.4-bin-hadoop3/python/lib/py4j-0.10.9.7-src.zip/py4j/java_gateway.py", line 1322, in __call__
+[2025-12-17T12:54:04.766+0530] {subprocess.py:93} INFO -     return_value = get_return_value(
+[2025-12-17T12:54:04.767+0530] {subprocess.py:93} INFO -                    ^^^^^^^^^^^^^^^^^
+[2025-12-17T12:54:04.767+0530] {subprocess.py:93} INFO -   File "/home/sneha/spark/spark-3.4.4-bin-hadoop3/python/lib/pyspark.zip/pyspark/errors/exceptions/captured.py", line 169, in deco
+[2025-12-17T12:54:04.767+0530] {subprocess.py:93} INFO -     return f(*a, **kw)
+[2025-12-17T12:54:04.767+0530] {subprocess.py:93} INFO -            ^^^^^^^^^^^
+[2025-12-17T12:54:04.768+0530] {subprocess.py:93} INFO -   File "/home/sneha/spark/spark-3.4.4-bin-hadoop3/python/lib/py4j-0.10.9.7-src.zip/py4j/protocol.py", line 326, in get_return_value
+[2025-12-17T12:54:04.768+0530] {subprocess.py:93} INFO -     raise Py4JJavaError(
+[2025-12-17T12:54:04.768+0530] {subprocess.py:93} INFO - py4j.protocol.Py4JJavaError: An error occurred while calling o67.save.
+[2025-12-17T12:54:04.769+0530] {subprocess.py:93} INFO - : org.apache.spark.SparkException: Job aborted due to stage failure: Task 38 in stage 1.0 failed 1 times, most recent failure: Lost task 38.0 in stage 1.0 (TID 1) (192.168.1.86 executor driver): java.sql.BatchUpdateException: Batch entry 0 INSERT INTO spotify_tracks ("track_name","artist","album","played_at") VALUES ('Njan Kanavil (from "Aagathan")','Ranjith Govind','Hits of Ouseppachan, Vol. 3','2025-12-17T05:28:58.627Z') was aborted: ERROR: duplicate key value violates unique constraint "spotify_tracks_pkey"
+[2025-12-17T12:54:04.769+0530] {subprocess.py:93} INFO -   Detail: Key (played_at)=(2025-12-17T05:28:58.627Z) already exists.  Call getNextException to see other errors in the batch.
+[2025-12-17T12:54:04.769+0530] {subprocess.py:93} INFO - 	at org.postgresql.jdbc.BatchResultHandler.handleError(BatchResultHandler.java:165)
+[2025-12-17T12:54:04.770+0530] {subprocess.py:93} INFO - 	at org.postgresql.core.ResultHandlerDelegate.handleError(ResultHandlerDelegate.java:52)
+[2025-12-17T12:54:04.770+0530] {subprocess.py:93} INFO - 	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2367)
+[2025-12-17T12:54:04.770+0530] {subprocess.py:93} INFO - 	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:560)
+[2025-12-17T12:54:04.770+0530] {subprocess.py:93} INFO - 	at org.postgresql.jdbc.PgStatement.internalExecuteBatch(PgStatement.java:893)
+[2025-12-17T12:54:04.770+0530] {subprocess.py:93} INFO - 	at org.postgresql.jdbc.PgStatement.executeBatch(PgStatement.java:916)
+[2025-12-17T12:54:04.770+0530] {subprocess.py:93} INFO - 	at org.postgresql.jdbc.PgPreparedStatement.executeBatch(PgPreparedStatement.java:1684)
+[2025-12-17T12:54:04.771+0530] {subprocess.py:93} INFO - 	at org.apache.spark.sql.execution.datasources.jdbc.JdbcUtils$.savePartition(JdbcUtils.scala:745)
+[2025-12-17T12:54:04.771+0530] {subprocess.py:93} INFO - 	at org.apache.spark.sql.execution.datasources.jdbc.JdbcUtils$.$anonfun$saveTable$1(JdbcUtils.scala:896)
+[2025-12-17T12:54:04.771+0530] {subprocess.py:93} INFO - 	at org.apache.spark.sql.execution.datasources.jdbc.JdbcUtils$.$anonfun$saveTable$1$adapted(JdbcUtils.scala:895)
+[2025-12-17T12:54:04.771+0530] {subprocess.py:93} INFO - 	at org.apache.spark.rdd.RDD.$anonfun$foreachPartition$2(RDD.scala:1012)
+[2025-12-17T12:54:04.772+0530] {subprocess.py:93} INFO - 	at org.apache.spark.rdd.RDD.$anonfun$foreachPartition$2$adapted(RDD.scala:1012)
+[2025-12-17T12:54:04.772+0530] {subprocess.py:93} INFO - 	at org.apache.spark.SparkContext.$anonfun$runJob$5(SparkContext.scala:2298)
+[2025-12-17T12:54:04.772+0530] {subprocess.py:93} INFO - 	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:92)
+[2025-12-17T12:54:04.772+0530] {subprocess.py:93} INFO - 	at org.apache.spark.TaskContext.runTaskWithListeners(TaskContext.scala:161)
+[2025-12-17T12:54:04.772+0530] {subprocess.py:93} INFO - 	at org.apache.spark.scheduler.Task.run(Task.scala:139)
+[2025-12-17T12:54:04.772+0530] {subprocess.py:93} INFO - 	at org.apache.spark.executor.Executor$TaskRunner.$anonfun$run$3(Executor.scala:554)
+[2025-12-17T12:54:04.772+0530] {subprocess.py:93} INFO - 	at org.apache.spark.util.Utils$.tryWithSafeFinally(Utils.scala:1529)
+[2025-12-17T12:54:04.773+0530] {subprocess.py:93} INFO - 	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:557)
+[2025-12-17T12:54:04.773+0530] {subprocess.py:93} INFO - 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+[2025-12-17T12:54:04.773+0530] {subprocess.py:93} INFO - 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+[2025-12-17T12:54:04.773+0530] {subprocess.py:93} INFO - 	at java.lang.Thread.run(Thread.java:748)
+[2025-12-17T12:54:04.773+0530] {subprocess.py:93} INFO - Caused by: org.postgresql.util.PSQLException: ERROR: duplicate key value violates unique constraint "spotify_tracks_pkey"
+[2025-12-17T12:54:04.773+0530] {subprocess.py:93} INFO -   Detail: Key (played_at)=(2025-12-17T05:28:58.627Z) already exists.
+[2025-12-17T12:54:04.773+0530] {subprocess.py:93} INFO - 	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+[2025-12-17T12:54:04.774+0530] {subprocess.py:93} INFO - 	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+[2025-12-17T12:54:04.774+0530] {subprocess.py:93} INFO - 	... 19 more
+[2025-12-17T12:54:04.774+0530] {subprocess.py:93} INFO - 
+[2025-12-17T12:54:04.774+0530] {subprocess.py:93} INFO - Driver stacktrace:
+[2025-12-17T12:54:04.774+0530] {subprocess.py:93} INFO - 	at org.apache.spark.scheduler.DAGScheduler.failJobAndIndependentStages(DAGScheduler.scala:2790)
+[2025-12-17T12:54:04.774+0530] {subprocess.py:93} INFO - 	at org.apache.spark.scheduler.DAGScheduler.$anonfun$abortStage$2(DAGScheduler.scala:2726)
+[2025-12-17T12:54:04.775+0530] {subprocess.py:93} INFO - 	at org.apache.spark.scheduler.DAGScheduler.$anonfun$abortStage$2$adapted(DAGScheduler.scala:2725)
+[2025-12-17T12:54:04.775+0530] {subprocess.py:93} INFO - 	at scala.collection.mutable.ResizableArray.foreach(ResizableArray.scala:62)
+[2025-12-17T12:54:04.775+0530] {subprocess.py:93} INFO - 	at scala.collection.mutable.ResizableArray.foreach$(ResizableArray.scala:55)
+[2025-12-17T12:54:04.775+0530] {subprocess.py:93} INFO - 	at scala.collection.mutable.ArrayBuffer.foreach(ArrayBuffer.scala:49)
+[2025-12-17T12:54:04.775+0530] {subprocess.py:93} INFO - 	at org.apache.spark.scheduler.DAGScheduler.abortStage(DAGScheduler.scala:2725)
+[2025-12-17T12:54:04.776+0530] {subprocess.py:93} INFO - 	at org.apache.spark.scheduler.DAGScheduler.$anonfun$handleTaskSetFailed$1(DAGScheduler.scala:1211)
+[2025-12-17T12:54:04.776+0530] {subprocess.py:93} INFO - 	at org.apache.spark.scheduler.DAGScheduler.$anonfun$handleTaskSetFailed$1$adapted(DAGScheduler.scala:1211)
+[2025-12-17T12:54:04.776+0530] {subprocess.py:93} INFO - 	at scala.Option.foreach(Option.scala:407)
+[2025-12-17T12:54:04.776+0530] {subprocess.py:93} INFO - 	at org.apache.spark.scheduler.DAGScheduler.handleTaskSetFailed(DAGScheduler.scala:1211)
+[2025-12-17T12:54:04.776+0530] {subprocess.py:93} INFO - 	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.doOnReceive(DAGScheduler.scala:2989)
+[2025-12-17T12:54:04.777+0530] {subprocess.py:93} INFO - 	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.onReceive(DAGScheduler.scala:2928)
+[2025-12-17T12:54:04.777+0530] {subprocess.py:93} INFO - 	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.onReceive(DAGScheduler.scala:2917)
+[2025-12-17T12:54:04.777+0530] {subprocess.py:93} INFO - 	at org.apache.spark.util.EventLoop$$anon$1.run(EventLoop.scala:49)
+[2025-12-17T12:54:04.777+0530] {subprocess.py:93} INFO - 	at org.apache.spark.scheduler.DAGScheduler.runJob(DAGScheduler.scala:976)
+[2025-12-17T12:54:04.777+0530] {subprocess.py:93} INFO - 	at org.apache.spark.SparkContext.runJob(SparkContext.scala:2258)
+[2025-12-17T12:54:04.777+0530] {subprocess.py:93} INFO - 	at org.apache.spark.SparkContext.runJob(SparkContext.scala:2279)
+[2025-12-17T12:54:04.778+0530] {subprocess.py:93} INFO - 	at org.apache.spark.SparkContext.runJob(SparkContext.scala:2298)
+[2025-12-17T12:54:04.778+0530] {subprocess.py:93} INFO - 	at org.apache.spark.SparkContext.runJob(SparkContext.scala:2323)
+[2025-12-17T12:54:04.778+0530] {subprocess.py:93} INFO - 	at org.apache.spark.rdd.RDD.$anonfun$foreachPartition$1(RDD.scala:1012)
+[2025-12-17T12:54:04.778+0530] {subprocess.py:93} INFO - 	at org.apache.spark.rdd.RDDOperationScope$.withScope(RDDOperationScope.scala:151)
+[2025-12-17T12:54:04.778+0530] {subprocess.py:93} INFO - 	at org.apache.spark.rdd.RDDOperationScope$.withScope(RDDOperationScope.scala:112)
+[2025-12-17T12:54:04.779+0530] {subprocess.py:93} INFO - 	at org.apache.spark.rdd.RDD.withScope(RDD.scala:408)
+[2025-12-17T12:54:04.779+0530] {subprocess.py:93} INFO - 	at org.apache.spark.rdd.RDD.foreachPartition(RDD.scala:1010)
+[2025-12-17T12:54:04.779+0530] {subprocess.py:93} INFO - 	at org.apache.spark.sql.execution.datasources.jdbc.JdbcUtils$.saveTable(JdbcUtils.scala:895)
+[2025-12-17T12:54:04.779+0530] {subprocess.py:93} INFO - 	at org.apache.spark.sql.execution.datasources.jdbc.JdbcRelationProvider.createRelation(JdbcRelationProvider.scala:70)
+[2025-12-17T12:54:04.779+0530] {subprocess.py:93} INFO - 	at org.apache.spark.sql.execution.datasources.SaveIntoDataSourceCommand.run(SaveIntoDataSourceCommand.scala:47)
+[2025-12-17T12:54:04.780+0530] {subprocess.py:93} INFO - 	at org.apache.spark.sql.execution.command.ExecutedCommandExec.sideEffectResult$lzycompute(commands.scala:75)
+[2025-12-17T12:54:04.780+0530] {subprocess.py:93} INFO - 	at org.apache.spark.sql.execution.command.ExecutedCommandExec.sideEffectResult(commands.scala:73)
+[2025-12-17T12:54:04.780+0530] {subprocess.py:93} INFO - 	at org.apache.spark.sql.execution.command.ExecutedCommandExec.executeCollect(commands.scala:84)
+[2025-12-17T12:54:04.780+0530] {subprocess.py:93} INFO - 	at org.apache.spark.sql.execution.QueryExecution$$anonfun$eagerlyExecuteCommands$1.$anonfun$applyOrElse$1(QueryExecution.scala:98)
+[2025-12-17T12:54:04.780+0530] {subprocess.py:93} INFO - 	at org.apache.spark.sql.execution.SQLExecution$.$anonfun$withNewExecutionId$6(SQLExecution.scala:118)
+[2025-12-17T12:54:04.781+0530] {subprocess.py:93} INFO - 	at org.apache.spark.sql.execution.SQLExecution$.withSQLConfPropagated(SQLExecution.scala:195)
+[2025-12-17T12:54:04.781+0530] {subprocess.py:93} INFO - 	at org.apache.spark.sql.execution.SQLExecution$.$anonfun$withNewExecutionId$1(SQLExecution.scala:103)
+[2025-12-17T12:54:04.781+0530] {subprocess.py:93} INFO - 	at org.apache.spark.sql.SparkSession.withActive(SparkSession.scala:827)
+[2025-12-17T12:54:04.781+0530] {subprocess.py:93} INFO - 	at org.apache.spark.sql.execution.SQLExecution$.withNewExecutionId(SQLExecution.scala:65)
+[2025-12-17T12:54:04.781+0530] {subprocess.py:93} INFO - 	at org.apache.spark.sql.execution.QueryExecution$$anonfun$eagerlyExecuteCommands$1.applyOrElse(QueryExecution.scala:98)
+[2025-12-17T12:54:04.782+0530] {subprocess.py:93} INFO - 	at org.apache.spark.sql.execution.QueryExecution$$anonfun$eagerlyExecuteCommands$1.applyOrElse(QueryExecution.scala:94)
+[2025-12-17T12:54:04.782+0530] {subprocess.py:93} INFO - 	at org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$transformDownWithPruning$1(TreeNode.scala:512)
+[2025-12-17T12:54:04.782+0530] {subprocess.py:93} INFO - 	at org.apache.spark.sql.catalyst.trees.CurrentOrigin$.withOrigin(TreeNode.scala:104)
+[2025-12-17T12:54:04.782+0530] {subprocess.py:93} INFO - 	at org.apache.spark.sql.catalyst.trees.TreeNode.transformDownWithPruning(TreeNode.scala:512)
+[2025-12-17T12:54:04.782+0530] {subprocess.py:93} INFO - 	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.org$apache$spark$sql$catalyst$plans$logical$AnalysisHelper$$super$transformDownWithPruning(LogicalPlan.scala:31)
+[2025-12-17T12:54:04.783+0530] {subprocess.py:93} INFO - 	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.transformDownWithPruning(AnalysisHelper.scala:267)
+[2025-12-17T12:54:04.783+0530] {subprocess.py:93} INFO - 	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.transformDownWithPruning$(AnalysisHelper.scala:263)
+[2025-12-17T12:54:04.783+0530] {subprocess.py:93} INFO - 	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.transformDownWithPruning(LogicalPlan.scala:31)
+[2025-12-17T12:54:04.783+0530] {subprocess.py:93} INFO - 	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.transformDownWithPruning(LogicalPlan.scala:31)
+[2025-12-17T12:54:04.783+0530] {subprocess.py:93} INFO - 	at org.apache.spark.sql.catalyst.trees.TreeNode.transformDown(TreeNode.scala:488)
+[2025-12-17T12:54:04.784+0530] {subprocess.py:93} INFO - 	at org.apache.spark.sql.execution.QueryExecution.eagerlyExecuteCommands(QueryExecution.scala:94)
+[2025-12-17T12:54:04.784+0530] {subprocess.py:93} INFO - 	at org.apache.spark.sql.execution.QueryExecution.commandExecuted$lzycompute(QueryExecution.scala:81)
+[2025-12-17T12:54:04.784+0530] {subprocess.py:93} INFO - 	at org.apache.spark.sql.execution.QueryExecution.commandExecuted(QueryExecution.scala:79)
+[2025-12-17T12:54:04.784+0530] {subprocess.py:93} INFO - 	at org.apache.spark.sql.execution.QueryExecution.assertCommandExecuted(QueryExecution.scala:133)
+[2025-12-17T12:54:04.784+0530] {subprocess.py:93} INFO - 	at org.apache.spark.sql.DataFrameWriter.runCommand(DataFrameWriter.scala:856)
+[2025-12-17T12:54:04.785+0530] {subprocess.py:93} INFO - 	at org.apache.spark.sql.DataFrameWriter.saveToV1Source(DataFrameWriter.scala:387)
+[2025-12-17T12:54:04.785+0530] {subprocess.py:93} INFO - 	at org.apache.spark.sql.DataFrameWriter.saveInternal(DataFrameWriter.scala:360)
+[2025-12-17T12:54:04.785+0530] {subprocess.py:93} INFO - 	at org.apache.spark.sql.DataFrameWriter.save(DataFrameWriter.scala:247)
+[2025-12-17T12:54:04.785+0530] {subprocess.py:93} INFO - 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[2025-12-17T12:54:04.786+0530] {subprocess.py:93} INFO - 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+[2025-12-17T12:54:04.786+0530] {subprocess.py:93} INFO - 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[2025-12-17T12:54:04.786+0530] {subprocess.py:93} INFO - 	at java.lang.reflect.Method.invoke(Method.java:498)
+[2025-12-17T12:54:04.786+0530] {subprocess.py:93} INFO - 	at py4j.reflection.MethodInvoker.invoke(MethodInvoker.java:244)
+[2025-12-17T12:54:04.786+0530] {subprocess.py:93} INFO - 	at py4j.reflection.ReflectionEngine.invoke(ReflectionEngine.java:374)
+[2025-12-17T12:54:04.786+0530] {subprocess.py:93} INFO - 	at py4j.Gateway.invoke(Gateway.java:282)
+[2025-12-17T12:54:04.787+0530] {subprocess.py:93} INFO - 	at py4j.commands.AbstractCommand.invokeMethod(AbstractCommand.java:132)
+[2025-12-17T12:54:04.787+0530] {subprocess.py:93} INFO - 	at py4j.commands.CallCommand.execute(CallCommand.java:79)
+[2025-12-17T12:54:04.787+0530] {subprocess.py:93} INFO - 	at py4j.ClientServerConnection.sendCommand(ClientServerConnection.java:244)
+[2025-12-17T12:54:04.787+0530] {subprocess.py:93} INFO - 	at py4j.CallbackClient.sendCommand(CallbackClient.java:384)
+[2025-12-17T12:54:04.787+0530] {subprocess.py:93} INFO - 	at py4j.CallbackClient.sendCommand(CallbackClient.java:356)
+[2025-12-17T12:54:04.788+0530] {subprocess.py:93} INFO - 	at py4j.reflection.PythonProxyHandler.invoke(PythonProxyHandler.java:106)
+[2025-12-17T12:54:04.788+0530] {subprocess.py:93} INFO - 	at com.sun.proxy.$Proxy29.call(Unknown Source)
+[2025-12-17T12:54:04.788+0530] {subprocess.py:93} INFO - 	at org.apache.spark.sql.execution.streaming.sources.PythonForeachBatchHelper$.$anonfun$callForeachBatch$1(ForeachBatchSink.scala:53)
+[2025-12-17T12:54:04.788+0530] {subprocess.py:93} INFO - 	at org.apache.spark.sql.execution.streaming.sources.PythonForeachBatchHelper$.$anonfun$callForeachBatch$1$adapted(ForeachBatchSink.scala:53)
+[2025-12-17T12:54:04.788+0530] {subprocess.py:93} INFO - 	at org.apache.spark.sql.execution.streaming.sources.ForeachBatchSink.addBatch(ForeachBatchSink.scala:34)
+[2025-12-17T12:54:04.789+0530] {subprocess.py:93} INFO - 	at org.apache.spark.sql.execution.streaming.MicroBatchExecution.$anonfun$runBatch$17(MicroBatchExecution.scala:729)
+[2025-12-17T12:54:04.789+0530] {subprocess.py:93} INFO - 	at org.apache.spark.sql.execution.SQLExecution$.$anonfun$withNewExecutionId$6(SQLExecution.scala:118)
+[2025-12-17T12:54:04.789+0530] {subprocess.py:93} INFO - 	at org.apache.spark.sql.execution.SQLExecution$.withSQLConfPropagated(SQLExecution.scala:195)
+[2025-12-17T12:54:04.789+0530] {subprocess.py:93} INFO - 	at org.apache.spark.sql.execution.SQLExecution$.$anonfun$withNewExecutionId$1(SQLExecution.scala:103)
+[2025-12-17T12:54:04.789+0530] {subprocess.py:93} INFO - 	at org.apache.spark.sql.SparkSession.withActive(SparkSession.scala:827)
+[2025-12-17T12:54:04.789+0530] {subprocess.py:93} INFO - 	at org.apache.spark.sql.execution.SQLExecution$.withNewExecutionId(SQLExecution.scala:65)
+[2025-12-17T12:54:04.790+0530] {subprocess.py:93} INFO - 	at org.apache.spark.sql.execution.streaming.MicroBatchExecution.$anonfun$runBatch$16(MicroBatchExecution.scala:726)
+[2025-12-17T12:54:04.790+0530] {subprocess.py:93} INFO - 	at org.apache.spark.sql.execution.streaming.ProgressReporter.reportTimeTaken(ProgressReporter.scala:411)
+[2025-12-17T12:54:04.790+0530] {subprocess.py:93} INFO - 	at org.apache.spark.sql.execution.streaming.ProgressReporter.reportTimeTaken$(ProgressReporter.scala:409)
+[2025-12-17T12:54:04.790+0530] {subprocess.py:93} INFO - 	at org.apache.spark.sql.execution.streaming.StreamExecution.reportTimeTaken(StreamExecution.scala:67)
+[2025-12-17T12:54:04.790+0530] {subprocess.py:93} INFO - 	at org.apache.spark.sql.execution.streaming.MicroBatchExecution.runBatch(MicroBatchExecution.scala:726)
+[2025-12-17T12:54:04.790+0530] {subprocess.py:93} INFO - 	at org.apache.spark.sql.execution.streaming.MicroBatchExecution.$anonfun$runActivatedStream$2(MicroBatchExecution.scala:284)
+[2025-12-17T12:54:04.791+0530] {subprocess.py:93} INFO - 	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+[2025-12-17T12:54:04.791+0530] {subprocess.py:93} INFO - 	at org.apache.spark.sql.execution.streaming.ProgressReporter.reportTimeTaken(ProgressReporter.scala:411)
+[2025-12-17T12:54:04.791+0530] {subprocess.py:93} INFO - 	at org.apache.spark.sql.execution.streaming.ProgressReporter.reportTimeTaken$(ProgressReporter.scala:409)
+[2025-12-17T12:54:04.791+0530] {subprocess.py:93} INFO - 	at org.apache.spark.sql.execution.streaming.StreamExecution.reportTimeTaken(StreamExecution.scala:67)
+[2025-12-17T12:54:04.791+0530] {subprocess.py:93} INFO - 	at org.apache.spark.sql.execution.streaming.MicroBatchExecution.$anonfun$runActivatedStream$1(MicroBatchExecution.scala:247)
+[2025-12-17T12:54:04.792+0530] {subprocess.py:93} INFO - 	at org.apache.spark.sql.execution.streaming.ProcessingTimeExecutor.execute(TriggerExecutor.scala:67)
+[2025-12-17T12:54:04.792+0530] {subprocess.py:93} INFO - 	at org.apache.spark.sql.execution.streaming.MicroBatchExecution.runActivatedStream(MicroBatchExecution.scala:237)
+[2025-12-17T12:54:04.792+0530] {subprocess.py:93} INFO - 	at org.apache.spark.sql.execution.streaming.StreamExecution.$anonfun$runStream$1(StreamExecution.scala:306)
+[2025-12-17T12:54:04.792+0530] {subprocess.py:93} INFO - 	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+[2025-12-17T12:54:04.792+0530] {subprocess.py:93} INFO - 	at org.apache.spark.sql.SparkSession.withActive(SparkSession.scala:827)
+[2025-12-17T12:54:04.793+0530] {subprocess.py:93} INFO - 	at org.apache.spark.sql.execution.streaming.StreamExecution.org$apache$spark$sql$execution$streaming$StreamExecution$$runStream(StreamExecution.scala:284)
+[2025-12-17T12:54:04.793+0530] {subprocess.py:93} INFO - 	at org.apache.spark.sql.execution.streaming.StreamExecution$$anon$1.run(StreamExecution.scala:207)
+[2025-12-17T12:54:04.793+0530] {subprocess.py:93} INFO - Caused by: java.sql.BatchUpdateException: Batch entry 0 INSERT INTO spotify_tracks ("track_name","artist","album","played_at") VALUES ('Njan Kanavil (from "Aagathan")','Ranjith Govind','Hits of Ouseppachan, Vol. 3','2025-12-17T05:28:58.627Z') was aborted: ERROR: duplicate key value violates unique constraint "spotify_tracks_pkey"
+[2025-12-17T12:54:04.793+0530] {subprocess.py:93} INFO -   Detail: Key (played_at)=(2025-12-17T05:28:58.627Z) already exists.  Call getNextException to see other errors in the batch.
+[2025-12-17T12:54:04.793+0530] {subprocess.py:93} INFO - 	at org.postgresql.jdbc.BatchResultHandler.handleError(BatchResultHandler.java:165)
+[2025-12-17T12:54:04.794+0530] {subprocess.py:93} INFO - 	at org.postgresql.core.ResultHandlerDelegate.handleError(ResultHandlerDelegate.java:52)
+[2025-12-17T12:54:04.794+0530] {subprocess.py:93} INFO - 	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2367)
+[2025-12-17T12:54:04.794+0530] {subprocess.py:93} INFO - 	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:560)
+[2025-12-17T12:54:04.794+0530] {subprocess.py:93} INFO - 	at org.postgresql.jdbc.PgStatement.internalExecuteBatch(PgStatement.java:893)
+[2025-12-17T12:54:04.795+0530] {subprocess.py:93} INFO - 	at org.postgresql.jdbc.PgStatement.executeBatch(PgStatement.java:916)
+[2025-12-17T12:54:04.795+0530] {subprocess.py:93} INFO - 	at org.postgresql.jdbc.PgPreparedStatement.executeBatch(PgPreparedStatement.java:1684)
+[2025-12-17T12:54:04.795+0530] {subprocess.py:93} INFO - 	at org.apache.spark.sql.execution.datasources.jdbc.JdbcUtils$.savePartition(JdbcUtils.scala:745)
+[2025-12-17T12:54:04.795+0530] {subprocess.py:93} INFO - 	at org.apache.spark.sql.execution.datasources.jdbc.JdbcUtils$.$anonfun$saveTable$1(JdbcUtils.scala:896)
+[2025-12-17T12:54:04.795+0530] {subprocess.py:93} INFO - 	at org.apache.spark.sql.execution.datasources.jdbc.JdbcUtils$.$anonfun$saveTable$1$adapted(JdbcUtils.scala:895)
+[2025-12-17T12:54:04.796+0530] {subprocess.py:93} INFO - 	at org.apache.spark.rdd.RDD.$anonfun$foreachPartition$2(RDD.scala:1012)
+[2025-12-17T12:54:04.796+0530] {subprocess.py:93} INFO - 	at org.apache.spark.rdd.RDD.$anonfun$foreachPartition$2$adapted(RDD.scala:1012)
+[2025-12-17T12:54:04.796+0530] {subprocess.py:93} INFO - 	at org.apache.spark.SparkContext.$anonfun$runJob$5(SparkContext.scala:2298)
+[2025-12-17T12:54:04.797+0530] {subprocess.py:93} INFO - 	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:92)
+[2025-12-17T12:54:04.797+0530] {subprocess.py:93} INFO - 	at org.apache.spark.TaskContext.runTaskWithListeners(TaskContext.scala:161)
+[2025-12-17T12:54:04.797+0530] {subprocess.py:93} INFO - 	at org.apache.spark.scheduler.Task.run(Task.scala:139)
+[2025-12-17T12:54:04.797+0530] {subprocess.py:93} INFO - 	at org.apache.spark.executor.Executor$TaskRunner.$anonfun$run$3(Executor.scala:554)
+[2025-12-17T12:54:04.798+0530] {subprocess.py:93} INFO - 	at org.apache.spark.util.Utils$.tryWithSafeFinally(Utils.scala:1529)
+[2025-12-17T12:54:04.798+0530] {subprocess.py:93} INFO - 	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:557)
+[2025-12-17T12:54:04.798+0530] {subprocess.py:93} INFO - 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+[2025-12-17T12:54:04.798+0530] {subprocess.py:93} INFO - 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+[2025-12-17T12:54:04.798+0530] {subprocess.py:93} INFO - 	at java.lang.Thread.run(Thread.java:748)
+[2025-12-17T12:54:04.799+0530] {subprocess.py:93} INFO - Caused by: org.postgresql.util.PSQLException: ERROR: duplicate key value violates unique constraint "spotify_tracks_pkey"
+[2025-12-17T12:54:04.799+0530] {subprocess.py:93} INFO -   Detail: Key (played_at)=(2025-12-17T05:28:58.627Z) already exists.
+[2025-12-17T12:54:04.799+0530] {subprocess.py:93} INFO - 	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+[2025-12-17T12:54:04.799+0530] {subprocess.py:93} INFO - 	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+[2025-12-17T12:54:04.799+0530] {subprocess.py:93} INFO - 	... 19 more
+[2025-12-17T12:54:04.800+0530] {subprocess.py:93} INFO - 
+[2025-12-17T12:54:04.800+0530] {subprocess.py:93} INFO - 
+[2025-12-17T12:54:05.364+0530] {subprocess.py:97} INFO - Command exited with return code 1
+[2025-12-17T12:54:05.379+0530] {taskinstance.py:3310} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 767, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 733, in _execute_callable
+    return ExecutionCallableRunner(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 406, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/operators/bash.py", line 249, in execute
+    raise AirflowException(
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code 1.
+[2025-12-17T12:54:05.392+0530] {logging_mixin.py:190} INFO - Task instance in failure state
+[2025-12-17T12:54:05.392+0530] {logging_mixin.py:190} INFO - Task start:2025-12-17 07:23:27.616324+00:00 end:2025-12-17 07:24:05.390293+00:00 duration:37.773969
+[2025-12-17T12:54:05.393+0530] {logging_mixin.py:190} INFO - Task:<Task(BashOperator): run_spark_consumer> dag:<DAG: spotify_streaming_pipeline> dagrun:<DagRun spotify_streaming_pipeline @ 2025-12-17 07:18:05.715918+00:00: manual__2025-12-17T07:18:05.715918+00:00, state:running, queued_at: 2025-12-17 07:18:05.763560+00:00. externally triggered: True>
+[2025-12-17T12:54:05.393+0530] {logging_mixin.py:190} INFO - Failure caused by Bash command failed. The command returned a non-zero exit code 1.
+[2025-12-17T12:54:05.394+0530] {taskinstance.py:1225} INFO - Marking task as UP_FOR_RETRY. dag_id=spotify_streaming_pipeline, task_id=run_spark_consumer, run_id=manual__2025-12-17T07:18:05.715918+00:00, execution_date=20251217T071805, start_date=20251217T072327, end_date=20251217T072405
+[2025-12-17T12:54:05.417+0530] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-12-17T12:54:05.418+0530] {standard_task_runner.py:124} ERROR - Failed to execute job 122 for task run_spark_consumer (Bash command failed. The command returned a non-zero exit code 1.; 72542)
+Traceback (most recent call last):
+  File "/home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py", line 117, in _start_by_fork
+    ret = args.func(args, dag=self.dag)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/cli/cli_config.py", line 49, in command
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/utils/cli.py", line 115, in wrapper
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 483, in task_run
+    task_return_code = _run_task_by_selected_method(args, _dag, ti)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 256, in _run_task_by_selected_method
+    return _run_raw_task(args, ti)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 341, in _run_raw_task
+    return ti._run_raw_task(
+           ^^^^^^^^^^^^^^^^^
+  File "/home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/utils/session.py", line 97, in wrapper
+    return func(*args, session=session, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3004, in _run_raw_task
+    return _run_raw_task(
+           ^^^^^^^^^^^^^^
+  File "/home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 273, in _run_raw_task
+    TaskInstance._execute_task_with_callbacks(
+  File "/home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3158, in _execute_task_with_callbacks
+    result = self._execute_task(context, task_orig)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3182, in _execute_task
+    return _execute_task(self, context, task_orig)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 767, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 733, in _execute_callable
+    return ExecutionCallableRunner(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 406, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sneha/spotify_airflow_project/venv/lib/python3.12/site-packages/airflow/operators/bash.py", line 249, in execute
+    raise AirflowException(
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code 1.
+[2025-12-17T12:54:05.452+0530] {local_task_job_runner.py:266} INFO - Task exited with return code 1
+[2025-12-17T12:54:05.474+0530] {taskinstance.py:3900} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-12-17T12:54:05.476+0530] {local_task_job_runner.py:245} INFO - ::endgroup::
